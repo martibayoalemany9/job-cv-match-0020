@@ -1,0 +1,319 @@
+# Full job automation on GitHub Actions:
+#   1) Crawl the internet for job offers
+#   2) Score / filter by CV 0020
+#   3) On self-hosted: check-in queue + Grok apply (if idle) + explain failures
+#
+# Manual: Actions → automation-pipeline → Run workflow
+# Schedule: every 4 hours UTC
+
+name: automation-pipeline
+
+on:
+  schedule:
+    - cron: "20 */4 * * *"
+  workflow_dispatch:
+    inputs:
+      skip_apply:
+        description: "Skip Grok apply (crawl + CV match only)"
+        type: boolean
+        default: false
+      complete_max:
+        description: "Max applications this cycle"
+        required: false
+        default: "1"
+      enable_paid_crawl:
+        description: "Use paid crawl APIs if secrets exist"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: automation-pipeline
+  cancel-in-progress: false
+
+jobs:
+  # ----------------------------------------------------------------
+  # 1. Internet crawl (GitHub-hosted)
+  # ----------------------------------------------------------------
+  crawl:
+    name: 1 · Crawl job offers
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    outputs:
+      count: ${{ steps.crawl.outputs.count }}
+    env:
+      PYTHONUNBUFFERED: "1"
+      ENABLE_GREENHOUSE: "1"
+      ENABLE_LEVER: "1"
+      ENABLE_THEIRSTACK: "1"
+      ENABLE_APIFY: "1"
+      ENABLE_PREDICTLEADS: "1"
+      ENABLE_GMAIL_ALERTS: "0"
+      ENABLE_STEPSTONE: "0"
+      ENABLE_EFC: "0"
+      PREFER_ROLE_TITLES: "1"
+      ONLY_PREFERRED_TITLES: "0"
+      CRAWL_MAX_JOBS: "0"
+      CRAWL_MARKET: "eu-global"
+      THEIRSTACK_LIMIT: "15"
+      THEIRSTACK_API_KEY: ${{ secrets.THEIRSTACK_API_KEY }}
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+      APIFY_ACTOR_ID: ${{ secrets.APIFY_ACTOR_ID || 'orgupdate~google-jobs-scraper' }}
+      PREDICTLEADS_API_KEY: ${{ secrets.PREDICTLEADS_API_KEY }}
+      PREDICTLEADS_API_TOKEN: ${{ secrets.PREDICTLEADS_API_TOKEN }}
+      PREDICTLEADS_API_KEY_2: ${{ secrets.PREDICTLEADS_API_KEY_2 }}
+      PREDICTLEADS_API_TOKEN_2: ${{ secrets.PREDICTLEADS_API_TOKEN_2 }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Disable paid sources without secrets
+        shell: bash
+        run: |
+          if [ "${{ github.event.inputs.enable_paid_crawl }}" = "false" ]; then
+            echo "ENABLE_THEIRSTACK=0" >> "$GITHUB_ENV"
+            echo "ENABLE_APIFY=0" >> "$GITHUB_ENV"
+            echo "ENABLE_PREDICTLEADS=0" >> "$GITHUB_ENV"
+          fi
+          [ -z "${THEIRSTACK_API_KEY:-}" ] && echo "ENABLE_THEIRSTACK=0" >> "$GITHUB_ENV"
+          [ -z "${APIFY_TOKEN:-}" ] && echo "ENABLE_APIFY=0" >> "$GITHUB_ENV"
+          if [ -z "${PREDICTLEADS_API_KEY:-}" ] && [ -z "${PREDICTLEADS_API_TOKEN:-}" ]; then
+            echo "ENABLE_PREDICTLEADS=0" >> "$GITHUB_ENV"
+          fi
+      - name: Crawl
+        id: crawl
+        run: |
+          python -u discover_all_sources.py
+          N=0
+          if [ -f applications_discovered_all.csv ]; then
+            N=$(tail -n +2 applications_discovered_all.csv | wc -l | tr -d ' ')
+          fi
+          echo "count=$N" >> "$GITHUB_OUTPUT"
+          echo "### Crawl" >> "$GITHUB_STEP_SUMMARY"
+          echo "Unique offers: **$N**" >> "$GITHUB_STEP_SUMMARY"
+          [ -f DISCOVER_SOURCES_SUMMARY.md ] && head -n 60 DISCOVER_SOURCES_SUMMARY.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-crawl-${{ github.run_id }}
+          path: |
+            applications_discovered_all.csv
+            discovered_all_jobs.json
+            DISCOVER_SOURCES_SUMMARY.md
+          if-no-files-found: warn
+          retention-days: 14
+
+  # ----------------------------------------------------------------
+  # 2. CV-match filter (GitHub-hosted)
+  # ----------------------------------------------------------------
+  cv-match:
+    name: 2 · CV match filter
+    needs: crawl
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    outputs:
+      count: ${{ steps.match.outputs.count }}
+    env:
+      PYTHONUNBUFFERED: "1"
+      CV_MATCH_MIN_SCORE: "3"
+      ENABLE_GREENHOUSE: "1"
+      ENABLE_LEVER: "1"
+      ENABLE_THEIRSTACK: "1"
+      ENABLE_APIFY: "1"
+      ENABLE_PREDICTLEADS: "1"
+      ENABLE_GMAIL_ALERTS: "0"
+      ENABLE_EFC: "0"
+      ENABLE_STEPSTONE: "0"
+      THEIRSTACK_LIMIT: "10"
+      APIFY_MAX_ITEMS: "30"
+      APIFY_COUNTRY: "DE"
+      APIFY_ACTOR_ID: ${{ secrets.APIFY_ACTOR_ID || 'orgupdate~google-jobs-scraper' }}
+      THEIRSTACK_API_KEY: ${{ secrets.THEIRSTACK_API_KEY }}
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+      PREDICTLEADS_API_KEY: ${{ secrets.PREDICTLEADS_API_KEY }}
+      PREDICTLEADS_API_TOKEN: ${{ secrets.PREDICTLEADS_API_TOKEN }}
+      PREDICTLEADS_API_KEY_2: ${{ secrets.PREDICTLEADS_API_KEY_2 }}
+      PREDICTLEADS_API_TOKEN_2: ${{ secrets.PREDICTLEADS_API_TOKEN_2 }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install optional deps
+        run: pip install pypdf || true
+      - name: Soft-disable missing APIs
+        shell: bash
+        run: |
+          [ -z "${THEIRSTACK_API_KEY:-}" ] && echo "ENABLE_THEIRSTACK=0" >> "$GITHUB_ENV"
+          [ -z "${APIFY_TOKEN:-}" ] && echo "ENABLE_APIFY=0" >> "$GITHUB_ENV"
+          if [ -z "${PREDICTLEADS_API_KEY:-}" ] && [ -z "${PREDICTLEADS_API_TOKEN:-}" ]; then
+            echo "ENABLE_PREDICTLEADS=0" >> "$GITHUB_ENV"
+          fi
+      - name: Discover + CV filter
+        id: match
+        run: |
+          python -u discover_cv_match_jobs.py
+          N=0
+          if [ -f applications_cv_match_0020.csv ]; then
+            N=$(tail -n +2 applications_cv_match_0020.csv | wc -l | tr -d ' ')
+          fi
+          echo "count=$N" >> "$GITHUB_OUTPUT"
+          echo "### CV match" >> "$GITHUB_STEP_SUMMARY"
+          echo "Matched rows: **$N**" >> "$GITHUB_STEP_SUMMARY"
+          [ -f cv_match_report.md ] && head -n 80 cv_match_report.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-cv-match-${{ github.run_id }}
+          path: |
+            applications_cv_match_0020.csv
+            cv_match_report.md
+            cv_match_report.json
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Publish cv-match-latest
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BRANCH=cv-match-latest
+          git fetch origin "$BRANCH" 2>/dev/null || true
+          git checkout -B "$BRANCH"
+          mkdir -p reports
+          cp -f applications_cv_match_0020.csv reports/ 2>/dev/null || true
+          cp -f cv_match_report.md reports/ 2>/dev/null || true
+          cp -f cv_match_report.json reports/ 2>/dev/null || true
+          git add reports/ 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No CV match changes"
+          else
+            git commit -m "chore: pipeline CV match $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push -u origin "$BRANCH" --force
+          fi
+
+  # ----------------------------------------------------------------
+  # 3. Check-in + Grok apply + failure analysis (self-hosted PC)
+  # ----------------------------------------------------------------
+  apply:
+    name: 3 · Check-in + Grok apply + explain
+    needs: [crawl, cv-match]
+    if: always() && needs.crawl.result == 'success'
+    runs-on: self-hosted
+    timeout-minutes: 30
+    env:
+      PYTHONUNBUFFERED: "1"
+      COMPLETE_MAX: ${{ github.event.inputs.complete_max || '1' }}
+      OPEN_REPORT: "0"
+      APPLY_BROWSER: "chromium"
+      APPLY_BROWSER_FULLSCREEN: "0"
+      CDP_URL: ${{ vars.CDP_URL || 'http://127.0.0.1:9223' }}
+      ONE_PER_COMPANY: "1"
+      SKIP_ATTEMPTED: "1"
+      SKIP_WORKDAY: "1"
+      USE_CHATBOT: "0"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download CV-match artifact
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: pipeline-cv-match-${{ github.run_id }}
+          path: .
+
+      - name: Download crawl artifact
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: pipeline-crawl-${{ github.run_id }}
+          path: ./crawl_out
+
+      - name: Resolve workdir
+        shell: pwsh
+        run: |
+          $wd = if ($env:JOB_APPLY_WORKDIR -and $env:JOB_APPLY_WORKDIR.Trim()) {
+            $env:JOB_APPLY_WORKDIR
+          } else {
+            Join-Path $env:USERPROFILE "job-application-bot\data\etoro-apply-report"
+          }
+          New-Item -ItemType Directory -Force -Path $wd | Out-Null
+          "JOB_APPLY_WORKDIR=$wd" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+          Write-Host "JOB_APPLY_WORKDIR=$wd"
+          # Prefer CV-match queue; fall back to crawl
+          if (-not (Test-Path applications_cv_match_0020.csv) -and (Test-Path crawl_out/applications_discovered_all.csv)) {
+            Copy-Item crawl_out/applications_discovered_all.csv applications_cv_match_0020.csv -Force
+            Write-Host "Using crawl CSV as queue source"
+          }
+
+      - name: Detect if Grok already running
+        id: detect
+        shell: pwsh
+        run: |
+          python -u scripts/is_grok_running.py
+          if ($LASTEXITCODE -eq 0) {
+            "running=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          } else {
+            "running=false" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          }
+          exit 0
+
+      - name: Check-in applications
+        if: steps.detect.outputs.running != 'true'
+        shell: pwsh
+        run: python -u scripts/check_in_applications.py
+
+      - name: Grok apply
+        if: >
+          steps.detect.outputs.running != 'true'
+          && github.event.inputs.skip_apply != 'true'
+        shell: pwsh
+        run: |
+          Write-Host "Starting Grok apply COMPLETE_MAX=$env:COMPLETE_MAX"
+          & pwsh -NoProfile -File scripts/run_grok_apply.ps1
+          if ($LASTEXITCODE -ne 0) {
+            Write-Warning "Apply exit $LASTEXITCODE (continuing to explain)"
+          }
+          exit 0
+
+      - name: Skip apply note
+        if: steps.detect.outputs.running == 'true' || github.event.inputs.skip_apply == 'true'
+        shell: pwsh
+        run: |
+          "### Apply skipped" | Out-File $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
+          "running=$($env:DETECT) skip_input=${{ github.event.inputs.skip_apply }}" | Out-File $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
+          Write-Host "Apply skipped (grok running or skip_apply)"
+
+      - name: Explain failures
+        if: always()
+        shell: pwsh
+        run: python -u scripts/explain_failures.py
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pipeline-apply-${{ github.run_id }}
+          path: |
+            reports/failure_analysis.md
+            reports/failure_analysis.json
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Pipeline summary
+        if: always()
+        shell: pwsh
+        run: |
+          @"
+          ## Automation pipeline complete
+
+          | Stage | Result |
+          |-------|--------|
+          | Crawl offers | `${{ needs.crawl.outputs.count }}` |
+          | CV match | `${{ needs.cv-match.outputs.count }}` |
+          | Grok was running | `${{ steps.detect.outputs.running }}` |
+          | Skip apply input | `${{ github.event.inputs.skip_apply }}` |
+
+          Runner: self-hosted · Schedule: every 4h (`20 */4 * * *` UTC)
+          "@ | Out-File $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8

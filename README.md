@@ -12,6 +12,19 @@ Scheduled **GitHub Actions** job that finds open roles matching CV **0020_raw** 
    - `reports/cv_match_report.md`
 5. Pushes results to branch `cv-match-latest`
 
+## Full automation (GitHub Actions)
+
+**Primary workflow:** [`automation-pipeline`](.github/workflows/automation-pipeline.yml)
+
+| Stage | Where | What |
+|-------|--------|------|
+| 1 · Crawl | `ubuntu-latest` | Internet job boards (Greenhouse/Lever + optional APIs) |
+| 2 · CV match | `ubuntu-latest` | Filter by CV 0020 fit |
+| 3 · Apply | **self-hosted** PC | Check-in queue → Grok apply (if idle) → failure analysis |
+
+- Schedule: every **4 hours** (`20 */4 * * *` UTC)
+- Manual: **Actions → automation-pipeline → Run workflow**
+- Requires self-hosted runner online for stage 3
 ## Schedule
 
 ### Crawl internet for job offers (broad)
