@@ -1,0 +1,1 @@
+# no hard deps — stdlib discover + optional pypdf
