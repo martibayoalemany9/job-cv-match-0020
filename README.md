@@ -14,9 +14,24 @@ Scheduled **GitHub Actions** job that finds open roles matching CV **0020_raw** 
 
 ## Schedule
 
-### Discover (find matching jobs)
+### Crawl internet for job offers (broad)
+Workflow: **`crawl-job-offers`**
+
+| Source | Needs |
+|--------|--------|
+| Greenhouse public boards | free |
+| Lever public boards | free |
+| TheirStack / Apify / PredictLeads | optional secrets |
+| Stepstone HTML | optional (often blocked on cloud) |
+
+- Cron: `15 6,11,16,21 * * *` UTC (4×/day)  
+- Manual: **Actions → crawl-job-offers → Run workflow**  
+- Outputs: `applications_discovered_all.csv`, branch `jobs-crawl-latest`  
+- Entry: `python -u discover_all_sources.py`
+
+### Discover (CV-filtered match)
 - `0 7 * * *` and `0 17 * * *` UTC  
-- **Actions → cv-match-discover-0020 → Run workflow**
+- **Actions → cv-match-discover-0020 → Run workflow**  
 
 ### Grok apply cycle (self-hosted, every 10 minutes)
 Workflow: **`grok-apply-cycle`** — runs on the **self-hosted** Windows runner.

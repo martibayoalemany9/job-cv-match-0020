@@ -1,0 +1,198 @@
+# Crawl the internet for job offers (multi-source).
+# Free path: Greenhouse + Lever public APIs (no secrets).
+# Optional: TheirStack, Apify, PredictLeads, Stepstone when secrets/vars set.
+#
+# Distinct from cv-match-discover-0020 (which filters hard by CV fit).
+# This workflow keeps a broad crawl queue for later Grok apply / CV match.
+
+name: crawl-job-offers
+
+on:
+  schedule:
+    # Four times daily UTC (≈ EU morning / noon / evening / night)
+    - cron: "15 6 * * *"
+    - cron: "15 11 * * *"
+    - cron: "15 16 * * *"
+    - cron: "15 21 * * *"
+  workflow_dispatch:
+    inputs:
+      enable_paid:
+        description: "Use paid APIs if secrets exist (TheirStack/Apify/PredictLeads)"
+        type: boolean
+        default: true
+      enable_stepstone:
+        description: "Try Stepstone HTML crawl (often blocked on cloud IPs)"
+        type: boolean
+        default: false
+      only_preferred_titles:
+        description: "Keep only Tech Lead / Architect-style titles"
+        type: boolean
+        default: false
+      max_jobs:
+        description: "Cap unique jobs written (0 = unlimited)"
+        required: false
+        default: "0"
+      runner:
+        description: "Runner label"
+        type: choice
+        options:
+          - ubuntu-latest
+          - self-hosted
+        default: ubuntu-latest
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl-job-offers
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    name: Crawl job boards & APIs
+    runs-on: ${{ github.event.inputs.runner || 'ubuntu-latest' }}
+    timeout-minutes: 45
+
+    env:
+      PYTHONUNBUFFERED: "1"
+      ENABLE_GREENHOUSE: "1"
+      ENABLE_LEVER: "1"
+      # Paid sources default ON; disabled below when secrets missing or enable_paid=false
+      ENABLE_THEIRSTACK: "1"
+      ENABLE_APIFY: "1"
+      ENABLE_PREDICTLEADS: "1"
+      ENABLE_GMAIL_ALERTS: "0"
+      ENABLE_STEPSTONE: "0"
+      RUN_STEPSTONE: "0"
+      ENABLE_EFC: "0"
+      RUN_EFC: "0"
+      PREFER_ROLE_TITLES: "1"
+      ONLY_PREFERRED_TITLES: "0"
+      CRAWL_MAX_JOBS: "0"
+      CRAWL_MARKET: "eu-global"
+      THEIRSTACK_LIMIT: "15"
+      THEIRSTACK_MAX_AGE_DAYS: "21"
+      APIFY_ACTOR_ID: ${{ secrets.APIFY_ACTOR_ID || 'orgupdate~google-jobs-scraper' }}
+      APIFY_MAX_ITEMS: "40"
+      APIFY_COUNTRY: "DE"
+      THEIRSTACK_API_KEY: ${{ secrets.THEIRSTACK_API_KEY }}
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+      PREDICTLEADS_API_KEY: ${{ secrets.PREDICTLEADS_API_KEY }}
+      PREDICTLEADS_API_TOKEN: ${{ secrets.PREDICTLEADS_API_TOKEN }}
+      PREDICTLEADS_API_KEY_2: ${{ secrets.PREDICTLEADS_API_KEY_2 }}
+      PREDICTLEADS_API_TOKEN_2: ${{ secrets.PREDICTLEADS_API_TOKEN_2 }}
+      PREDICTLEADS_BASE: ${{ vars.PREDICTLEADS_BASE || 'https://predictleads.com/api/v3' }}
+      STEPSTONE_QUERY: ${{ vars.STEPSTONE_QUERY || 'Technology Lead OR Software Architect' }}
+      STEPSTONE_LOCATIONS: ${{ vars.STEPSTONE_LOCATIONS || 'Karlsruhe,Stuttgart,München,Frankfurt,Berlin,Remote' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Apply toggles (inputs + missing secrets)
+        shell: bash
+        run: |
+          # Manual dispatch: respect checkboxes
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "${{ github.event.inputs.enable_paid }}" = "false" ]; then
+              echo "ENABLE_THEIRSTACK=0" >> "$GITHUB_ENV"
+              echo "ENABLE_APIFY=0" >> "$GITHUB_ENV"
+              echo "ENABLE_PREDICTLEADS=0" >> "$GITHUB_ENV"
+              echo "Paid APIs disabled by input"
+            fi
+            if [ "${{ github.event.inputs.enable_stepstone }}" = "true" ]; then
+              echo "ENABLE_STEPSTONE=1" >> "$GITHUB_ENV"
+              echo "RUN_STEPSTONE=1" >> "$GITHUB_ENV"
+            fi
+            if [ "${{ github.event.inputs.only_preferred_titles }}" = "true" ]; then
+              echo "ONLY_PREFERRED_TITLES=1" >> "$GITHUB_ENV"
+            fi
+            MAX="${{ github.event.inputs.max_jobs }}"
+            if [ -n "$MAX" ]; then
+              echo "CRAWL_MAX_JOBS=$MAX" >> "$GITHUB_ENV"
+            fi
+          fi
+          # Always soft-disable when secrets absent
+          if [ -z "${THEIRSTACK_API_KEY:-}" ]; then
+            echo "ENABLE_THEIRSTACK=0" >> "$GITHUB_ENV"
+            echo "TheirStack secret missing → disabled"
+          fi
+          if [ -z "${APIFY_TOKEN:-}" ]; then
+            echo "ENABLE_APIFY=0" >> "$GITHUB_ENV"
+            echo "Apify secret missing → disabled"
+          fi
+          if [ -z "${PREDICTLEADS_API_KEY:-}" ] && [ -z "${PREDICTLEADS_API_TOKEN:-}" ]; then
+            echo "ENABLE_PREDICTLEADS=0" >> "$GITHUB_ENV"
+            echo "PredictLeads secrets missing → disabled"
+          fi
+
+      - name: Crawl job offers
+        id: crawl
+        run: |
+          python -u discover_all_sources.py
+          if [ -f applications_discovered_all.csv ]; then
+            N=$(tail -n +2 applications_discovered_all.csv | wc -l | tr -d ' ')
+            echo "count=$N" >> "$GITHUB_OUTPUT"
+            echo "Found $N unique job offers"
+          else
+            echo "count=0" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo "## Internet job crawl"
+            echo ""
+            if [ -f DISCOVER_SOURCES_SUMMARY.md ]; then
+              cat DISCOVER_SOURCES_SUMMARY.md
+            else
+              echo "_No summary produced._"
+            fi
+            echo ""
+            echo "Queue rows: ${{ steps.crawl.outputs.count }}"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload crawl artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: job-crawl-${{ github.run_id }}
+          path: |
+            applications_discovered_all.csv
+            discovered_all_jobs.json
+            DISCOVER_SOURCES_SUMMARY.md
+            discover_sources_run.log
+            reports/applications_discovered_all.csv
+            reports/discovered_all_jobs.json
+            reports/DISCOVER_SOURCES_SUMMARY.md
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Publish to branch jobs-crawl-latest
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BRANCH=jobs-crawl-latest
+          git fetch origin "$BRANCH" 2>/dev/null || true
+          git checkout -B "$BRANCH"
+          mkdir -p reports
+          cp -f applications_discovered_all.csv reports/ 2>/dev/null || true
+          cp -f discovered_all_jobs.json reports/ 2>/dev/null || true
+          cp -f DISCOVER_SOURCES_SUMMARY.md reports/ 2>/dev/null || true
+          git add reports/applications_discovered_all.csv \
+                  reports/discovered_all_jobs.json \
+                  reports/DISCOVER_SOURCES_SUMMARY.md 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No crawl changes to commit"
+          else
+            git commit -m "chore: job crawl $(date -u +%Y-%m-%dT%H:%MZ) (${{ steps.crawl.outputs.count }} offers)"
+            git push -u origin "$BRANCH" --force
+          fi
