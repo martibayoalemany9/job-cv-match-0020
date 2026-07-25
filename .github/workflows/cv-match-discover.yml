@@ -5,8 +5,8 @@
 #   THEIRSTACK_API_KEY
 #   APIFY_TOKEN
 #   APIFY_ACTOR_ID  (default orgupdate~google-jobs-scraper)
-#   PREDICTLEADS_API_KEY
-#   PREDICTLEADS_API_TOKEN
+#   PREDICTLEADS_API_KEY / PREDICTLEADS_API_TOKEN     (account 1)
+#   PREDICTLEADS_API_KEY_2 / PREDICTLEADS_API_TOKEN_2 (account 2, optional fallback)
 #
 # Variables (Settings → Variables → Actions):
 #   ENABLE_PREDICTLEADS (default 1)
@@ -69,6 +69,8 @@ jobs:
       APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
       PREDICTLEADS_API_KEY: ${{ secrets.PREDICTLEADS_API_KEY }}
       PREDICTLEADS_API_TOKEN: ${{ secrets.PREDICTLEADS_API_TOKEN }}
+      PREDICTLEADS_API_KEY_2: ${{ secrets.PREDICTLEADS_API_KEY_2 }}
+      PREDICTLEADS_API_TOKEN_2: ${{ secrets.PREDICTLEADS_API_TOKEN_2 }}
 
     steps:
       - name: Checkout
