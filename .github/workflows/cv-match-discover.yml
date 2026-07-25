@@ -1,10 +1,16 @@
 # Scheduled job discovery filtered by CV 0020_raw fit.
 # Repo target: github.com/martibayoalemany9/<this-repo>
 #
-# Secrets (optional, Settings → Secrets → Actions):
+# Secrets (Settings → Secrets → Actions):
 #   THEIRSTACK_API_KEY
 #   APIFY_TOKEN
 #   APIFY_ACTOR_ID  (default orgupdate~google-jobs-scraper)
+#   PREDICTLEADS_API_KEY
+#   PREDICTLEADS_API_TOKEN
+#
+# Variables (Settings → Variables → Actions):
+#   ENABLE_PREDICTLEADS (default 1)
+#   PREDICTLEADS_BASE   (default https://predictleads.com/api/v3)
 #
 # Free path (no secrets): Greenhouse + Lever public APIs only.
 
@@ -50,7 +56,8 @@ jobs:
       ENABLE_LEVER: "1"
       ENABLE_THEIRSTACK: ${{ github.event.inputs.enable_theirstack == 'false' && '0' || '1' }}
       ENABLE_APIFY: ${{ github.event.inputs.enable_apify == 'false' && '0' || '1' }}
-      ENABLE_PREDICTLEADS: "0"
+      ENABLE_PREDICTLEADS: ${{ vars.ENABLE_PREDICTLEADS || '1' }}
+      PREDICTLEADS_BASE: ${{ vars.PREDICTLEADS_BASE || 'https://predictleads.com/api/v3' }}
       ENABLE_GMAIL_ALERTS: "0"
       ENABLE_EFC: "0"
       ENABLE_STEPSTONE: "0"
@@ -62,7 +69,6 @@ jobs:
       APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
       PREDICTLEADS_API_KEY: ${{ secrets.PREDICTLEADS_API_KEY }}
       PREDICTLEADS_API_TOKEN: ${{ secrets.PREDICTLEADS_API_TOKEN }}
-      ENABLE_PREDICTLEADS: "1"
 
     steps:
       - name: Checkout
