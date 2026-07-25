@@ -1,0 +1,536 @@
+Martí Bayo Alemany
+Technology Lead – L5
+Given Name:MartíFamily Name:Bayo AlemanyPassport:XDF246338Issuer:C.G.Stuttgart
+Email:martibayoalemany@gmail.comPhone Prefix:Germany 049Cell Phone Number:0176-6332-5199
+Location:Berlin / Düsseldorf / Frankfurt / Stuttgart / Munich / Karlsruhe / Luxembourg
+Technology Lead with experience across software development, architecture, DevOps, SAP , cloud, Java ecosystems,
+Python, C++, and delivery in middle to large companies. Background in agile development and engineering, with additional
+exposure to avionics compliance, AI prototypes, CI/CD modernization, and enterprise integration work.
+Professional Experience
+Company:Infosys Ltd. Zweigniederlassung Deutschland01.2020 – Present
+Job Title:T echnology Lead
+Date:01.2020 – Present
+Location:Germany
+Legal form:Amtsgericht Frankfurt am Main HRB 54924
+• Worked on DO-254 and DO-178 certification methodology documentation for avionics software and hardware subsystems, aligning compliance
+concerns with SDLC, CI/CD, and Scrum practices.
+• SAP and generative AI work including Node.js on SAP BTP Cloud Foundry, BTP log analysis, Hugging Face LLMs on Kyma, ABAP and frontend
+development with Eclipse, and research on SAP career development.
+• Built a proof of concept with React, GitHub Actions, generative AI, unit tests, and Playwright; deployed into Infosys infrastructure using Podman and
+WinSW.
+• Reviewed Java portal and GitLab code for a financial portal, used Terraform with GCP and Azure VMs, and contributed to an Allianz LLM / Confluence
+/ Bitbucket requirements-traceability proof of concept.
+• Additional work included OpenWrt, SolarWinds monitoring, open-source initiatives, and cloud VM setup on GCP and Azure.
+• Proof of Concept with React, Github and generative AI + I did a test run with github actions and chatgpt/codex to generate a complex interface with
+complex react code, unit tests and playwright and I deployed this into infosys infrastructure onestop with podman and winsw on windows.
+Company:Infosys Ltd. - Internal Client 10.2025 – 02.2026
+Job Title:T echnology Lead
+Date:10.2025 – 02.2026
+Location:Germany/Remote
+Legal form:Amtsgericht Frankfurt am Main HRB 54924
+Initiative on Responsible AI Research Program (Business Enabling Functions)
+• Conducted weekly video calls in small teams focused on Responsible AI (RAI), with the objective of producing a relevant research paper in the field.
+• Collected and reviewed research papers from both open-access and paid sources, including cross-checking literature quality and ensuring traceability.
+• Developed three to four different mind maps (mental models) to capture perspectives as well as intrinsic and extrinsic properties of the problem
+domain.
+• Created four PowerPoint presentations explaining:
+–the target domain,
+–the role of Responsible AI within the domain,
+–stakeholder and organizational responsibilities,
+–required artifacts and requirements from different perspectives.
+• Designed abstract visual representations using interconnected circles, keywords, and structured three-column tables containing IDs, names, and
+descriptions of properties.
+• Mapped concepts and problems across disciplines such as computer science and systems complexity science, connecting them to multiple conceptual
+frameworks and viewpoints.
+• Maintained project quality assurance and traceability using Excel and PowerPoint as the primary tools for project management, literature management,
+and presentations.
+• Applied principles similar to agile requirements engineering, including epics, stories, and requirements, where each perspective owned requirements
+or stories across several epics.
+• Focused specifically on finance-related Responsible AI topics, including the review of loan origination regulations in countries such as the United
+States, Switzerland, and Germany.
+Company:Infosys Ltd. - Client: Reckitt 10.2025 – 10.2025
+Job Title:T echnology Lead
+Date:10.2025 – 10.2025
+Location:Germany/Remote
+Legal form:Amtsgericht Frankfurt am Main HRB 54924
+Initiative on on Business Analytics Proposal (SAP Supply Chain)
+• Prepared a business proposal for data analytics to improve SAP-based supply management for chemical products.
+Company:Infosys Ltd. - Client: Uniper SE 2024
+Job Title:T echnology Lead on Code Review Engineer (Energy T rading Systems)
+Date:2024
+Location:Duesseldorf/Remote
+Legal form:Amtsgericht Düsseldorf HRB 77425
+• Code review of a .NET component with WebSockets and SOAP web services intended to collect and aggregate data for energy trading from multiple
+sources.
+1Company:Infosys Ltd. - Germany 05.2023 – 12.2024
+Job Title:T echnology Lead
+Date:05.2023 – 12.2024
+Location:Frankfurt
+Legal form:Amtsgericht Frankfurt am Main HRB 54924
+Worked on Accelerate Program – Engineering & Innovation
+• China hackathon: built a Python Windows app that imported PDF tables from clinical and ethnical reports; resolved OCR and Unicode-related issues.
+• Supported engineering questions around image-processing-based area measurement for metal pieces in an aerospace context.
+• Worked Excel and VBScript reporting, Microsoft Lists surveys for generative AI, Bluetooth C++, and research on Retool, SAP , and Splunk.
+Company:Infosys Ltd. - Client: TK Elevator GmbH 11.2022 – 03.2023
+Job Title:T echnology Lead
+Date:11.2022 – 03.2023
+Location:Frankfurt
+Legal form:District Court of Essen HRB 31402
+Worked on HR Workflow Knowledge Transfer
+• Participated in knowledge transfer for development work on HR workflows.“JavaScript was added to a content management system with BPMN
+workflows to a software manufactured by an external company Tim Solutions (Bayern). The team mantaining the HR workflows explained the solution.
+Company:Infosys Ltd. - Client: Mercedes-Benz 04.2023 – 05.2023
+Job Title:T echnology Lead on Code Review
+Date:04.2023 – 05.2023
+Location:Stuttgart, Germany
+Legal form:Amtsgericht Stuttgart HRB 762873
+• Code review of a sales invoicing platform based on microservices, with focus on software security and reliability. Stack included Spring Boot and
+DataDog.
+Company:Infosys Ltd. - Client: Avnet Business Services GmbH10.2022 – 12.2022
+Job Title:T echnology Lead as Integration Engineer
+Date:10.2022 – 12.2022
+Location:Munich/Remote
+Legal form:Amtsgericht München HRB 100305
+• Supported migration from ServiceNow and SAP MM into MySQL databases and PHP applications tracking sales-pipeline efficiency from hardware
+request to delivery.
+• Maintained sales-side business-process automation related to supply management for large quantities of chips. SAP MM, SAP Remote Function
+Calls, SOA, linux cron, mysql and SNOW. We have some PHP doing the automations and I did some python-jupyter to test the APIs.
+• Wrote the Functional Domain Specification FDS for one of the automations.
+Company:Infosys Ltd. - Client: Adidas 01.2022 – 09.2022
+Job Title:T echnology Lead on Creation Portal - Reliability Software Engineer
+Date:01.2022 – 09.2022
+Location:Herzogenaurach/Bayern/Remote
+Legal form:Amtsgericht Fürth HRB 3868
+• Made small changes to an existing Java backend and Angular frontend to support security patching by IT. Upgraded from tomcat 8 to tomcat 10 and
+from log4j v1 to log4j v2, to facilitate IT maintenance of an already functional application with a frontend and a backend. Debugged intricate issues,
+like the JEE application holding a dependency on Spring and having different loggers and configurations running at the same time. Performed some
+powershell scripting to facilitate and automate tasks.
+• Maintained frontend and backend components; contributed to OAuth architecture changes on Azure, Java interface and stored-procedure updates,
+and directory migration changes after legal-entity consolidation.
+• Upgraded components from JDK 8 toward OpenJDK 19, updated Log4j2 where needed, and maintained Jenkins jobs across Windows / Java server
+updates.
+• Developed administrative PowerShell scripts to build WAR files, perform pre- and post-deployment checks, extract KPIs, and send customized
+deployment reports by email. Emails informing about the newly deployed component.i did also jakarta version binary migration. i had a bit of python to
+do the graphs about memory consumption while doing a stress test after each deployment. This helped detect memory leaks after deployments. i
+used httpie and postman for the stress test of the rest api. o avoid inefficient manual clicking in Postman, I generated a Postman collection from JSON
+data files and executed it with Newman. i took memory consumption samples on the deployed server using Invoke-Command from powershell. i had
+a server on loop. We operated with a small development and testing team while still meeting business needs. the team also used kibana, but was not
+yet set for this scenario
+• did jupyter to optimize queries to elastic search and oracle
+• split logically (copy&paste) groovy running on jenkins and java running on k8 for another team from another company to start development on it
+• uml documentation of several processes
+• played with pods on k8 in aws
+• maintained a java component running on a windows scheduler and performing daily data migration from a solr server into an oracle db
+• done code review and development of a java component doing data migration from an elastic search server and an oracle db to an exasol database.
+the reason for the migration was that there was a need to analyze the data with microstrategy and microstrategy accessed the data via exasol.
+• Environment included Log4j, Tomcat, Maven, Ant, Solr, Oracle, PowerShell, and Python.
+Company:Infosys Ltd. - Client: Adidas 10.2021 – 12.2021
+Job Title:T echnology Lead on CI/CD AWS DaRT - Reliability Software Engineer
+Date:10.2021 – 12.2021
+Location:Herzogenaurach/Bayern/Remote
+Legal form:Amtsgericht Fürth HRB 3868
+• Made small changes to an existing Java backend application that merged data from multiple sources into Oracle and Exasol databases. The changes
+were needed in order to support their SLDC and deployment. Handover of a component into a stealth-mode team to do end of life maintenance of the
+2component. The component cleaned and merged data for the MicroStrategy analyst to analyse product stocks and seasons. The component was
+relevant to business goals. The goal of the project was to separate one single component at Bitbucket repository, Jenkins pipeline, and Kubernetes
+namespaces at code level so maintenance and release could be performed by the new team.
+• Reviewed a DevOps pipeline to isolate a component and migrate part of the architecture from on-premises to AWS and to a new team.
+• Performed logical code splits at Git and Groovy/Jenkins pipeline level; documented the solution with Confluence and Mermaid diagrams.
+Company:Infosys Ltd. - Client: DHL 03.2021 – 09.2021
+Job Title:T echnology Anaylst as Software Engineer
+Date:03.2021 – 09.2021
+Location:Germany Remote
+Legal form:Amtsgericht Frankfurt am Main HRB 54924
+• Worked on software customization for a DHL client platform managing automobile deliveries; contributed small changes across frontend, backend,
+PostgreSQL, and DevOps.
+• Took part in DHL platform customization for Cox automotive. we had some java, angular, drools rules and sql. pProject management was handled by
+Intellico, a company based in Bulgaria. we were hired as externals to dhl and managed by intellico. it was about to deliver customer customizations to
+an existing dhl portal that tracks car delivery. the software architecture was REST and JSON with a resilient interface.The structure of JSON could be
+changed while preserving functionality. The JSON reactive webservices stream JSON with changes not necessarilly with the same order at each call.
+the architecture was a multiagent and reactive one with configuration performed with drools rules at db level. the multiagent architecture which is
+mostly a visitor pattern over some data structures, had the intention to keep responsibilities separated and control the growth of code. there was some
+code for address augmentation, there was some code for price calculations of each car order depending on the route. we could even search for
+license plates. there was some wireframing of the ui. the project mostly run in maintenance mode once i was there and we were busy doing the latest
+bug fixes before release. we had sonarqube and code complexity analysis as well as an integrated devops pipeline with gitlab.
+Company:Infosys Ltd. Client: Banc Sabadell 03.2020 – 12.2020
+Job Title:T echnology Analyst
+Date:03.2020 – 12.2020
+Location:Germany Remote
+Legal form:Companies House 08871766 / Registro Mercantil A08000143
+• Banking Platforms (TSB Banking Group plc, London,UK/ Banco de Sabadell SA, Alicante,Spain)
+• Worked on the software platform for credit-card services for BS / TSB, combining technical design across functional card domains and Java/mainframe
+domains.
+• Exposure included TSO, ISPF , Tibco products, SOA, microservices, and Spring Cloud.
+• Took part in knowledge-transfer sessions of Java, SOA and mainframe COBOL for the credit-card functional domain
+• Performed hands-on work within a Citrix environment and the customized software life cycle tools like Rochade and the mainframe terminal tn3270
+• I followed up their processes and except for clarive and dynatrace they were quite similar to what other companies are doing on terms of software
+development practices. They did had night deployments, production rollbacks and one page production reports to document unplanned and urgent
+issues on production
+Company:Accenture Technology Solutions B.V. & Co. KG01.2018 – 01.2020
+Job Title:Application Development Senior Analyst
+Date:01.2018 – 01.2020
+Location:kronberg,hessen,germany
+Legal form:Amtsgericht Königstein HRA 4127
+• Internal and external projects: Skills: Spring, WebSphere,Tomcat, DB2, ASP .NET, MSSQL, T -SQL, VBScript, CATIA and AWS.
+Company:Accenture Technology Solutions B.V. & Co. KG at E.ON AG06.2019 – 08.2019
+Job Title:Application Development Senior Analyst as Software Engineer
+Date:06.2019 – 08.2019
+Location:hamburg,germany
+Legal form:Amtsgericht Düsseldorf HRB 22315
+• Agile process for bug stabilization of a portal to sell electric installations to end-consumers.springboot configuration like exchanging the standard pool
+for a hikari pool was part of the backend work. Acted like a software developer on an agile setting, on a group of developers of at least five different
+external companies. On the team of 14 developers + 3 business + 1 project leader, 6 of them were Accenture. Specializations were SAP , angular and
+spring boot, and included 1 Accenture employee from Riga and 1 Accenture employee from holland.
+Company:Airbus as Accenture Technology Solutions B.V. & Co. KG01.2019 – 06.2019
+Job Title:Application Development Senior Analyst as Software Engineer
+Date:01.2019 – 06.2019
+Location:hamburg,germany
+Legal form:Amtsgericht Königstein HRA 4127
+• Maintained and reviewed VBScript code addressing CATIA performance issues when importing large and complex files provided by supplier
+companies. the supplier had to simplify the files so that merging parts into a whole turns on into a solvable issue.
+• there was a prostep environment to execute long term processes and troubleshoot them in case is needed. the prostep product has a database with
+scripts linked into a sequence of scripts. some of them were python, some of them bash scripts, even perl was there.
+• A very large amount of work was performed to review code into a hierarchy of support levels. every small python piece of code was reviewed and had
+to be executed in prostep.
+Company:KfW as Accenture Technology Solutions B.V. & Co. KG03.2018 – 06.2018
+Job Title:Application Development Senior Analyst as SLDC Analyst
+Date:03.2018 – 06.2018
+Location:frankfurt,germany
+Legal form:Amtsgericht Königstein HRA 4127
+• maintained code dealing with student credits. The system used OCR and produced fraud-related false positives, the alarms were checked manually
+case by case by inspecting visually the scanned postidents. die post also offered a rest interface with a fraud indicator entered by the service desk
+3employees.
+• Agile scrum requirements development for the implementation of KYC which was relevant for the new PSD2 money laundry regulations the german
+government wanted to have in place before september 2018.
+• a java batch api was used to schedule post idents ocr recognition. the code has ibm websphere, ibm db2, even tomcat is there. war and ears were
+deployed. there is a rather complex diagraming of functional layers architecture and components. there are micro repos for each single thing but the
+thing did not run unless you have at least two micro repos.
+• a bit of git and a couple of regexp were needed it to download all micro repos into a monorepo, it helped maybe to do code review over a larger piece
+of code, but probably had no real impact on the business, except of exposing a couple of plain text passwords on a workstation within the bank private
+intranet
+• there was an excel table maintaining the version numbers of each components and dependencies. the build broke once because of a complex
+upgrading of some components. i used open intervals on version numbers close interval to left open interval to the right. this probably did not help
+much as the developer needs to run a lot to change all those slow moving code pieces in case of an interface change
+Company:AGT Group (R&D) GmbH 09.2017 – 10.2017
+Job Title:Freelancer
+Date:09.2017 – 10.2017
+Location:darmstadt,germany
+Legal form:Amtsgericht Darmstadt HRB 90590
+Experience: Martí worked for AGT Group as an External Software Developer/Contractor during two periods: one month in October 2013 and again
+from September to November 2017 . In 2013, he focused on the development and review of Matlab code for sensor fusion . In 2017, he was contracted
+to assist with complex development challenges, including the integration of sensors and subsystems like RFID readers using Java and Spring .
+• The company specialized on sports analytics, there are you tube videos from the CEO selling some of the application areas AGT was working on. my
+relationship was regulated via a freelance contract and there was an NDA covering the contents of this contract.Skills:java, spring boot, linux
+Company Description: Headquartered in Zurich, Switzerland, AGT International is a pioneer in the fields of the Internet of Things (IoT), social
+data management, and Big Data integration . The company deploys advanced analytics to help organisations make cities smarter and improve the
+management of energy production and consumption .
+Company:Kleinunternehmer 11.2013 – 12.2017
+Job Title:Sabbatical
+Date:11.2013 – 12.2017
+Location:karlsruhe,germany
+Legal form:USt-IdNr. DE314020070
+• Projects in Python (SciPy, pandas), Java 8, and C++14.
+• Performed R&D to acquire projects and carried out hands-on software development with c++, python, java and gephi
+• I attended meetups from time to time, Hadoop, spark, also research conferences in several areas.
+• I got acquainted with companies and human resources selection processes. some of them were very ineffective.
+•Skills:Python (Programming Language) , Java , Spring Boot , Software Development , C++ , Software Architecture , Data Science
+Company:B2M Software AG 05.2012 – 11.2013
+Job Title:Senior Software Developer
+Date:05.2012 – 11.2013
+Location:karsruhe,germany
+Legal form:Amtsgericht Mannheim HRB 110903
+Experience: Martí served as a Senior Software Developer from May 2012 to November 2013 . His responsibilities included developing front-end and
+back-end code for mobile and web platforms, reviewing algorithms and white papers for electromobility projects, and performing a one-month review and
+development of Matlab code for a client . Specifically, he worked on an Android app and Java backend for reserving electric vehicles, communication
+protocols between apps and on-board units, and algorithms for target prediction using geographic data
+• Prototype development in electromobility, including mobile and backend work, map matching, and prediction of battery range for electric cars.
+• Software development with java ee, vaadin, python, obd2, mindmappings with the goal of building prototypes to explore market opportunities.
+• mobile apps (web apps) for ios and android were built with vaadin. vaadin had the advantage that no need for a complex UI with native android
+components was needed i.e. android horizontal and verticals layout, also vaadin offered ios UI components so that it was easy to build a prototype
+and run the webapp on ios and android with minimal changes. we used obd2 to build a prototype of an app for electrical cars, we experimented with
+automatic route selection and prediction with spatiallite.
+• Skills: Python (Programming Language) · SQL · Java · Spring Boot · Software Development · Vaadin · Mobile Applications · Software Architecture ·
+Web Technologies
+Company Description: B2M Software AG is a medium-sized company based in Karlsruhe that specialises in the development of Business Applications
+for Smartphones . Since its founding in 2005, the company has focused on developing new technologies and applications in the fields of mobility and
+the connection of devices to smartphones and server systems .
+Company:Nero Development and Services GmbH 05.2005 – 11.2013
+Job Title:Software Engineer
+Date:05.2005 – 11.2013
+Location:karlsruhe,germany
+Legal form:Amtsgericht Mannheim HRB 706530
+Experience: Martí worked as a Software Engineer from August 2005 to April 2012 . He developed applications and components using .NET and
+C++, created mobile applications for Android with Java, and performed cross-platform development for Symbian OS . His tenure included a one-month
+stay in Hangzhou, China, for a technology transfer at Nero Ltd, and he was a finalist in a company-wide product idea competition
+symbian experience
+• Cross platform development with C++ for Symbian OS
+• I tried different optimization flags and measured the performance of audio and video codecs using the ARM compiler. I debugged undefined
+C++ behavior issues, such as a try-catch nested inside another catch. I also compiled RTTI-based code with precompiled macros using TRAPD
+(setjmp/longjmp) to compensate for the lack of exception support on Symbian 7.
+• One of the main challenges was troubleshooting audio gaps in the multimedia pipeline. Symbian 7 was not a real-time operating system, and we did
+not have the same low-level multimedia access as competitors such as Sony, who had direct BSP-level integrations. One suspected bottleneck was
+the graphical histogram rendering: accessing the display memory buffer was expensive and introduced audio gaps while feeding the internal audio
+buffers. I did not had any control on the AAC and the histogram generation as it was done by another developer but the idea was that we had to use
+optimized instruction to compete with other establsihed software player on the market, i.e. GPU/OpenGL although on this platform we did not did the
+GPU on this platform. Other platforms were more successful WindowsCE and Linux and had more access to the underlaying hardware acceleration.
+4• We worked with a Mobica (UK) consultant to troubleshoot these issues. We purchased Eclipse/Carbide (around 600 euros) to enable remote
+debugging on target devices and performance sampling. We also had Symbian Platinum access, which provided advanced documentation and
+lower-level system access. With deeper access, we would likely have been able to adapt Symbian customizations to different hardware platforms. I
+had direct interaction with employees of Symbian regarding this issues (Technology Architect) at London exhibition center Excel but we were not able
+to progress on this. Symbian platinium did not open the source but only the documentation which was not enough to adapt the Symbian OS to a BSP .
+Nowadays the adaption of the software to each hardware would be done with Y octo so you can adapt also at driver and hardware level to each of the
+hardwares.
+• Before Carbide, I used CodeWarrior together with extensive logging to troubleshoot issues such as undefined C++ RTTI behavior. CodeWarrior was
+the only IDE at the time supporting multithreaded compiler/linker builds.
+• I adapted the Perl-based Symbian SDK toolchain to generate custom installers for different product variants. Symbian installers were simple text-based
+descriptor files defining permissions and package metadata. Each application had its own security permissions at installation time, effectively running
+as a separate Linux-like user. Depending on the device OS version, we needed different ARM binaries.
+• I modified the Perl toolchain to automatically generate the required binaries using GCC and the ARM compiler underneath. The binaries were large
+and had to be uploaded to the devices over USB during each debugging cycle. In the absence of reliable on-target debugging, we relied heavily on
+log traces, even though logging itself altered the multithreaded timing behavior of the application.
+– Symbian 6/7/8: ARMv5 (ARM9), classic Symbian generation.
+– Symbian 9.x: ARMv6 (ARM11), real-time operating system with RTTI support.
+• Debugging undefined C++ behavior was especially difficult because the observed runtime behavior often differed significantly from the apparent
+high-level C++ source code. In practice, understanding the generated assembly code was essential to diagnose and fix issues correctly.
+• Supported Nero at the booth of freescale at Mobile World Congress, we presented the linux version of the mobile application on a custom hardware
+board, and interacted with the visitors of the Freescale booth regarding this product.
+windows experience
+• Windows application and platform development with .NET and C++ with multimedia focus.
+• We had an TV widget development that injected a reg-free COM manifests on a context in-proc and allowed to run the dvb-c and codec platform on
+the sidebar
+• Developed applications and components with .NET and C++, from complex layouts with WPF dependency properties, to virtualized pictures layouts
+with dynamic loading of images from the storage, to integration of platform COM components which involved debugging or cross cutting concerns i.e.
+the thread locale of a codec on C++ platform component impacting the .NET behaviour on the UI side.
+• There was MVVM (Model-View-View model architecture), clean code methodology, UI testing, unit testing, dependency injection
+• we had a couple of years of run on agile methodologies, which involved creating a structure of Team Leader, Scrum Master, Product owners and
+development. On this structure we kept integrating platform components like I did on Symbian and we started to report bugs to platform on case we
+needed changes on the components. There was a kind of Triage at Team Leader and SCRUM master of issues to solve with platform but only with
+platform but with the other teams, sales, QA, and customer support.
+• The team also dealed with windbg crashes reported directly on the microsoft website after release.
+• Traveled to Las Vegas for a conference on Microsoft.
+android experience
+• Code reviewed the nero app that use UPnP to stream video and pictures to a remote rendered like a TV,
+• Dealed at XML layout basis with the UI rendering the names of the songs, videos and pictures on a list, dealing with new features like fragments and
+horizontal and vertical layouts intrinsics.
+• interacted with the field manager and sales at china to prepare a version of the application for a public exhibition
+SLDC and solution management experience
+• we had several implementations of source control, branching, sharing, and one of requirements management. The company switched from using slow
+CVS to use Perforce and finally to adopt Microsoft Team Foundations(TFVC). The proposal to use subversion was dismissed on favour of Perforce.
+With team foundations there was full traceability from requirements to code so that it was easilly trackable by selecting a requirement what code
+implemented and solve what. The company had stabilization branches for releases and had different repositories to serves OEMS.
+• we started to work also with a jenkins server with sprint development and continuous integration
+• Skills: C#,C++,java(android),linq,xaml,orm’s(linqtosql),DI(MEF),oauth,
+COM,jni,symbian ,arm,rvct,eclipse,visualstudio,scrum
+Company Description: Nero is a provider of software in the field of digital media . Its product portfolio includes solutions for creating, editing,
+organising, burning, and presenting multimedia content . The company is known for its award-winning technologies in audio and video compression
+Company:Y ellowMap AG 03.2005 – 05.2005
+Job Title:Research Software Architect
+Date:03.2005 – 05.2005
+Location:karlsruhe,baden-wuerttemberg,germany
+Legal form:Amtsgericht Mannheim HRB 108853
+Experience: Martí served as a Software Architect in R&D from April to May 2005, a role that extended a previous fellowship contract
+• this was a time limited contract as an extension of the CAS Software AG Contract
+•Skills: C#, C++, java, uml, asp.net, wsdl, t-sql, corba, jni, jsr-82, bluetooth, linux, symbian os,enterprise architect, visual source safe
+.
+Company Description: Y ellowMap AG is a venture capital branch of the German software producer CAS Software AG . It focuses on the market of
+location-based services and aims to "shape the future of mobile society
+Company:CAS Software AG 06.2003 – 03.2005
+Job Title:Research Software Architect
+Date:06.2003 – 03.2005
+Location:karlsruhe,baden-wuerttemberg,germany
+Legal form:Amtsgericht Mannheim HRB 108751
+• Developed front-end and back-end for web with .NET
+• Developed code for Symbian OS and Linux with C++ and Java dealing with bluetooth stack
+• He was involved in research projects such as MoMa and Ambiesense, which aimed to deliver information to mobile consumers through multiple
+channels like MMS or Web and to improve the usability of second screen interfaces by providing context to it, like I give the content you need to
+navigate a shopping mall or an airport
+• Reviewed and contributed to one of the deliverables of an EU project, Ambiesense with a proposal to adapt some .NET and Java with an
+agent/webservice interface
+• For MoMa I used an AMAS framework (Agent Framework) base on java over .NET and I offered the agents through web interfaces. The updates on
+the number of agents were managed also via microsoft sql triggers. Microsoft SQL called via a trigger a webservice that created a memory instance
+of an agent on a different server. The server did a realtime matching of offers and queries. On the agent server there were a possible federation of
+agents colonies and communication between agents with agent messaging. There were some logical statements composed of logical and value
+5expressions that allow matching between an ontology and a query.
+• For Ambiesense the plan was to run the agents on the Base Stations.
+design
+• I documented an implementation of a data layer protocol for content advertising over bluetooth (RF-COMM) from a base station broadcasting to
+several targets on movement. The base station was a small mini pc with familiar linux, the targets Sony Ericson with symbian 7 and 8 on it. The base
+station kept the bluetooth on scanning mode and once a proper client was found then a socket was opened and the datagram with the advertising was
+push up. The protocol consisted of a datagram and a continuous, uninterrumpted RFCOMM socket. We served the devices sequentially. The number
+of the devices served depended on the size of the datagrams and the number of targets. There was only one bluetooth device serving bluetooth at the
+base station. Upgrading the hardware would allow to serve more devices.
+• The datagrams had a header for different kind of processes, some of them were implemented, some of them left to implementation i.e. the base
+station send the BSSI of the targets to the targets so the target could know how far the device was from the antenna, the BSSI is only known on
+device scan and the target device was not allowed to do the scan as for our design. Another header UUID shall allow the client to update the firmware
+of the base stations, yet another UUID was utilized to signalize start of advertising content. There was no error correction UUIDs like TCP as the
+algorithm relied on RFCOMM for this. There was no fingerprinting or certificates validation of the client, this was not part of this work.
+implementation
+• I implemented the C++ like code on the mobile device, which involved dealing correctly with symbian C style exception handling TRAPD (longjm-
+p/setjmp) and with the JNI/JNA. This small component was intended as an API of a java application running maps. The motivation of this C++ was
+that JSR82 was optional and not available on all java profiles running on symbian.
+• On the base station side familiar linux was used and the implementation was java with JSR82 and bluez stack.
+The symbian side run on non discovery mode so that it was available for connection all times from the base station. Since service discovery and device
+discovery were different processes, there was no way for the base station to discover if the symbian client had our symbian software running on it, for
+this a process of whitelisting was needed it so that the client was registered to all the base stations deployed. We did a field run with two antennas
+and tested that the content from the closest antena was pushed while moving from postion close to Base Station 1 (BS1) to close to base station 2 (BS2).
+use case
+• Our approach did not pose any restriction on the shop owner so that even offline mode without internet was possible i.e. the menu of a restaurant
+could be pushed directly to the device without the owner having to action anything on the mobile interface. so is like an internet capsule with bluetooth
+or an offline beacon.
+•Skills: C#, C++, java, uml, asp.net, wsdl, t-sql, corba, jni, jsr-82, bluetooth, linux, symbian os,enterprise architect, visual source safe
+Student Visa (Socrates-DE) / J1 Visa (USA)
+Company:Fraunhofer-Institut fuer Graphische Datenverarbeitung IGD09.2002 – 06.2003
+Job Title:Researcher
+Date:09.2002 – 06.2003
+Location:Darmstadt,hessen,Germany
+Legal form:Amtsgericht München VR 4461
+Experience: Martí was an Intern/Visiting Student at the Fraunhofer Institute for Computer Graphics (IGD) from September 2002 to June 2003. He
+worked within the Cognitive Computing and Medical Imaging department, where he focused on the “Fast Calibration of Cameras by Comparison with
+Pre-Calibrated Panorama Images”. His tasks involved migrating existing code to new contexts, implementing feature extraction for machine learning
+algorithms, and evaluating results using C++, QT, COM, and Matlab.
+• Adapted code to a new scenario, implemented feature extraction for a machine learning algorithm, evaluated the usefulness of features for camera
+calibration in a controlled scenario. Calibration here meant detecting the initial shooting angle of the camera by comparison of a single frame with a
+pre-recorded panorama image.
+• The features selected were small pixel samples uniformly distributed on a panorama. The features are used like database indexes but with spatial
+and color information of each patch of pixels. The index needs to be robust to differences between the model and the current frame, i.e. brightness
+changes and reflections. This algorithm was intended to complete other existing computer vision algorithms based on geometry and pixel tracking.
+Probably the most similar today is deep learning that selects the more salient features of an image instead of having an uniform grid of features and
+serves as a first layer to other computer vision algorithms. The application area on this EU project,was sports, and was intended to overlay some
+symbols on sports areas in real time. The pixel tracking algorithm was already developed before this project started and this was just one more
+improvement to add on the previous development.
+• We obtained good results by doing this simple algorithm and is easy to implement on a low-CPU implementation. Modern algorithms for sure are
+smarter, although the process to create a model out of features for machine learning and to solve numerically by step descent an optimization
+equation has probably not changed since 2003.
+• Practical solutions from the industry at that point of time 2003 were presented by companies like Siemens at exhibitions at Fraunhofer IGD. The
+state of the art at that point of time already had augmented reality spectators, with sensors at the headset level and magnetic fields on a room for
+applications like gaming, remote surgery, and maintenance of electric industrial equipment.
+Company Description: The Fraunhofer Institute for Computer Graphics Research (IGD) is part of the broader Fraunhofer organization, focusing on
+research and development in areas like cognitive computing and medical imaging.
+Company:Purdue University (Indiana) 07.2001 – 08.2001
+Job Title:IAESTE Internship
+Date:07.2001 – 08.2001
+Location:west-lafayette,indiana,united states
+Legal form:LEI 254900FDUYUVV8EQOC75
+• PHP , MySQL, Perl and MATLAB development; instructor for web software technologies.
+Education
+Company:Polytechnical University of Catalonia (BarcelonaTech)09.1995 – 09.2003
+Job Title:M.Eng.T elecommunications
+Date:09.1995 – 09.2003
+Location:barcelona
+Legal form:
+•Institution:Universitat Politècnica de Catalunya (UPC), Escola Tècnica Superior d’Enginyeria de Telecomunicació de Barcelona
+•Degree:Official University Degree in Telecommunications Engineering
+•Academic Context:Degree officially issued according to Spanish university education regulations and recognized throughout the national territory
+6•Start Date:Barcelona, 1 September 1995
+•End Date:Barcelona, 29 September 2003
+•Date of Issue:Barcelona, 29 September 2003
+•National Degree Registry Number:2004/279639
+•University Degree Registry:58521
+•Center Code:08032865
+•Alphanumeric Key:1-BC-547753
+•Signatories:Josep Ferrer Llop (Rector), María Cruz Aragón Jiménez (Academic Administration Representative)
+•Internship:worked for the administration department as web developer, developed the web page of the electronics department
+• Volunteer contribution :Active participation at United Nations suborganization IAESTE with suborganization code TLBA depending on IAESTE
+Catalonia. included teaching web technologies to groups of 20 people. doing the call cold and data analysis to recruite spanish employers. .
+• Degree Content:Mathematics, physics, image and signal processing, Mobile communications, computer architecture, Cryptography, networks,
+electronics and economics
+Apendixes
+Appendix Index
+Appendix Description
+Appendix A - Fron-
+tend
+Deployment of a web portal for the management of databases on a cloud environment with provisioning and
+real time monitoring. Deployed a work in progress on the public cloud. https://databases.graphai.eu Redis
+Explorer Deployment Screenshots, AI-assisted development methodology, CI/CD workflow, lessons learned,
+screenshots and deployment architecture.
+Appendix B - Muli-
+media
+Repaired a broken MP4 file metadata MP4 repair workflow, FFmpeg/Untrunc methodology, image processing
+techniques, container metadata recovery, I/P/B frame analysis and conclusions.
+7Career timeline overview
+Courses, learning activities and certificates
+Year / Date Title / Subject Provider / Issuer License /
+Notes
+2014 Financial Markets (Y ale) Robert Shiller / Coursera Free course
+2014 Critical Perspectives on Management (IE) Rolf Strom Olsen / Coursera Free course
+2014 Competitive Strategy (LMU) Tobias Kretschmer / Coursera Free course
+2013 Machine Learning (Stanford) Andrew Ng / Coursera Free course
+2013/2014 International Summer School on Trends in Computing URV Guest listener
+2013/2014 Human Brain Project discussion on ethics open doors to
+general public (Paris)
+There were researchers from denmark, germany
+and switzerland, attending also there was a FBI
+officer
+Guest listener
+(free)
+2002 First certificate Cambridge 026ES0171626
+April 3, 2024 Secure SDLC phases Infosys Certificate of
+Completion
+May 26, 2025 PbD - Privacy by Design Intermediate (DPO Official) Infosys Certificate of
+Completion
+June 30, 2025 Advanced RHEL Administration Part I Infosys Certificate of
+Completion
+August 15, 2025 DP 900 : Microsoft Azure Data Fundamentals Infosys Certificate of
+Completion
+August 15, 2025 AZ-204: Developing Solutions for Microsoft Azure Infosys Certificate of
+Completion
+August 18, 2025 PL-300: Microsoft Power BI Data Analyst Infosys Certificate of
+Completion
+Degree equivalence wording
+Country Practical equivalent wording to use
+India Equivalent in level to a Master’s degree in Engineering, typically comparable to M.Tech. / M.E.
+United States Comparable academically to a Master’s degree in Telecommunications Engineering, Electrical Engineering, Elec-
+tronics Engineering, or a related graduate engineering degree.
+Japan Comparable academically to a Master’s degree in Engineering.
+Canada Comparable academically to a Master’s degree in Electrical, Electronic, or Telecommunications Engineering.
+Australia Comparable academically to a Master’s degree under AQF level 9.
+Country Practical equivalent wording to use
+Germany, Austria, Liecht-
+enstein, German-speaking
+Switzerland
+Equivalent to a Master’s-level engineering qualification such as programs at TU München, RWTH Aachen, ETH
+Zürich, or TU Wien (Master / Masterabschluss in Nachrichtentechnik, Telekommunikation oder Elektrotechnik; EQF
+7).
+Netherlands, Flanders (Bel-
+gium)
+Comparable to Master’s-level programs at TU Delft, KU Leuven, or Ghent University (Master in Telecommunicatie,
+Elektrotechniek of Elektronica; EQF 7).
+France, Wallonia (Belgium),
+French-speaking Switzerland,
+Luxembourg
+Comparable to Master’s-level programs at Télécom Paris, École Polytechnique, UCLouvain, or University of Luxem-
+bourg (Master en Télécommunications, Électronique ou Génie Électrique; EQF 7).
+Spain Official Spanish pre-Bologna degree Ingeniero de Telecomunicación, formally referenced at MECES 3 / EQF 7,
+comparable to programs at UPC, Universidad Politécnica de Madrid, or Universidad Carlos III de Madrid.
+Italy, San Marino Comparable to Master’s-level programs at Politecnico di Milano, Politecnico di Torino, or Sapienza Università di
+Roma (Laurea Magistrale in Ingegneria delle Telecomunicazioni / Elettronica; EQF 7).
+Portugal Comparable to Master’s-level programs at Instituto Superior Técnico (Lisbon) or University of Porto (Mestrado em
+Engenharia de Telecomunicações / Eletrotécnica; EQF 7).
+Denmark, Sweden, Finland,
+Iceland, Norway
+Comparable to Master’s-level programs at KTH Royal Institute of Technology, Chalmers, DTU, Aalto University, or
+NTNU (Communications / Electrical Engineering; EQF 7 comparable).
+Estonia, Latvia, Lithuania Comparable to Master’s-level programs at TalTech, University of Tartu, Riga Technical University, or Kaunas Univer-
+sity of Technology (Telecommunications / ICT Engineering; EQF 7).
+Poland, Czechia, Slovakia,
+Hungary
+Comparable to Master’s-level programs at Warsaw University of Technology, Czech Technical University in Prague,
+Slovak University of Technology, or Budapest University of Technology and Economics (EQF 7).
+Slovenia, Croatia, Romania,
+Bulgaria, Greece, Cyprus,
+Malta
+Comparable to Master’s-level programs at University of Ljubljana, University of Zagreb, Politehnica Bucharest, Sofia
+University, National Technical University of Athens, or University of Cyprus (EQF 7).
+Ireland, United Kingdom Comparable to Master’s-level programs at University of Cambridge, Imperial College London, University of Oxford,
+or Trinity College Dublin (UK FHEQ Level 7 / EQF comparable).
+United States Comparable academically to graduate engineering programs at MIT, Stanford University, UC Berkeley, or Carnegie
+Mellon University; equivalent to a Master of Science (M.S.) in Telecommunications / Electrical Engineering.
+Canada Comparable academically to programs at University of Toronto, University of Waterloo, McGill University, or UBC;
+equivalent to a Master of Engineering (M.Eng.) / M.A.Sc. in Electrical or Telecommunications Engineering.
+Australia, New Zealand Comparable academically to programs at University of Melbourne, UNSW Sydney, University of Sydney, or Univer-
+sity of Auckland; equivalent to a Master of Engineering (AQF 9 / NZQF 9).
+India Equivalent in level to a Master’s degree in Engineering, typically comparable to M.Tech. / M.E.; similar to programs
+at IIT Bombay, IIT Delhi, IIT Madras, or IISc Bangalore.
+Japan Comparable academically to a Master of Engineering (Master of Engineering), similar to programs at University of
+Tokyo, Kyoto University, Tokyo Institute of Technology, or Osaka University.
+9

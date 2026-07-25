@@ -1,0 +1,30 @@
+2026-07-25T20:36:27 greenhouse stripe: 73 kept
+2026-07-25T20:36:28 greenhouse cloudflare: 34 kept
+2026-07-25T20:36:29 greenhouse datadog: 49 kept
+2026-07-25T20:36:30 greenhouse gitlab: 63 kept
+2026-07-25T20:36:31 greenhouse elastic: 83 kept
+2026-07-25T20:36:31 greenhouse hashicorp: HTTP Error 404: Not Found
+2026-07-25T20:36:32 greenhouse figma: 27 kept
+2026-07-25T20:36:32 greenhouse notion: HTTP Error 404: Not Found
+2026-07-25T20:36:32 greenhouse airtable: 12 kept
+2026-07-25T20:36:33 greenhouse twilio: 61 kept
+2026-07-25T20:36:33 greenhouse dropbox: 14 kept
+2026-07-25T20:36:34 greenhouse asana: 43 kept
+2026-07-25T20:36:35 greenhouse pinterest: 48 kept
+2026-07-25T20:36:35 greenhouse reddit: 48 kept
+2026-07-25T20:36:36 greenhouse brex: 58 kept
+2026-07-25T20:36:37 greenhouse coinbase: 50 kept
+2026-07-25T20:36:37 greenhouse doordash: HTTP Error 404: Not Found
+2026-07-25T20:36:38 greenhouse airbnb: 41 kept
+2026-07-25T20:36:38 greenhouse discord: 23 kept
+2026-07-25T20:36:39 greenhouse robinhood: 33 kept
+2026-07-25T20:36:40 lever netflix: 0 kept
+2026-07-25T20:36:42 lever spotify: 10 kept
+2026-07-25T20:36:42 lever shopify: HTTP Error 404: Not Found
+2026-07-25T20:36:46 lever palantir: 98 kept
+2026-07-25T20:36:47 lever revolut: HTTP Error 404: Not Found
+2026-07-25T20:36:47 lever n26: HTTP Error 404: Not Found
+2026-07-25T20:36:48 lever mistral: 0 kept
+2026-07-25T20:36:49 lever anthropic: HTTP Error 404: Not Found
+2026-07-25T20:36:50 lever twitch: HTTP Error 404: Not Found
+2026-07-25T20:36:50 lever wealthsimple: 0 kept

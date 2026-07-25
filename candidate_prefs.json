@@ -1,0 +1,477 @@
+{
+  "gender": "Male",
+  "gender_aliases": [
+    "Male",
+    "Man",
+    "Male (M)",
+    "Männlich",
+    "Maennlich",
+    "Homme",
+    "Masculino",
+    "M",
+    "I am a man",
+    "Male / Man"
+  ],
+  "work_authorization": {
+    "eu": "Yes",
+    "eu_notes": "User has permission to work in the EU — answer Yes for EU/EEA/Germany work authorization questions",
+    "germany": "Yes",
+    "require_sponsorship_eu": "No",
+    "require_sponsorship_us": "Yes",
+    "require_sponsorship_sg": "discuss",
+    "aliases_yes": [
+      "Yes",
+      "I am authorized to work",
+      "I am legally authorized",
+      "Authorized",
+      "Eligible to work",
+      "I have the right to work"
+    ],
+    "aliases_no_sponsorship_eu": [
+      "No",
+      "I do not require sponsorship",
+      "No sponsorship required"
+    ]
+  },
+  "university": "Universitat Politècnica de Catalunya",
+  "university_aliases": [
+    "BarcelonaTech",
+    "Barcelona Tech",
+    "Polytechnical University of Catalonia",
+    "Polytechnic University of Catalonia",
+    "Universitat Politècnica de Catalunya",
+    "Universitat Politecnica de Catalunya",
+    "Politecnica de Catalunya",
+    "ETSETB",
+    "UPC",
+    "Purdue University"
+  ],
+  "school_search_order": [
+    "BarcelonaTech",
+    "Universitat Politècnica de Catalunya",
+    "Universitat Politecnica de Catalunya",
+    "Polytechnical University of Catalonia",
+    "UPC",
+    "ETSETB",
+    "Purdue University"
+  ],
+  "markets": [
+    {
+      "name": "Germany / Karlsruhe rings",
+      "countries": [
+        "DE",
+        "AT",
+        "CH",
+        "FR",
+        "NL",
+        "BE",
+        "LU"
+      ],
+      "origin": "Karlsruhe",
+      "work_authorization_default": "Yes",
+      "country_of_residence_default": "Germany",
+      "notes": "Primary EU expansion rings from Karlsruhe"
+    },
+    {
+      "name": "Singapore",
+      "countries": [
+        "SG"
+      ],
+      "origin": "Singapore",
+      "work_authorization_default": "discuss",
+      "work_authorization_notes": "Open to Singapore roles; may need EP/relocation — answer work-auth fields carefully (do not claim existing EP unless true). Prefer Yes only if form is about legal right via sponsorship path when options allow, else No + sponsorship Yes if asked.",
+      "country_of_residence_default": "Germany",
+      "location_preferences": [
+        "Singapore",
+        "SG",
+        "Southeast Asia"
+      ],
+      "notes": "Secondary market: public-company tech / architect / AI lead roles in Singapore"
+    },
+    {
+      "name": "United Kingdom",
+      "countries": [
+        "UK",
+        "GB"
+      ],
+      "origin": "London",
+      "work_authorization_default": "discuss",
+      "country_of_residence_default": "Germany",
+      "notes": "Engineering roles €70,400–€120,000 with sponsorship discussion as needed"
+    },
+    {
+      "name": "Nordics",
+      "countries": [
+        "SE",
+        "NO",
+        "FI"
+      ],
+      "origin": "Stockholm / Oslo / Helsinki",
+      "work_authorization_default": "discuss",
+      "work_authorization_notes": "Open to SE/NO/FI roles with relocation; do not claim existing work permit unless true. Prefer sponsorship Yes when asked.",
+      "country_of_residence_default": "Germany",
+      "location_preferences": [
+        "Sweden",
+        "Norway",
+        "Finland",
+        "Stockholm",
+        "Oslo",
+        "Helsinki",
+        "Gothenburg",
+        "Malmö",
+        "Tampere"
+      ],
+      "notes": "Engineering roles €70,400–€120,000 professional roles only (no Praktikum/internship); CV 0021_cc"
+    },
+    {
+      "name": "United States",
+      "countries": [
+        "US",
+        "USA"
+      ],
+      "origin": "Remote US / major tech hubs",
+      "work_authorization_default": "discuss",
+      "work_authorization_notes": "Open to US roles with H-1B/visa sponsorship discussion. Do NOT claim existing US work authorization unless true. Prefer sponsorship Yes when asked; country of residence Germany.",
+      "country_of_residence_default": "Germany",
+      "location_preferences": [
+        "United States",
+        "USA",
+        "Remote US",
+        "New York",
+        "San Francisco",
+        "Seattle",
+        "Austin",
+        "Boston"
+      ],
+      "notes": "Tertiary market: senior software / architect / tech lead; CV 0020_raw; sponsorship path"
+    }
+  ],
+  "locations_open_to": [
+    "Spain",
+    "Barcelona",
+    "Madrid",
+    "Germany",
+    "Netherlands",
+    "Holland",
+    "France",
+    "Austria",
+    "Belgium",
+    "Italy",
+    "Remote EU",
+    "Remote Germany",
+    "Remote Netherlands",
+    "Switzerland",
+    "United Kingdom",
+    "Sweden",
+    "Norway",
+    "Finland",
+    "Remote",
+    "Remote Europe",
+    "Worldwide remote",
+    "United States",
+    "Remote US",
+    "USA"
+  ],
+  "willing_to_relocate": true,
+  "relocation_targets": [
+    "Singapore",
+    "Germany",
+    "Sweden",
+    "Norway",
+    "Finland",
+    "United States"
+  ],
+  "availability": {
+    "from": "2026-07-13",
+    "label": "Available from today onwards",
+    "prefer": [
+      "Immediately",
+      "As soon as possible",
+      "Today"
+    ]
+  },
+  "notes": "Martí Bayo Alemany | martibayoalemany@gmail.com | +4917663325199 | Vorholzstrasse 31, 76317 Karlsruhe, Germany | Telecommunications Engineer Master | GPA 2.6/4.0 | Unis: BarcelonaTech / UPC / ETSETB / Polytechnical University of Catalonia; fallback Purdue 2001 one year | Salary €70,400–€120,000 | professional only no Praktikum/facility | remote+short-term OK | CV 0020_raw + ETSETB academic + work certificates 2020 | degree year 2003 | Gmail verification enabled | Gender: Male/Man | EU work authorization: Yes | EEO: White; not a veteran; no disability | Salary €70,400–€120,000 | EEO White / non-veteran / no disability | Priority markets: Germany + Netherlands (Holland)",
+  "target_lists": {
+    "cyber_networking_software": "strategy_companies_cyber.csv",
+    "insurance_financial_brokers": "strategy_companies_insurance.csv",
+    "all_strategy": "strategy_companies_all.csv",
+    "biotech_pharma": "strategy_companies_biotech_pharma.csv",
+    "italy_public": "strategy_companies_italy.csv",
+    "tech_mega": "strategy_companies_tech_mega.csv",
+    "semiconductor_hardware": "strategy_companies_semiconductor.csv",
+    "enterprise_software_cloud_ai": "strategy_companies_enterprise_cloud_ai.csv",
+    "consumer_technology_internet": "strategy_companies_consumer_tech.csv",
+    "gaming_media_entertainment": "strategy_companies_gaming_media.csv",
+    "industrial_test_measurement": "strategy_companies_industrial.csv",
+    "quantum_computing": "strategy_companies_quantum.csv",
+    "all": "strategy_companies_all.csv",
+    "aerospace_defense_space": "strategy_companies_aerospace_defense.csv",
+    "engineering_consulting_it": "strategy_companies_engineering_consulting.csv",
+    "energy_utilities_clean": "strategy_companies_energy_utilities.csv",
+    "industrial_manufacturing": "strategy_companies_industrial_manufacturing.csv",
+    "networking_communications": "strategy_companies_networking.csv",
+    "airlines": "strategy_companies_airlines.csv",
+    "phd": "applications_phd.csv"
+  },
+  "application_strategy": {
+    "name": "EU engineering apply strategy",
+    "updated": "2026-07-13T00:05:00",
+    "salary_eur": {
+      "min": 70400,
+      "max": 120000,
+      "currency": "EUR",
+      "notes": "€70,400–€120,000 gross annual salary expectations"
+    },
+    "location_priority": [
+      "Spain",
+      "Germany",
+      "Netherlands",
+      "Switzerland",
+      "Austria",
+      "United Kingdom",
+      "Italy",
+      "France",
+      "Remote Europe",
+      "Sweden",
+      "Norway",
+      "Finland"
+    ],
+    "location_country_codes": [
+      "ES",
+      "DE",
+      "NL",
+      "FR",
+      "AT",
+      "BE",
+      "IT",
+      "CH",
+      "SE",
+      "PT",
+      "IE"
+    ],
+    "role_filter": "prefer technology lead + software architect; then staff/principal; senior software engineer allowed lower priority; PhD technical ok",
+    "candidate_defaults": {
+      "gender": "Male",
+      "university": "Universitat Politècnica de Catalunya",
+      "cv": "0020_raw_marti__bayo_alemany_curriculum.pdf",
+      "email": "martibayoalemany@gmail.com",
+      "first": "Martí",
+      "last": "Bayo Alemany",
+      "degree_year": "2003",
+      "certificates_year": "2020",
+      "work_authorization_eu": "Yes",
+      "protected_veteran": "No",
+      "disability": "No"
+    },
+    "lists": [
+      "cyber_networking_software",
+      "insurance_financial_brokers"
+    ],
+    "documents": {
+      "cv_primary": "0020_raw_marti__bayo_alemany_curriculum.pdf",
+      "cv_cc": "0021_cc_marti__bayo_alemany_curriculum.pdf",
+      "cv_raw": "0020_raw_marti__bayo_alemany_curriculum.pdf",
+      "certificates_compressed": "Marti__Bayo_Alemany_certificates_2020_compressed.pdf",
+      "certificates_year": "2020",
+      "academic_certificates": "etsetb_with_equivalences_and_government_register.pdf",
+      "degree_year": "2003"
+    }
+  },
+  "salary_target_eur": {
+    "min": 70400,
+    "max": 120000
+  },
+  "role_policy": {
+    "level": "technology_lead_architect",
+    "exclude": [
+      "Praktikum",
+      "internship",
+      "intern",
+      "Werkstudent",
+      "apprentice",
+      "facility management",
+      "facility manager",
+      "Hausmeister"
+    ],
+    "salary_eur": "70400-120000",
+    "include_work_modes": [
+      "remote",
+      "hybrid",
+      "onsite",
+      "short_term_contract",
+      "fixed_term",
+      "contract"
+    ],
+    "include_phd": true,
+    "prefer_titles": [
+      "Technology Lead",
+      "Tech Lead",
+      "Technical Lead",
+      "Software Architect",
+      "Solutions Architect",
+      "Principal Software Engineer",
+      "Staff Software Engineer"
+    ],
+    "deprioritize_titles": [
+      "Senior Software Engineer"
+    ],
+    "notes": "Prefer Technology Lead and Software Architect over plain Senior Software Engineer"
+  },
+  "location_priority": [
+    "Germany",
+    "Netherlands",
+    "Switzerland",
+    "Austria",
+    "United Kingdom",
+    "Italy",
+    "France",
+    "Remote Europe",
+    "Sweden",
+    "Norway",
+    "Finland"
+  ],
+  "phone": "+4917663325199",
+  "phone_e164": "+4917663325199",
+  "phone_national_de": "017663325199",
+  "phone_country": "DE",
+  "contact": {
+    "phone": "+4917663325199",
+    "email": "martibayoalemany@gmail.com"
+  },
+  "residence": {
+    "city": "Karlsruhe",
+    "country": "Germany",
+    "country_code": "DE",
+    "street": "Vorholzstrasse 31",
+    "postal_code": "76317",
+    "notes": "Place of residence for all application forms"
+  },
+  "name": {
+    "first": "Martí",
+    "first_alt": "Marti",
+    "last": "Bayo Alemany",
+    "full": "Martí Bayo Alemany",
+    "full_alt": "Marti Bayo Alemany",
+    "notes": "Last name always Bayo Alemany as one field. Prefer Martí."
+  },
+  "work_arrangements": {
+    "remote": true,
+    "hybrid": true,
+    "onsite": true,
+    "short_term_contract": true,
+    "fixed_term": true,
+    "freelance_contract": true,
+    "permanent": true,
+    "notes": "Open to remote and short-term/fixed-term professional contracts as well as permanent; still no Praktikum/internship or facility management"
+  },
+  "professional_title": "Telecommunications Engineer",
+  "education_level": "Master",
+  "university_fallback": {
+    "name": "Purdue University",
+    "years": "2001",
+    "duration": "one year",
+    "use_when": "primary UPC/BarcelonaTech not in dropdown"
+  },
+  "education": {
+    "level": "Master",
+    "gpa": "2.6/4.0",
+    "gpa_value": "2.6",
+    "gpa_scale": "4.0",
+    "degree_title": "Telecommunications Engineer",
+    "degree_year": "2003",
+    "degree_year_start": "2003",
+    "degree_year_end": "2003",
+    "graduation_year": "2003",
+    "notes": "University degree notes year 2003 (ETSETB academic pack)"
+  },
+  "address": {
+    "street": "Vorholzstrasse 31",
+    "postal_code": "76317",
+    "city": "Karlsruhe",
+    "country": "Germany",
+    "country_code": "DE",
+    "full": "Vorholzstrasse 31, 76317 Karlsruhe, Germany"
+  },
+  "documents": {
+    "cv_primary": "021_cc_curriculum_marti__bayo_alemany.pdf",
+    "cv_cc": "0021_cc_marti__bayo_alemany_curriculum.pdf",
+    "cv_raw": "0020_raw_marti__bayo_alemany_curriculum.pdf",
+    "certificates_compressed": "Marti__Bayo_Alemany_certificates_2020_compressed.pdf",
+    "certificates_year": "2020",
+    "academic_certificates": "etsetb_with_equivalences_and_government_register.pdf",
+    "degree_year": "2003",
+    "cv_desktop": "021_cc_curriculum_marti__bayo_alemany.pdf"
+  },
+  "application_protocol": {
+    "per_app_max_seconds": 300,
+    "iterate_on_fail": true,
+    "record_ats": true,
+    "record_secrets": true,
+    "gmail_verification": true,
+    "upload_certificates": true,
+    "employment_single_textbox": [
+      "Infosys",
+      "Accenture"
+    ],
+    "priority": "distance rings from Karlsruhe 200..6000 km (eToro-tradable public cos)"
+  },
+  "eeo": {
+    "race_ethnicity": "White",
+    "race_aliases": [
+      "White",
+      "White (Not Hispanic or Latino)",
+      "Caucasian",
+      "White / Caucasian"
+    ],
+    "hispanic_latino": "No",
+    "protected_veteran": "No",
+    "veteran_status": "I am not a protected veteran",
+    "veteran_aliases": [
+      "I am not a protected veteran",
+      "I am not a veteran",
+      "Not a protected veteran",
+      "I am not a protected veteran (I have never served or I am not a protected veteran)",
+      "No"
+    ],
+    "veteran_select": "not_protected",
+    "disability": "No",
+    "disability_status": "No, I do not have a disability and have not had one in the past",
+    "disability_aliases": [
+      "No, I do not have a disability and have not had one in the past",
+      "No, I don't have a disability",
+      "I do not have a disability",
+      "No",
+      "No disability"
+    ],
+    "notes": "User 2026-07-25: White; not a protected veteran; no disability; salary €70,400–€90,000; Desktop CV 021_cc",
+    "never_select": [
+      "I identify as one or more of the classifications of protected veteran",
+      "Yes, I have a disability",
+      "Yes, I have a disability, or have a history/record of having a disability",
+      "Female",
+      "Woman",
+      "Non-binary",
+      "Prefer not to say",
+      "Decline to Self Identify"
+    ]
+  },
+  "motivation": {
+    "why_company": {
+      "discord": "I want to work at Discord because it sits at the intersection of real-time systems, community, and high-scale product engineering—areas I care about deeply as a Telecommunications Engineer and Technology Lead. Discord’s product is mission-critical for millions of people who collaborate, learn, and build together, which means reliability, latency, and thoughtful platform design matter every day.\n\nI am motivated by Discord’s engineering culture around shipping durable services, improving developer and community experience, and solving hard distributed-systems problems without losing the human-centered product feel. My background across software architecture, cloud, DevOps, and large-client delivery (including complex multi-team environments) aligns with building and evolving platforms that must stay fast and stable under growth.\n\nI would be excited to contribute as a senior/lead engineer: raising the quality of systems and delivery, mentoring through clear technical decisions, and helping Discord continue to be the best place for communities to connect—while learning from a team that operates at global scale.",
+      "default": "I want to work at {company} because the role matches my experience as a Telecommunications Engineer / Technology Lead in software architecture, cloud, and high-quality delivery. I am motivated by {company}'s product impact and engineering standards and want to contribute senior technical leadership."
+    }
+  },
+  "target_markets_active": [
+    "Germany",
+    "Netherlands",
+    "Spain",
+    "EU"
+  ],
+  "salary_floors_eur": {
+    "spain_barcelona_madrid": 55000,
+    "germany_netherlands_fr_at_be_nordics": 70400,
+    "switzerland": 85000,
+    "other_eu": 60000,
+    "notes": "Spain lower floor (candidate origin). Other EU apply when salary meets floor; low CV-fit allowed if well-paid for that geo."
+  }
+}

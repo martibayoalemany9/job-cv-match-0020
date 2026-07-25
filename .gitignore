@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.discover*
+discover_sources.env
+credentials_local.env
+mcp.json
+.env
+*.pdf
+.browser*
+ci_artifacts/
+apply_logs/

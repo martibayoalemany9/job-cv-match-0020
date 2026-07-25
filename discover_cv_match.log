@@ -1,0 +1,4 @@
+2026-07-25T20:36:26 === discover_cv_match_jobs (0020_raw) ===
+2026-07-25T20:36:50 raw jobs: 868
+2026-07-25T20:36:51 cv matched: 645 (min_score=3)
+2026-07-25T20:36:51 wrote 645 rows → applications_cv_match_0020.csv

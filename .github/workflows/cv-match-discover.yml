@@ -1,0 +1,144 @@
+# Scheduled job discovery filtered by CV 0020_raw fit.
+# Repo target: github.com/martibayoalemany9/<this-repo>
+#
+# Secrets (optional, Settings → Secrets → Actions):
+#   THEIRSTACK_API_KEY
+#   APIFY_TOKEN
+#   APIFY_ACTOR_ID  (default orgupdate~google-jobs-scraper)
+#
+# Free path (no secrets): Greenhouse + Lever public APIs only.
+
+name: cv-match-discover-0020
+
+on:
+  schedule:
+    # Twice daily UTC (≈ morning + evening EU)
+    - cron: "0 7 * * *"
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+    inputs:
+      min_score:
+        description: "Minimum cv_fit score (default 3)"
+        required: false
+        default: "3"
+      enable_theirstack:
+        description: "Use TheirStack if secret present"
+        type: boolean
+        default: true
+      enable_apify:
+        description: "Use Apify if secret present"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write   # commit latest match report into branch cv-match-latest
+
+concurrency:
+  group: cv-match-discover
+  cancel-in-progress: false
+
+jobs:
+  discover-cv-match:
+    name: Find jobs matching CV 0020_raw
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    env:
+      PYTHONUNBUFFERED: "1"
+      CV_MATCH_MIN_SCORE: ${{ github.event.inputs.min_score || '3' }}
+      ENABLE_GREENHOUSE: "1"
+      ENABLE_LEVER: "1"
+      ENABLE_THEIRSTACK: ${{ github.event.inputs.enable_theirstack == 'false' && '0' || '1' }}
+      ENABLE_APIFY: ${{ github.event.inputs.enable_apify == 'false' && '0' || '1' }}
+      ENABLE_PREDICTLEADS: "0"
+      ENABLE_GMAIL_ALERTS: "0"
+      ENABLE_EFC: "0"
+      ENABLE_STEPSTONE: "0"
+      APIFY_ACTOR_ID: ${{ secrets.APIFY_ACTOR_ID || 'orgupdate~google-jobs-scraper' }}
+      APIFY_MAX_ITEMS: "30"
+      APIFY_COUNTRY: "DE"
+      THEIRSTACK_LIMIT: "10"
+      THEIRSTACK_API_KEY: ${{ secrets.THEIRSTACK_API_KEY }}
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install minimal deps
+        run: |
+          python -m pip install --upgrade pip
+          # discover uses stdlib + local modules; optional PDF extract
+          pip install pypdf || true
+
+      - name: Ensure CV text for 0020_raw
+        run: |
+          if [ ! -f _cv_0020_extracted.txt ] && [ -f 0020_raw_marti__bayo_alemany_curriculum.pdf ]; then
+            python - <<'PY'
+          from pathlib import Path
+          try:
+              import pypdf
+              pdf = Path("0020_raw_marti__bayo_alemany_curriculum.pdf")
+              r = pypdf.PdfReader(str(pdf))
+              text = "\n".join((p.extract_text() or "") for p in r.pages)
+              Path("_cv_0020_extracted.txt").write_text(text, encoding="utf-8")
+              print("extracted", len(text), "chars")
+          except Exception as e:
+              print("extract skip:", e)
+          PY
+          fi
+          test -f _cv_0020_extracted.txt && wc -c _cv_0020_extracted.txt || echo "WARN: no CV text"
+
+      - name: Discover + filter by CV 0020_raw
+        run: |
+          python -u discover_cv_match_jobs.py
+
+      - name: Summary
+        run: |
+          echo "## CV 0020 match summary" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f cv_match_report.md ]; then
+            # first 80 lines into job summary
+            head -n 80 cv_match_report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ -f applications_cv_match_0020.csv ]; then
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "Queue rows: $(tail -n +2 applications_cv_match_0020.csv | wc -l | tr -d ' ')" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-match-0020-${{ github.run_id }}
+          path: |
+            applications_cv_match_0020.csv
+            cv_match_report.md
+            cv_match_report.json
+            discover_cv_match.log
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit latest report to branch cv-match-latest
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BRANCH=cv-match-latest
+          git fetch origin "$BRANCH" 2>/dev/null || true
+          git checkout -B "$BRANCH"
+          mkdir -p reports
+          cp -f applications_cv_match_0020.csv reports/ 2>/dev/null || true
+          cp -f cv_match_report.md reports/ 2>/dev/null || true
+          cp -f cv_match_report.json reports/ 2>/dev/null || true
+          git add reports/applications_cv_match_0020.csv reports/cv_match_report.md reports/cv_match_report.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: CV 0020 match report $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push -u origin "$BRANCH" --force
+          fi
