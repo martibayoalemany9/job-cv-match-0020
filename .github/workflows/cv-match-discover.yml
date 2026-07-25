@@ -60,6 +60,9 @@ jobs:
       THEIRSTACK_LIMIT: "10"
       THEIRSTACK_API_KEY: ${{ secrets.THEIRSTACK_API_KEY }}
       APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+      PREDICTLEADS_API_KEY: ${{ secrets.PREDICTLEADS_API_KEY }}
+      PREDICTLEADS_API_TOKEN: ${{ secrets.PREDICTLEADS_API_TOKEN }}
+      ENABLE_PREDICTLEADS: "1"
 
     steps:
       - name: Checkout
