@@ -61,11 +61,20 @@ $py = "python"
 if (Get-Command python -ErrorAction SilentlyContinue) { $py = "python" }
 elseif (Get-Command py -ErrorAction SilentlyContinue) { $py = "py -3" }
 
+# Quick CDP probe before launching long browser automation
+$cdp = if ($env:CDP_URL) { $env:CDP_URL } else { "http://127.0.0.1:9223" }
+try {
+  $null = Invoke-WebRequest -Uri "$cdp/json/version" -TimeoutSec 5 -UseBasicParsing
+  Write-Host "CDP reachable: $cdp"
+} catch {
+  Write-Error "CDP not reachable at $cdp — start Chromium with --remote-debugging-port=9223"
+  exit 3
+}
+
 $entry = Join-Path $grokRoot "grok_apply_with_report.py"
 $privateApply = Join-Path $workdir "complete_apply.py"
 if (Test-Path $privateApply) {
   Write-Host "Using private complete_apply.py in workdir"
-  $env:COMPLETE_MAX = $env:COMPLETE_MAX
   & python -u $privateApply
   $code = $LASTEXITCODE
 } elseif (Test-Path $entry) {
@@ -73,7 +82,7 @@ if (Test-Path $privateApply) {
   & python -u $entry --no-open
   $code = $LASTEXITCODE
 } else {
-  Write-Error "No apply entrypoint found"
+  Write-Error "No apply entrypoint found (clone grok_apply_with_report or set GROK_APPLY_ROOT)"
   exit 2
 }
 

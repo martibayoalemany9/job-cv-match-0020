@@ -266,15 +266,31 @@ jobs:
         run: python -u scripts/check_in_applications.py
 
       - name: Grok apply
+        id: grok_apply
         if: >
           steps.detect.outputs.running != 'true'
           && github.event.inputs.skip_apply != 'true'
+        continue-on-error: true
+        timeout-minutes: 12
         shell: pwsh
         run: |
-          Write-Host "Starting Grok apply COMPLETE_MAX=$env:COMPLETE_MAX"
+          Write-Host "Starting Grok apply COMPLETE_MAX=$env:COMPLETE_MAX CDP_URL=$env:CDP_URL"
+          # Fail fast if Chromium CDP is not listening (common on headless VMs)
+          try {
+            $cdp = if ($env:CDP_URL) { $env:CDP_URL } else { 'http://127.0.0.1:9223' }
+            $probe = Invoke-WebRequest -Uri "$cdp/json/version" -TimeoutSec 5 -UseBasicParsing
+            Write-Host "CDP ok: $($probe.StatusCode)"
+          } catch {
+            Write-Warning "CDP not available at $cdp — skip browser apply this cycle"
+            "cdp_ok=false" | Out-File $env:GITHUB_OUTPUT -Append -Encoding utf8
+            exit 0
+          }
+          "cdp_ok=true" | Out-File $env:GITHUB_OUTPUT -Append -Encoding utf8
           & pwsh -NoProfile -File scripts/run_grok_apply.ps1
-          if ($LASTEXITCODE -ne 0) {
-            Write-Warning "Apply exit $LASTEXITCODE (continuing to explain)"
+          $code = $LASTEXITCODE
+          "apply_exit=$code" | Out-File $env:GITHUB_OUTPUT -Append -Encoding utf8
+          if ($code -ne 0) {
+            Write-Warning "Apply exit $code (continuing to explain)"
           }
           exit 0
 
