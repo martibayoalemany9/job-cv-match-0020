@@ -1,0 +1,260 @@
+# Every ~10 minutes on the self-hosted Windows runner:
+#  1) If Grok/complete_apply is already running → skip starting another apply
+#  2) Else check-in newly discovered applications into the apply queue
+#  3) Start one Grok job application
+#  4) Always run failure analysis explaining why applications failed
+#
+# Runner: self-hosted (pc-WINDOWS-2025-N2 registered for this repo)
+# Workdir (private data): JOB_APPLY_WORKDIR env / default
+#   C:\Users\<user>\job-application-bot\data\etoro-apply-report
+#
+# Optional repo Variables (Settings → Variables → Actions):
+#   JOB_APPLY_WORKDIR, GROK_APPLY_ROOT, CDP_URL, COMPLETE_MAX
+#
+# Optional Secrets: none required for local browser apply (uses machine profile)
+
+name: grok-apply-cycle
+
+on:
+  schedule:
+    # GitHub cron is UTC; on self-hosted this is the wake-up cadence.
+    # Note: GitHub may delay schedules slightly under load.
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      force_apply:
+        description: "Apply even if a lock looks held (stale lock cleanup only)"
+        type: boolean
+        default: false
+      skip_apply:
+        description: "Only check-in + explain failures (do not start Grok apply)"
+        type: boolean
+        default: false
+      complete_max:
+        description: "Max applications this cycle (default 1)"
+        required: false
+        default: "1"
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: grok-apply-cycle
+  cancel-in-progress: false
+
+jobs:
+  # ------------------------------------------------------------------
+  # Job 1: check-in + apply with Grok (skipped if already running)
+  # ------------------------------------------------------------------
+  apply-with-grok:
+    name: Check-in + apply (Grok)
+    runs-on: self-hosted
+    timeout-minutes: 25
+    outputs:
+      grok_running: ${{ steps.detect.outputs.running }}
+      applied: ${{ steps.apply_flag.outputs.applied }}
+      added: ${{ steps.checkin.outputs.added }}
+      queued_total: ${{ steps.checkin.outputs.queued_total }}
+
+    env:
+      PYTHONUNBUFFERED: "1"
+      JOB_APPLY_WORKDIR: ${{ vars.JOB_APPLY_WORKDIR || '' }}
+      GROK_APPLY_ROOT: ${{ vars.GROK_APPLY_ROOT || '' }}
+      CDP_URL: ${{ vars.CDP_URL || 'http://127.0.0.1:9223' }}
+      COMPLETE_MAX: ${{ github.event.inputs.complete_max || vars.COMPLETE_MAX || '1' }}
+      OPEN_REPORT: "0"
+      APPLY_BROWSER: "chromium"
+      APPLY_BROWSER_FULLSCREEN: "0"
+      ONE_PER_COMPANY: "1"
+      SKIP_ATTEMPTED: "1"
+      SKIP_WORKDAY: "1"
+      USE_CHATBOT: "0"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve workdir (Windows defaults)
+        shell: pwsh
+        run: |
+          if (-not $env:JOB_APPLY_WORKDIR -or $env:JOB_APPLY_WORKDIR.Trim() -eq "") {
+            $default = Join-Path $env:USERPROFILE "job-application-bot\data\etoro-apply-report"
+            $env:JOB_APPLY_WORKDIR = $default
+            echo "JOB_APPLY_WORKDIR=$default" >> $env:GITHUB_ENV
+          }
+          New-Item -ItemType Directory -Force -Path $env:JOB_APPLY_WORKDIR | Out-Null
+          Write-Host "JOB_APPLY_WORKDIR=$env:JOB_APPLY_WORKDIR"
+
+      - name: Detect if Grok apply is already running
+        id: detect
+        shell: pwsh
+        run: |
+          python -u scripts/is_grok_running.py
+          # Script: exit 0 = running, 1 = not running
+          if ($LASTEXITCODE -eq 0) {
+            "running=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+            Write-Host "Grok/apply IS running — will not start another apply"
+          } else {
+            "running=false" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+            Write-Host "Grok/apply is idle"
+            # ensure outputs from script if present
+          }
+          exit 0
+
+      - name: Check in new applications
+        id: checkin
+        if: steps.detect.outputs.running != 'true' || github.event.inputs.force_apply == 'true'
+        shell: pwsh
+        run: |
+          python -u scripts/check_in_applications.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Skip note when Grok already running
+        if: steps.detect.outputs.running == 'true' && github.event.inputs.force_apply != 'true'
+        shell: pwsh
+        run: |
+          "### Skipped apply" | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
+          "Grok/complete_apply is already running on this machine. No new apply started." | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
+          "applied=false" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          # still run a lightweight check-in report of current queue if CSV exists
+          if (Test-Path "$env:JOB_APPLY_WORKDIR\applications_resolved_ats.csv") {
+            $n = (Import-Csv "$env:JOB_APPLY_WORKDIR\applications_resolved_ats.csv" | Measure-Object).Count
+            Write-Host "Existing queue rows: $n"
+          }
+
+      - name: Start Grok apply (one application)
+        id: apply
+        if: >
+          (steps.detect.outputs.running != 'true' || github.event.inputs.force_apply == 'true')
+          && github.event.inputs.skip_apply != 'true'
+        shell: pwsh
+        run: |
+          Write-Host "Starting Grok apply COMPLETE_MAX=$env:COMPLETE_MAX"
+          & pwsh -NoProfile -File scripts/run_grok_apply.ps1
+          $code = $LASTEXITCODE
+          "apply_exit=$code" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "applied=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          # Do not fail the whole workflow on a single apply miss — analysis job explains it
+          if ($code -ne 0) {
+            Write-Warning "Apply exited with code $code (continuing to failure analysis)"
+          }
+          exit 0
+
+      - name: Mark applied flag when apply skipped by input
+        id: apply_flag
+        if: always()
+        shell: pwsh
+        run: |
+          $applied = "false"
+          if ("${{ steps.apply.outcome }}" -eq "success") { $applied = "true" }
+          if ("${{ steps.detect.outputs.running }}" -eq "true" -and "${{ github.event.inputs.force_apply }}" -ne "true") {
+            $applied = "false"
+          }
+          if ("${{ github.event.inputs.skip_apply }}" -eq "true") { $applied = "false" }
+          "applied=$applied" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          Write-Host "applied=$applied"
+
+      - name: Upload apply cycle logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: apply-cycle-${{ github.run_id }}
+          path: |
+            ${{ env.JOB_APPLY_WORKDIR }}/check_in_report.json
+            ${{ env.JOB_APPLY_WORKDIR }}/complete_apply_results.json
+            ${{ env.JOB_APPLY_WORKDIR }}/applications_complete_apply.csv
+            ${{ env.JOB_APPLY_WORKDIR }}/applications_ledger.jsonl
+          if-no-files-found: warn
+          retention-days: 14
+
+  # ------------------------------------------------------------------
+  # Job 2: explain why applications failed
+  # ------------------------------------------------------------------
+  explain-failures:
+    name: Explain application failures
+    needs: apply-with-grok
+    if: always()
+    runs-on: self-hosted
+    timeout-minutes: 10
+
+    env:
+      PYTHONUNBUFFERED: "1"
+      JOB_APPLY_WORKDIR: ${{ vars.JOB_APPLY_WORKDIR || '' }}
+      FAILURE_ANALYSIS_LIMIT: "50"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve workdir
+        shell: pwsh
+        run: |
+          if (-not $env:JOB_APPLY_WORKDIR -or $env:JOB_APPLY_WORKDIR.Trim() -eq "") {
+            $default = Join-Path $env:USERPROFILE "job-application-bot\data\etoro-apply-report"
+            $env:JOB_APPLY_WORKDIR = $default
+            echo "JOB_APPLY_WORKDIR=$default" >> $env:GITHUB_ENV
+          }
+          Write-Host "JOB_APPLY_WORKDIR=$env:JOB_APPLY_WORKDIR"
+
+      - name: Analyze failures
+        id: explain
+        shell: pwsh
+        run: |
+          python -u scripts/explain_failures.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Upload failure analysis
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failure-analysis-${{ github.run_id }}
+          path: |
+            reports/failure_analysis.md
+            reports/failure_analysis.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit failure analysis to branch apply-status-latest
+        if: always()
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          $branch = "apply-status-latest"
+          git fetch origin $branch 2>$null
+          git checkout -B $branch
+          New-Item -ItemType Directory -Force -Path reports | Out-Null
+          if (Test-Path reports/failure_analysis.md) {
+            git add reports/failure_analysis.md reports/failure_analysis.json 2>$null
+            git diff --staged --quiet
+            if ($LASTEXITCODE -ne 0) {
+              $ts = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mmZ")
+              git commit -m "chore: failure analysis $ts"
+              git push -u origin $branch --force
+            } else {
+              Write-Host "No analysis changes to commit"
+            }
+          } else {
+            Write-Host "No failure_analysis.md produced"
+          }
+
+      - name: Cycle summary
+        if: always()
+        shell: pwsh
+        run: |
+          $s = $env:GITHUB_STEP_SUMMARY
+          @"
+          ## Grok apply cycle
+
+          | Field | Value |
+          |-------|-------|
+          | Grok already running | `${{ needs.apply-with-grok.outputs.grok_running }}` |
+          | Applied this cycle | `${{ needs.apply-with-grok.outputs.applied }}` |
+          | Queue added | `${{ needs.apply-with-grok.outputs.added }}` |
+          | Queue total | `${{ needs.apply-with-grok.outputs.queued_total }}` |
+          | Failures explained | `${{ steps.explain.outputs.failure_count }}` |
+          | Successes on record | `${{ steps.explain.outputs.success_count }}` |
+
+          Schedule: every 10 minutes (`*/10 * * * *` UTC) on **self-hosted**.
+          "@ | Out-File -FilePath $s -Append -Encoding utf8

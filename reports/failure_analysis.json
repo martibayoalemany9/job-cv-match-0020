@@ -1,0 +1,160 @@
+{
+  "ts": "2026-07-25T19:54:55.660084+00:00",
+  "workdir": "C:\\Users\\martibayoalemany4\\job-application-bot\\data\\etoro-apply-report",
+  "total_records": 36,
+  "success_count": 1,
+  "failure_count": 13,
+  "by_status": {
+    "partial_form_filled": 5,
+    "login_required": 4,
+    "exception": 2,
+    "ats_opened_incomplete": 2
+  },
+  "by_reason": {
+    "Authentication / login wall": 5,
+    "Some fields were filled but final submit was not confirmed (validation errors, captcha, missing required field).": 4,
+    "Job posting closed": 2,
+    "ATS form left incomplete.": 1,
+    "Missing required form field": 1
+  },
+  "top_companies": {
+    "Meta (Facebook)": 5,
+    "SAP": 4,
+    "Vesterling AG": 1,
+    "SkillTank GmbH & Co. KG": 1,
+    "NTT DATA Europe & Latam": 1,
+    "Ashby": 1
+  },
+  "recent_failures": [
+    {
+      "ts": "2026-07-25T19:34:48",
+      "company": "Vesterling AG",
+      "title": "SAP Public Cloud Integration Architect | SAP BTP, SAP Integration Suite, API Man",
+      "status": "exception",
+      "detail": "Page.goto: Target page, context or browser has been closed",
+      "explained_reason": "Job posting closed",
+      "url": "https://de.linkedin.com/jobs/view/sap-public-cloud-integration-architect-sap-btp-sap-integration-suite-api-management-mwd-at-vesterling-ag-4445323452",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T19:34:46",
+      "company": "SkillTank GmbH & Co. KG",
+      "title": "Linux Engineer – DevOps (m/w/d)- Deutschlandweit",
+      "status": "exception",
+      "detail": "Page.goto: Target page, context or browser has been closed",
+      "explained_reason": "Job posting closed",
+      "url": "https://de.linkedin.com/jobs/view/linux-engineer-%E2%80%93-devops-m-w-d-deutschlandweit-at-skilltank-gmbh-co-kg-4442309559",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T19:34:02",
+      "company": "NTT DATA Europe & Latam",
+      "title": "Lead Cloud Software Architect für AWS (w/m/x)",
+      "status": "ats_opened_incomplete",
+      "detail": "Opened listing but could not fill form. final_url=https://de.linkedin.com/jobs/view/lead-cloud-software-architect-f%C3%BCr-aws-w-m-x-at-ntt-data-europ",
+      "explained_reason": "ATS form left incomplete.",
+      "url": "https://de.linkedin.com/jobs/view/lead-cloud-software-architect-f%C3%BCr-aws-w-m-x-at-ntt-data-europe-latam-4406429955",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T18:54:35",
+      "company": "Meta (Facebook)",
+      "title": "Software Engineer, Systems ML Engineering",
+      "status": "partial_form_filled",
+      "detail": "Still missing: gender",
+      "explained_reason": "Some fields were filled but final submit was not confirmed (validation errors, captcha, missing required field).",
+      "url": "https://www.metacareers.com/profile/create_application/2136998990191804/",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T18:51:48",
+      "company": "Meta (Facebook)",
+      "title": "Software Engineer, Systems ML Engineering",
+      "status": "partial_form_filled",
+      "detail": "Submit attempted; verify screenshots for confirmation",
+      "explained_reason": "Some fields were filled but final submit was not confirmed (validation errors, captcha, missing required field).",
+      "url": "https://www.metacareers.com/profile/create_application/2136998990191804/",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T18:49:54",
+      "company": "Meta (Facebook)",
+      "title": "Software Engineer, Systems ML Engineering",
+      "status": "login_required",
+      "detail": "Post-submit Meta account login required",
+      "explained_reason": "Authentication / login wall",
+      "url": "https://www.metacareers.com/profile/create_application/2136998990191804/",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T18:45:46",
+      "company": "Meta (Facebook)",
+      "title": "Software Engineer, Systems ML Engineering",
+      "status": "login_required",
+      "detail": "Submit led to Meta account login/SSO wall",
+      "explained_reason": "Authentication / login wall",
+      "url": "https://www.metacareers.com/profile/create_application/2136998990191804/",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T18:41:13",
+      "company": "Meta (Facebook)",
+      "title": "Software Engineer, Systems ML Engineering",
+      "status": "login_required",
+      "detail": "Meta Careers requires account login/password (or Facebook SSO). Email prefilled as martibayoalemany@gmail.com. Log in once in chrome-profile-meta, then re-run.",
+      "explained_reason": "Authentication / login wall",
+      "url": "https://www.metacareers.com/profile/create_application/2136998990191804/",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T18:32:36",
+      "company": "Ashby",
+      "title": "Staff Software Engineer, Product Engineering - EU",
+      "status": "partial_form_filled",
+      "detail": "Clicked submit; may need required fields (uploads=2). Check screenshot.",
+      "explained_reason": "Missing required form field",
+      "url": "https://jobs.ashbyhq.com/ashby/c3c7125d-7883-4dff-a2bf-f5a55de4a364/application",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T18:17:20",
+      "company": "SAP",
+      "title": "Master - SAP AI Engineering Architect (f/m/d)",
+      "status": "partial_form_filled",
+      "detail": "Reached SAP apply flow; filled what was possible (uploads=0). Manual finish may be required. url=https://jobs.sap.com/",
+      "explained_reason": "Some fields were filled but final submit was not confirmed (validation errors, captcha, missing required field).",
+      "url": "https://jobs.sap.com/",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T18:13:43",
+      "company": "SAP",
+      "title": "Master - SAP AI Engineering Architect (f/m/d)",
+      "status": "partial_form_filled",
+      "detail": "In SAP ATS but stuck on multi-step form. uploads=0. url=https://career5.successfactors.eu/careers?company=SAP",
+      "explained_reason": "Some fields were filled but final submit was not confirmed (validation errors, captcha, missing required field).",
+      "url": "https://career5.successfactors.eu/careers?company=SAP",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T18:11:50",
+      "company": "SAP",
+      "title": "Master - SAP AI Engineering Architect (f/m/d)",
+      "status": "login_required",
+      "detail": "ATS requires candidate account login/password. Email prefilled; complete sign-in manually then re-run.",
+      "explained_reason": "Authentication / login wall",
+      "url": "https://career5.successfactors.eu/careers?company=SAP",
+      "app_id": ""
+    },
+    {
+      "ts": "2026-07-25T18:07:49",
+      "company": "SAP",
+      "title": "Leaders",
+      "status": "ats_opened_incomplete",
+      "detail": "Opened job posting but could not fill form automatically (likely login wall or custom ATS). final_url=https://jobs.sap.com/content/Leadership/?locale=en_US",
+      "explained_reason": "Authentication / login wall",
+      "url": "https://jobs.sap.com/content/Leadership/?locale=en_US",
+      "app_id": ""
+    }
+  ]
+}
