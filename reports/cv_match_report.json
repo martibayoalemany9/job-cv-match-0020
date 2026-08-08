@@ -1,11 +1,29 @@
 {
-  "generated_utc": "2026-07-25T18:36:51Z",
+  "generated_utc": "2026-08-08T17:21:13Z",
   "cv": "0020_raw",
   "min_score": 3,
-  "raw_discovered": 868,
-  "cv_matched": 645,
-  "preferred_titles": 202,
+  "raw_discovered": 923,
+  "cv_matched": 693,
+  "preferred_titles": 209,
   "top": [
+    {
+      "company": "Elastic",
+      "title": "Principal software developer/Tech Lead, Agent Framework - Observability",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8106089&gh_jid=8106089",
+      "location": "Canada",
+      "cv_score": 12,
+      "preferred": true,
+      "source": "greenhouse:elastic"
+    },
+    {
+      "company": "Twilio",
+      "title": "Tech Lead /Sr. Principal Engineer (L6)",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7966928",
+      "location": "Remote - India",
+      "cv_score": 10,
+      "preferred": true,
+      "source": "greenhouse:twilio"
+    },
     {
       "company": "Stripe",
       "title": "Engineering Manager, AI Conversation Platform",
@@ -34,15 +52,6 @@
       "source": "greenhouse:gitlab"
     },
     {
-      "company": "GitLab",
-      "title": "Engineering Manager, Observability, Monitoring, and Integrations (Monetization)",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8481197002",
-      "location": "Bangalore, India",
-      "cv_score": 8,
-      "preferred": true,
-      "source": "greenhouse:gitlab"
-    },
-    {
       "company": "Airtable",
       "title": "Sr. Engineering Manager, Enterprise Platform",
       "url": "https://job-boards.greenhouse.io/airtable/jobs/8177765002",
@@ -59,6 +68,15 @@
       "cv_score": 8,
       "preferred": true,
       "source": "greenhouse:airbnb"
+    },
+    {
+      "company": "Discord",
+      "title": "Engineering Manager, Platform Security",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8649856002",
+      "location": "San Francisco Bay Area ",
+      "cv_score": 8,
+      "preferred": true,
+      "source": "greenhouse:discord"
     },
     {
       "company": "Stripe",
@@ -143,27 +161,9 @@
     },
     {
       "company": "Asana",
-      "title": "Engineering Manager, Builder Platform",
-      "url": "https://www.asana.com/jobs/apply/7979918?gh_jid=7979918",
-      "location": "Warsaw",
-      "cv_score": 7,
-      "preferred": true,
-      "source": "greenhouse:asana"
-    },
-    {
-      "company": "Asana",
       "title": "Engineering Manager, Platform Reliability",
       "url": "https://www.asana.com/jobs/apply/7586980?gh_jid=7586980",
       "location": "Warsaw",
-      "cv_score": 7,
-      "preferred": true,
-      "source": "greenhouse:asana"
-    },
-    {
-      "company": "Asana",
-      "title": "Senior Engineering Manager, Payment Platform",
-      "url": "https://www.asana.com/jobs/apply/7957984?gh_jid=7957984",
-      "location": "Vancouver, BC",
       "cv_score": 7,
       "preferred": true,
       "source": "greenhouse:asana"
@@ -176,6 +176,15 @@
       "cv_score": 7,
       "preferred": true,
       "source": "greenhouse:reddit"
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Cloud Infrastructure",
+      "url": "https://www.brex.com/careers/8534633002?gh_jid=8534633002",
+      "location": "San Francisco, California, United States",
+      "cv_score": 7,
+      "preferred": true,
+      "source": "greenhouse:brex"
     },
     {
       "company": "Brex",
@@ -194,24 +203,6 @@
       "cv_score": 7,
       "preferred": true,
       "source": "greenhouse:brex"
-    },
-    {
-      "company": "Brex",
-      "title": "Engineering Manager, Cloud Infrastructure",
-      "url": "https://www.brex.com/careers/8534633002?gh_jid=8534633002",
-      "location": "San Francisco, California, United States",
-      "cv_score": 7,
-      "preferred": true,
-      "source": "greenhouse:brex"
-    },
-    {
-      "company": "Airbnb",
-      "title": "Engineering Manager, Marketing Technology - Segmentation Platform & Insights Platform",
-      "url": "https://careers.airbnb.com/positions/7927488?gh_jid=7927488",
-      "location": "United States",
-      "cv_score": 7,
-      "preferred": true,
-      "source": "greenhouse:airbnb"
     },
     {
       "company": "Spotify",
@@ -269,6 +260,15 @@
     },
     {
       "company": "Asana",
+      "title": "Senior Engineering Manager, AI Agents",
+      "url": "https://www.asana.com/jobs/apply/7586942?gh_jid=7586942",
+      "location": "Vancouver, BC",
+      "cv_score": 6,
+      "preferred": true,
+      "source": "greenhouse:asana"
+    },
+    {
+      "company": "Asana",
       "title": "Senior Engineering Manager, Security",
       "url": "https://www.asana.com/jobs/apply/7565961?gh_jid=7565961",
       "location": "San Francisco",
@@ -304,19 +304,19 @@
       "source": "greenhouse:coinbase"
     },
     {
-      "company": "Robinhood",
-      "title": "Engineering Manager, Agentic AI",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8054116?t=gh_src=&gh_jid=8054116",
-      "location": "Menlo Park, CA",
-      "cv_score": 6,
-      "preferred": true,
-      "source": "greenhouse:robinhood"
-    },
-    {
       "company": "Spotify",
       "title": "Engineering Manager - Social Listening",
       "url": "https://jobs.lever.co/spotify/b12565d7-30fb-4eee-84df-9ea90da70174",
       "location": "Stockholm",
+      "cv_score": 6,
+      "preferred": true,
+      "source": "lever:spotify"
+    },
+    {
+      "company": "Spotify",
+      "title": "Machine Learning Engineering Manager, Personalization",
+      "url": "https://jobs.lever.co/spotify/aca5697a-a87a-415e-8d58-627bb782cce8",
+      "location": "New York, NY",
       "cv_score": 6,
       "preferred": true,
       "source": "lever:spotify"
@@ -350,9 +350,9 @@
     },
     {
       "company": "Stripe",
-      "title": "Engineering Manager - Money Management",
-      "url": "https://stripe.com/jobs/search?gh_jid=8066610",
-      "location": "London ",
+      "title": "Engineering Manager, Metronome (Billing)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7737243",
+      "location": "Toronto, Canada",
       "cv_score": 5,
       "preferred": true,
       "source": "greenhouse:stripe"
@@ -369,7 +369,7 @@
     {
       "company": "Stripe",
       "title": "Engineering Manager, Payments",
-      "url": "https://stripe.com/jobs/search?gh_jid=8009622",
+      "url": "https://stripe.com/jobs/search?gh_jid=8104767",
       "location": "Singapore",
       "cv_score": 5,
       "preferred": true,
@@ -395,12 +395,48 @@
     },
     {
       "company": "Stripe",
+      "title": "Engineering Manager, Startup Products",
+      "url": "https://stripe.com/jobs/search?gh_jid=8090147",
+      "location": "N/A",
+      "cv_score": 5,
+      "preferred": true,
+      "source": "greenhouse:stripe"
+    },
+    {
+      "company": "Stripe",
       "title": "Engineering Manager, Terminal",
       "url": "https://stripe.com/jobs/search?gh_jid=7769005",
       "location": "Toronto, Canada",
       "cv_score": 5,
       "preferred": true,
       "source": "greenhouse:stripe"
+    },
+    {
+      "company": "Stripe",
+      "title": "Technical Solutions Engineering Manager",
+      "url": "https://stripe.com/jobs/search?gh_jid=8079858",
+      "location": "San Francisco or Seattle",
+      "cv_score": 5,
+      "preferred": true,
+      "source": "greenhouse:stripe"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Engineering Manager, Browser Run",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8099000?gh_jid=8099000",
+      "location": "Hybrid",
+      "cv_score": 5,
+      "preferred": true,
+      "source": "greenhouse:cloudflare"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Engineering Manager, Cloudflare Network Interconnect",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8083701?gh_jid=8083701",
+      "location": "Hybrid",
+      "cv_score": 5,
+      "preferred": true,
+      "source": "greenhouse:cloudflare"
     },
     {
       "company": "Cloudflare",
@@ -413,48 +449,12 @@
     },
     {
       "company": "Cloudflare",
-      "title": "Senior Engineering Manager - Cloudforce One",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8020472?gh_jid=8020472",
+      "title": "Engineering Manager - Workers Runtime, Edge Team",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7653558?gh_jid=7653558",
       "location": "Hybrid",
       "cv_score": 5,
       "preferred": true,
       "source": "greenhouse:cloudflare"
-    },
-    {
-      "company": "Datadog",
-      "title": "Engineering Manager I, Threat Detection",
-      "url": "https://careers.datadoghq.com/detail/7958663/?gh_jid=7958663",
-      "location": "New York, New York, USA",
-      "cv_score": 5,
-      "preferred": true,
-      "source": "greenhouse:datadog"
-    },
-    {
-      "company": "Airtable",
-      "title": "Engineering Manager, Admin & Governance",
-      "url": "https://job-boards.greenhouse.io/airtable/jobs/8625370002",
-      "location": "San Francisco, CA",
-      "cv_score": 5,
-      "preferred": true,
-      "source": "greenhouse:airtable"
-    },
-    {
-      "company": "Twilio",
-      "title": "Senior Engineering Manager (L5)",
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/8001804",
-      "location": "Remote - India",
-      "cv_score": 5,
-      "preferred": true,
-      "source": "greenhouse:twilio"
-    },
-    {
-      "company": "Twilio",
-      "title": "Senior Engineering Manager, Voice and Video",
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/8073683",
-      "location": "Remote - Ireland",
-      "cv_score": 5,
-      "preferred": true,
-      "source": "greenhouse:twilio"
     }
   ]
 }
