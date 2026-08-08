@@ -1,0 +1,4019 @@
+{
+  "ts": "2026-08-08T16:49:50.067442+00:00",
+  "total_raw": 923,
+  "total_unique": 923,
+  "written_csv": 923,
+  "by_source": {
+    "greenhouse": 812,
+    "lever": 111,
+    "theirstack": 0,
+    "apify": 0,
+    "predictleads": 0,
+    "gmail_alerts": 0,
+    "stepstone": 0,
+    "efc": 0
+  },
+  "errors": [],
+  "jobs": [
+    {
+      "company": "Elastic",
+      "title": "Principal software developer/Tech Lead, Agent Framework - Observability",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8106089&gh_jid=8106089",
+      "location": "Canada",
+      "source": "greenhouse:elastic",
+      "score": 180
+    },
+    {
+      "company": "Airbnb",
+      "title": "Engineering Manager, Cloud & Data Security",
+      "url": "https://careers.airbnb.com/positions/8074765?gh_jid=8074765",
+      "location": "United States",
+      "source": "greenhouse:airbnb",
+      "score": 175
+    },
+    {
+      "company": "Airbnb",
+      "title": "Engineering Manager, Community Support Engineering",
+      "url": "https://careers.airbnb.com/positions/7760914?gh_jid=7760914",
+      "location": "China",
+      "source": "greenhouse:airbnb",
+      "score": 175
+    },
+    {
+      "company": "Airbnb",
+      "title": "Engineering Manager, Guest & Host",
+      "url": "https://careers.airbnb.com/positions/7532824?gh_jid=7532824",
+      "location": "London, United Kingdom",
+      "source": "greenhouse:airbnb",
+      "score": 175
+    },
+    {
+      "company": "Airbnb",
+      "title": "Engineering Manager, Payments",
+      "url": "https://careers.airbnb.com/positions/8044558?gh_jid=8044558",
+      "location": "USA - Remote",
+      "source": "greenhouse:airbnb",
+      "score": 175
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Engineering Manager, Media Foundation",
+      "url": "https://careers.airbnb.com/positions/7968034?gh_jid=7968034",
+      "location": "United States",
+      "source": "greenhouse:airbnb",
+      "score": 175
+    },
+    {
+      "company": "Airtable",
+      "title": "Engineering Manager, Admin & Governance",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/8625370002",
+      "location": "San Francisco, CA",
+      "source": "greenhouse:airtable",
+      "score": 175
+    },
+    {
+      "company": "Airtable",
+      "title": "Engineering Manager, AI Tooling",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/8606309002",
+      "location": "San Francisco, CA",
+      "source": "greenhouse:airtable",
+      "score": 175
+    },
+    {
+      "company": "Airtable",
+      "title": "Sr. Engineering Manager, Enterprise Platform",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/8177765002",
+      "location": "San Francisco, CA",
+      "source": "greenhouse:airtable",
+      "score": 175
+    },
+    {
+      "company": "Asana",
+      "title": "Engineering Manager",
+      "url": "https://www.asana.com/jobs/apply/7555402?gh_jid=7555402",
+      "location": "Vancouver, BC",
+      "source": "greenhouse:asana",
+      "score": 175
+    },
+    {
+      "company": "Asana",
+      "title": "Engineering Manager, Development Infrastructure",
+      "url": "https://www.asana.com/jobs/apply/6174752?gh_jid=6174752",
+      "location": "Reykjavík",
+      "source": "greenhouse:asana",
+      "score": 175
+    },
+    {
+      "company": "Asana",
+      "title": "Engineering Manager, Growth",
+      "url": "https://www.asana.com/jobs/apply/7629755?gh_jid=7629755",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 175
+    },
+    {
+      "company": "Asana",
+      "title": "Engineering Manager, Platform Reliability",
+      "url": "https://www.asana.com/jobs/apply/7586980?gh_jid=7586980",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 175
+    },
+    {
+      "company": "Asana",
+      "title": "Head of Engineering Operations",
+      "url": "https://www.asana.com/jobs/apply/7874977?gh_jid=7874977",
+      "location": "San Francisco",
+      "source": "greenhouse:asana",
+      "score": 175
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Analytical Engineering Manager",
+      "url": "https://www.asana.com/jobs/apply/8044811?gh_jid=8044811",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 175
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Engineering Manager, Agent Context",
+      "url": "https://www.asana.com/jobs/apply/8052206?gh_jid=8052206",
+      "location": "New York City",
+      "source": "greenhouse:asana",
+      "score": 175
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Engineering Manager, AI Agents",
+      "url": "https://www.asana.com/jobs/apply/7586942?gh_jid=7586942",
+      "location": "Vancouver, BC",
+      "source": "greenhouse:asana",
+      "score": 175
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Engineering Manager, AI Agents",
+      "url": "https://www.asana.com/jobs/apply/7454232?gh_jid=7454232",
+      "location": "San Francisco",
+      "source": "greenhouse:asana",
+      "score": 175
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Engineering Manager, Consumption Based Billing & Licensing",
+      "url": "https://www.asana.com/jobs/apply/7904869?gh_jid=7904869",
+      "location": "Vancouver, BC",
+      "source": "greenhouse:asana",
+      "score": 175
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Engineering Manager, Security",
+      "url": "https://www.asana.com/jobs/apply/7565961?gh_jid=7565961",
+      "location": "San Francisco",
+      "source": "greenhouse:asana",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Cloud Infrastructure",
+      "url": "https://www.brex.com/careers/8534621002?gh_jid=8534621002",
+      "location": "Seattle, Washington, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Cloud Infrastructure",
+      "url": "https://www.brex.com/careers/8534634002?gh_jid=8534634002",
+      "location": "New York, New York, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Cloud Infrastructure",
+      "url": "https://www.brex.com/careers/8534633002?gh_jid=8534633002",
+      "location": "San Francisco, California, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, GTM Engineering",
+      "url": "https://www.brex.com/careers/8339037002?gh_jid=8339037002",
+      "location": "San Francisco, California, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, GTM Engineering",
+      "url": "https://www.brex.com/careers/8367553002?gh_jid=8367553002",
+      "location": "Vancouver, British Columbia, Canada",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, GTM Engineering",
+      "url": "https://www.brex.com/careers/8367549002?gh_jid=8367549002",
+      "location": "New York, New York, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, GTM Engineering",
+      "url": "https://www.brex.com/careers/8367552002?gh_jid=8367552002",
+      "location": "Seattle, Washington, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Onboarding",
+      "url": "https://www.brex.com/careers/8461597002?gh_jid=8461597002",
+      "location": "Vancouver, British Columbia, Canada",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Onboarding",
+      "url": "https://www.brex.com/careers/8461600002?gh_jid=8461600002",
+      "location": "San Francisco, California, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Onboarding",
+      "url": "https://www.brex.com/careers/8461599002?gh_jid=8461599002",
+      "location": "New York, New York, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Onboarding",
+      "url": "https://www.brex.com/careers/8461598002?gh_jid=8461598002",
+      "location": "Seattle, Washington, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Travel",
+      "url": "https://www.brex.com/careers/8641189002?gh_jid=8641189002",
+      "location": "New York, New York, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Travel",
+      "url": "https://www.brex.com/careers/8623291002?gh_jid=8623291002",
+      "location": "Seattle, Washington, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Travel",
+      "url": "https://www.brex.com/careers/8641195002?gh_jid=8641195002",
+      "location": "Vancouver, British Columbia, Canada",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Brex",
+      "title": "Engineering Manager, Travel",
+      "url": "https://www.brex.com/careers/8641194002?gh_jid=8641194002",
+      "location": "San Francisco, California, United States",
+      "source": "greenhouse:brex",
+      "score": 175
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Engineering Manager - Security Platform",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8007815?gh_jid=8007815",
+      "location": "Distributed; Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 175
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Engineering Manager - Workers Runtime, Edge Team",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7653558?gh_jid=7653558",
+      "location": "Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 175
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Engineering Manager, Browser Run",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8099000?gh_jid=8099000",
+      "location": "Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 175
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Engineering Manager, Cloudflare Network Interconnect",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8083701?gh_jid=8083701",
+      "location": "Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 175
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Engineering Manager, Linux Team",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7647474?gh_jid=7647474",
+      "location": "Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 175
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Customer Engineering Manager, Majors - Texas",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8070722?gh_jid=8070722",
+      "location": "Distributed",
+      "source": "greenhouse:cloudflare",
+      "score": 175
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Engineering Manager - Cloudforce One",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8020472?gh_jid=8020472",
+      "location": "Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 175
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Engineering Manager, AI Gateway",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7997706?gh_jid=7997706",
+      "location": "In-Office",
+      "source": "greenhouse:cloudflare",
+      "score": 175
+    },
+    {
+      "company": "Coinbase",
+      "title": "Engineering Manager - Customer Experience AI",
+      "url": "https://www.coinbase.com/careers/positions/7741187?gh_jid=7741187",
+      "location": "Remote - India",
+      "source": "greenhouse:coinbase",
+      "score": 175
+    },
+    {
+      "company": "Datadog",
+      "title": "Engineering Manager I, Commercial Audit",
+      "url": "https://careers.datadoghq.com/detail/8098939/?gh_jid=8098939",
+      "location": "New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 175
+    },
+    {
+      "company": "Datadog",
+      "title": "Engineering Manager I, Threat Detection",
+      "url": "https://careers.datadoghq.com/detail/7958663/?gh_jid=7958663",
+      "location": "New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 175
+    },
+    {
+      "company": "Discord",
+      "title": "Engineering Manager, Notifications",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8537955002",
+      "location": "Remote",
+      "source": "greenhouse:discord",
+      "score": 175
+    },
+    {
+      "company": "Discord",
+      "title": "Engineering Manager, Platform Security",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8649856002",
+      "location": "San Francisco Bay Area ",
+      "source": "greenhouse:discord",
+      "score": 175
+    },
+    {
+      "company": "Discord",
+      "title": "Engineering Manager, Revenue",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8502342002",
+      "location": "San Francisco Bay Area or Remote",
+      "source": "greenhouse:discord",
+      "score": 175
+    },
+    {
+      "company": "Discord",
+      "title": "Engineering Manager, Safety",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8637688002",
+      "location": "San Francisco Bay Area ",
+      "source": "greenhouse:discord",
+      "score": 175
+    },
+    {
+      "company": "Discord",
+      "title": "Engineering Manager, Social Commerce",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8509325002",
+      "location": "San Francisco Bay Area",
+      "source": "greenhouse:discord",
+      "score": 175
+    },
+    {
+      "company": "GitLab",
+      "title": "Engineering Manager, AI Engineering: Chat",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8603824002",
+      "location": "Remote, Americas; Remote, Canada; Remote, United Kingdom",
+      "source": "greenhouse:gitlab",
+      "score": 175
+    },
+    {
+      "company": "GitLab",
+      "title": "Engineering Manager, Cell Infrastructure",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8615946002",
+      "location": "Bangalore, India",
+      "source": "greenhouse:gitlab",
+      "score": 175
+    },
+    {
+      "company": "GitLab",
+      "title": "Engineering Manager, Data Foundations",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
+      "location": "Remote, US",
+      "source": "greenhouse:gitlab",
+      "score": 175
+    },
+    {
+      "company": "GitLab",
+      "title": "Engineering Manager, Geo for Self-Managed Customers",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8607714002",
+      "location": "Remote, United Kingdom",
+      "source": "greenhouse:gitlab",
+      "score": 175
+    },
+    {
+      "company": "GitLab",
+      "title": "Engineering Manager, Growth",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592891002",
+      "location": "Remote, Canada; Remote, US",
+      "source": "greenhouse:gitlab",
+      "score": 175
+    },
+    {
+      "company": "GitLab",
+      "title": "Engineering Manager, SSCS: Supply Chain",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8478405002",
+      "location": "Bangalore, India",
+      "source": "greenhouse:gitlab",
+      "score": 175
+    },
+    {
+      "company": "GitLab",
+      "title": "Engineering Manager, Switchboard",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586632002",
+      "location": "Remote, United Kingdom",
+      "source": "greenhouse:gitlab",
+      "score": 175
+    },
+    {
+      "company": "GitLab",
+      "title": "Engineering Manager, Tenant Scale:Git",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002",
+      "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+      "source": "greenhouse:gitlab",
+      "score": 175
+    },
+    {
+      "company": "GitLab",
+      "title": "Senior Engineering Manager, Non-Linear Productivity",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626290002",
+      "location": "Remote, Canada; Remote, United Kingdom; Remote, US",
+      "source": "greenhouse:gitlab",
+      "score": 175
+    },
+    {
+      "company": "Pinterest",
+      "title": "Engineering Manager I, Innovative Ad Formats",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7684573",
+      "location": "San Francisco, CA, US; Palo Alto, CA, US",
+      "source": "greenhouse:pinterest",
+      "score": 175
+    },
+    {
+      "company": "Pinterest",
+      "title": "Engineering Manager II, Media Rendering",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8051472",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 175
+    },
+    {
+      "company": "Pinterest",
+      "title": "Sr. Engineering Manager, Programmatic Ad Tech, tvScientific",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7782569",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 175
+    },
+    {
+      "company": "Reddit",
+      "title": "Ads Conversion Modeling, Machine Learning Engineering Manager",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7792848",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 175
+    },
+    {
+      "company": "Reddit",
+      "title": "Engineering Manager, Ads ML Efficiency",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8022366",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 175
+    },
+    {
+      "company": "Reddit",
+      "title": "Engineering Manager, Advanced Signals (SWE)",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7966985",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 175
+    },
+    {
+      "company": "Reddit",
+      "title": "Engineering Manager, Search Storage",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7859086",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 175
+    },
+    {
+      "company": "Reddit",
+      "title": "Machine Learning Engineering Manager - Ads Engagement Modeling",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7993514",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 175
+    },
+    {
+      "company": "Reddit",
+      "title": "Senior Engineering Manager, Unified Embeddings Platform",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7359367",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 175
+    },
+    {
+      "company": "Robinhood",
+      "title": "Senior Engineering Manager",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7804654?t=gh_src=&gh_jid=7804654",
+      "location": "New York, NY",
+      "source": "greenhouse:robinhood",
+      "score": 175
+    },
+    {
+      "company": "Spotify",
+      "title": "Engineering Manager - Data Platform",
+      "url": "https://jobs.lever.co/spotify/abcc8b41-7553-4054-b5eb-8d3e49e00e25",
+      "location": "London",
+      "source": "lever:spotify",
+      "score": 175
+    },
+    {
+      "company": "Spotify",
+      "title": "Engineering Manager - Experimentation",
+      "url": "https://jobs.lever.co/spotify/64ef2493-3b1e-407a-ac07-9e95a57f6d7c",
+      "location": "Stockholm",
+      "source": "lever:spotify",
+      "score": 175
+    },
+    {
+      "company": "Spotify",
+      "title": "Engineering Manager - Social Listening",
+      "url": "https://jobs.lever.co/spotify/b12565d7-30fb-4eee-84df-9ea90da70174",
+      "location": "Stockholm",
+      "source": "lever:spotify",
+      "score": 175
+    },
+    {
+      "company": "Spotify",
+      "title": "Engineering Manager – Messaging Platform & Tooling",
+      "url": "https://jobs.lever.co/spotify/aaa18791-cdb6-493a-87c8-ef233f848a99",
+      "location": "New York, NY",
+      "source": "lever:spotify",
+      "score": 175
+    },
+    {
+      "company": "Spotify",
+      "title": "Machine Learning Engineering Manager, Personalization",
+      "url": "https://jobs.lever.co/spotify/aca5697a-a87a-415e-8d58-627bb782cce8",
+      "location": "New York, NY",
+      "source": "lever:spotify",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager - Core Performance",
+      "url": "https://stripe.com/jobs/search?gh_jid=7835108",
+      "location": "Sydney, Australia",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager, AI Conversation Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=7943804",
+      "location": "Toronto, Canada",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager, APAC & EMEA Cards",
+      "url": "https://stripe.com/jobs/search?gh_jid=7841757",
+      "location": "Singapore",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager, Forward Deployed (Privy)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7947546",
+      "location": "NYC-Privy",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager, Metronome (Billing)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7737243",
+      "location": "Toronto, Canada",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager, Operator Tooling",
+      "url": "https://stripe.com/jobs/search?gh_jid=7475396",
+      "location": "Bucharest",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager, Payments",
+      "url": "https://stripe.com/jobs/search?gh_jid=8104767",
+      "location": "Singapore",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager, Product (Privy)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7913545",
+      "location": "NYC-Privy",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager, Sales Systems",
+      "url": "https://stripe.com/jobs/search?gh_jid=7525370",
+      "location": "Bengaluru",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager, Startup Products",
+      "url": "https://stripe.com/jobs/search?gh_jid=8090147",
+      "location": "N/A",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager, Tax Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=8080238",
+      "location": "San Francisco, California",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Engineering Manager, Terminal",
+      "url": "https://stripe.com/jobs/search?gh_jid=7769005",
+      "location": "Toronto, Canada",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Machine Learning Engineering Manager - Fraud Detection",
+      "url": "https://stripe.com/jobs/search?gh_jid=8069506",
+      "location": "N/A",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Stripe",
+      "title": "Technical Solutions Engineering Manager",
+      "url": "https://stripe.com/jobs/search?gh_jid=8079858",
+      "location": "San Francisco or Seattle",
+      "source": "greenhouse:stripe",
+      "score": 175
+    },
+    {
+      "company": "Twilio",
+      "title": "Senior Engineering Manager V&V Media",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8067500",
+      "location": "Remote - Alberta, Canada (DNU)",
+      "source": "greenhouse:twilio",
+      "score": 175
+    },
+    {
+      "company": "Twilio",
+      "title": "Senior Engineering Manager V&V Media",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8067678",
+      "location": "Remote - US",
+      "source": "greenhouse:twilio",
+      "score": 175
+    },
+    {
+      "company": "Twilio",
+      "title": "Senior Engineering Manager V&V Media",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8067501",
+      "location": "Remote - Ontario, Canada (DNU)",
+      "source": "greenhouse:twilio",
+      "score": 175
+    },
+    {
+      "company": "Twilio",
+      "title": "Senior Engineering Manager V&V Media",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8067147",
+      "location": "Remote - United Kingdom",
+      "source": "greenhouse:twilio",
+      "score": 175
+    },
+    {
+      "company": "Twilio",
+      "title": "Senior Engineering Manager, Voice and Video",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8073683",
+      "location": "Remote - Ireland",
+      "source": "greenhouse:twilio",
+      "score": 175
+    },
+    {
+      "company": "Twilio",
+      "title": "Tech Lead /Sr. Principal Engineer (L6)",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7966928",
+      "location": "Remote - India",
+      "source": "greenhouse:twilio",
+      "score": 175
+    },
+    {
+      "company": "Airbnb",
+      "title": "Tech Lead Manager, Finance Integrations & Automation - BizTech",
+      "url": "https://careers.airbnb.com/positions/8102684?gh_jid=8102684",
+      "location": "Bangalore, India",
+      "source": "greenhouse:airbnb",
+      "score": 120
+    },
+    {
+      "company": "Asana",
+      "title": "Group Tech Lead, Security Operations",
+      "url": "https://www.asana.com/jobs/apply/7380414?gh_jid=7380414",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 120
+    },
+    {
+      "company": "Asana",
+      "title": "Tech Lead, Platform Reliability Engineering",
+      "url": "https://www.asana.com/jobs/apply/7557481?gh_jid=7557481",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 120
+    },
+    {
+      "company": "Elastic",
+      "title": "Tech Lead, Agent Framework - Observability",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8071641&gh_jid=8071641",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "score": 120
+    },
+    {
+      "company": "Elastic",
+      "title": "Tech Lead, Agent Framework - Observability",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8071582&gh_jid=8071582",
+      "location": "Portugal",
+      "source": "greenhouse:elastic",
+      "score": 120
+    },
+    {
+      "company": "Elastic",
+      "title": "Tech Lead, Agent Framework - Observability",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8071620&gh_jid=8071620",
+      "location": "Ireland",
+      "source": "greenhouse:elastic",
+      "score": 120
+    },
+    {
+      "company": "Elastic",
+      "title": "Tech Lead, Agent Framework - Observability",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8059920&gh_jid=8059920",
+      "location": "Spain",
+      "source": "greenhouse:elastic",
+      "score": 120
+    },
+    {
+      "company": "Stripe",
+      "title": "Tax Technology Lead",
+      "url": "https://stripe.com/jobs/search?gh_jid=7905025",
+      "location": "San Francisco, Seattle, New York",
+      "source": "greenhouse:stripe",
+      "score": 120
+    },
+    {
+      "company": "Twilio",
+      "title": "Software Architect (L6)",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7825089",
+      "location": "Remote - India",
+      "source": "greenhouse:twilio",
+      "score": 120
+    },
+    {
+      "company": "Twilio",
+      "title": "Tech Lead, Applied Research - Emerging Tech",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8011576",
+      "location": "Remote - US",
+      "source": "greenhouse:twilio",
+      "score": 120
+    },
+    {
+      "company": "Airtable",
+      "title": "Senior Partner Solutions Architect",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/8461582002",
+      "location": " London, England UK, Remote - US",
+      "source": "greenhouse:airtable",
+      "score": 115
+    },
+    {
+      "company": "Airtable",
+      "title": "Senior Solutions Architect",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/8498915002",
+      "location": "Remote - US",
+      "source": "greenhouse:airtable",
+      "score": 115
+    },
+    {
+      "company": "Airtable",
+      "title": "Senior Solutions Architect- West Coast",
+      "url": "https://job-boards.greenhouse.io/airtable/jobs/8597941002",
+      "location": "Remote-US",
+      "source": "greenhouse:airtable",
+      "score": 115
+    },
+    {
+      "company": "Asana",
+      "title": "Salesforce Technical Architect",
+      "url": "https://www.asana.com/jobs/apply/7918575?gh_jid=7918575",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 115
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Solutions Architect",
+      "url": "https://www.asana.com/jobs/apply/8027399?gh_jid=8027399",
+      "location": "Dublin",
+      "source": "greenhouse:asana",
+      "score": 115
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Partner Solutions Architect- Service Providers Location New York, Atlanta, Charlotte, New Jersey and FL",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8049820?gh_jid=8049820",
+      "location": "Distributed",
+      "source": "greenhouse:cloudflare",
+      "score": 115
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Principal Solutions Architect - APAC",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8040851?gh_jid=8040851",
+      "location": "Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 115
+    },
+    {
+      "company": "Coinbase",
+      "title": "Solutions Architect",
+      "url": "https://www.coinbase.com/careers/positions/8096720?gh_jid=8096720",
+      "location": "Hybrid - London, UK",
+      "source": "greenhouse:coinbase",
+      "score": 115
+    },
+    {
+      "company": "Coinbase",
+      "title": "Solutions Architect",
+      "url": "https://www.coinbase.com/careers/positions/8056065?gh_jid=8056065",
+      "location": "Hybrid - New York, NY",
+      "source": "greenhouse:coinbase",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Partner Solutions Architect (ANZ)",
+      "url": "https://careers.datadoghq.com/detail/7922975/?gh_jid=7922975",
+      "location": "Sydney, Australia",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Partner Solutions Architect (Brazil)",
+      "url": "https://careers.datadoghq.com/detail/7967871/?gh_jid=7967871",
+      "location": "Sao Paulo, Brazil",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Partner Solutions Architect (Colombia)",
+      "url": "https://careers.datadoghq.com/detail/7977644/?gh_jid=7977644",
+      "location": "Colombia, Remote",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Partner Solutions Architect (EMEA)",
+      "url": "https://careers.datadoghq.com/detail/8094179/?gh_jid=8094179",
+      "location": "Amsterdam, The Netherlands; Germany, Remote",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Partner Solutions Architect (EMEA)",
+      "url": "https://careers.datadoghq.com/detail/7683726/?gh_jid=7683726",
+      "location": "Italy, Remote; Paris, France; Portugal, Remote; Spain, Remote",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Partner Solutions Architect (GSI) - AMER East",
+      "url": "https://careers.datadoghq.com/detail/8003977/?gh_jid=8003977",
+      "location": "Boston, Massachusetts, USA; New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Partner Solutions Architect (GSI) - AMER West",
+      "url": "https://careers.datadoghq.com/detail/8010455/?gh_jid=8010455",
+      "location": "Denver, Colorado, USA; San Francisco, California, USA",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Partner Solutions Architect (GSI) - AMER West",
+      "url": "https://careers.datadoghq.com/detail/8015631/?gh_jid=8015631",
+      "location": "California, USA, Remote; Illinois, USA, Remote; Texas, USA, Remote; Washington, USA, Remote",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Partner Solutions Architect (India GSI)",
+      "url": "https://careers.datadoghq.com/detail/7984988/?gh_jid=7984988",
+      "location": "Bangalore, India",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Partner Solutions Architect (Pan-EMEA GSI)",
+      "url": "https://careers.datadoghq.com/detail/8095963/?gh_jid=8095963",
+      "location": "Lisbon, Portugal",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Partner Solutions Architect (Pan-EMEA GSI)",
+      "url": "https://careers.datadoghq.com/detail/7997198/?gh_jid=7997198",
+      "location": "Amsterdam, The Netherlands; Germany, Remote; Italy, Remote; London, United Kingdom; Madrid, Spain; Stockholm, Sweden",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Principal Partner Solutions Architect (Public Sector - Fed)",
+      "url": "https://careers.datadoghq.com/detail/7943824/?gh_jid=7943824",
+      "location": "District of Columbia, USA, Remote; Maryland, USA, Remote; Virginia, USA, Remote",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Product Solutions Architect - LLM Observability",
+      "url": "https://careers.datadoghq.com/detail/7627531/?gh_jid=7627531",
+      "location": "Boston, Massachusetts, USA; Denver, Colorado, USA; New York, New York, USA; San Francisco, California, USA",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Services Architect, Security-Cloud SIEM",
+      "url": "https://careers.datadoghq.com/detail/7996907/?gh_jid=7996907",
+      "location": "New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Partner Solution Architect - LATAM (Portuguese/Spanish/English-speaking)",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8080862&gh_jid=8080862",
+      "location": "Mexico",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Partner Solutions Architect",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8080876&gh_jid=8080876",
+      "location": "Colorado, United States",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal AI Ecosystem Architect - OpenAI/Anthropic",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8065489&gh_jid=8065489",
+      "location": "Washington, United States",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal AI Ecosystem Architect - OpenAI/Anthropic",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8047165&gh_jid=8047165",
+      "location": "San Francisco, CA",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Solutions Architect, Security Specialist",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8011801&gh_jid=8011801",
+      "location": "Brazil",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Solutions Architect, Security Specialist",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8040943&gh_jid=8040943",
+      "location": "Mexico",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Partner Solutions Architect",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7995008&gh_jid=7995008",
+      "location": "France",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solution Architect",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7817941&gh_jid=7817941",
+      "location": "Denmark",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solution Architect (Pre-sales)",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7960049&gh_jid=7960049",
+      "location": "London, United Kingdom",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solution Architect - Public Sector",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7811848&gh_jid=7811848",
+      "location": "The Netherlands",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solution Architect - Sydney based",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8111731&gh_jid=8111731",
+      "location": "Sydney, Australia",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solution Architect, Mumbai",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7817945&gh_jid=7817945",
+      "location": "Mumbai, India",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solution Architect, Thailand",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7817931&gh_jid=7817931",
+      "location": "Singapore",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solutions Architect (NATO)",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7349982&gh_jid=7349982",
+      "location": "Belgium",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solutions Architect - Federal Civilian",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8068023&gh_jid=8068023",
+      "location": "Arlington, VA",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solutions Architect - Public Sector",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7635520&gh_jid=7635520",
+      "location": "Belgium",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solutions Architect - Security Specialist",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7995039&gh_jid=7995039",
+      "location": "Germany",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solutions Architect - SLED",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7747112&gh_jid=7747112",
+      "location": "New York, United States",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Solutions Architect - SLED",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7747631&gh_jid=7747631",
+      "location": "Massachusetts, United States",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Solution Architect (Pre-sales)",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7811850&gh_jid=7811850",
+      "location": "Barcelona, Spain",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Solutions Architect",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8011777&gh_jid=8011777",
+      "location": "Toronto, Canada",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Solutions Architect - General Business, East (Presales)",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7939709&gh_jid=7939709",
+      "location": "Georgia, United States",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Solutions Architect - General Business, East (Presales)",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7944199&gh_jid=7944199",
+      "location": "Texas, United States",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Solutions Architect - PreSales",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8035002&gh_jid=8035002",
+      "location": "Germany",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "Elastic",
+      "title": "Sr. Solutions Architect - Enterprise Expand, West Coast (Presales)",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7663327&gh_jid=7663327",
+      "location": "California, United States",
+      "source": "greenhouse:elastic",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Associate Solutions Architect (French or German fluency)",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8675543002",
+      "location": "Remote Ireland",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Associate Solutions Architect (French or German fluency)",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8687171002",
+      "location": "Remote, Spain",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Manager, Solutions Architect - Asia",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8589147002",
+      "location": "Remote, Singapore",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Manager, Solutions Architect - CEUR",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626770002",
+      "location": "Remote, Germany",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Manager, Solutions Architect - India",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8627761002",
+      "location": "Remote, India",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Professional Services Technical Architect",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8616847002",
+      "location": "Remote, Canada; Remote, US",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Senior Manager, Solutions Architect - Australia & New Zealand",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8627764002",
+      "location": "Remote, Australia",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Senior Solutions Architect",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8611764002",
+      "location": "Remote, United Kingdom",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Senior Solutions Architect - AI & Platforms SME",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8476375002",
+      "location": "Remote, Australia; Remote, Singapore",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Senior Solutions Architect - East",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8627207002",
+      "location": "Remote, US",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Senior Solutions Architect, Financial Services - NYC area",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8589176002",
+      "location": "Remote, US",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Senior Solutions Architect, Global SI (India)",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8591221002",
+      "location": "Remote, Bangalore",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Senior Solutions Architect- Australia and New Zealand",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8627772002",
+      "location": "Remote, Australia",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Solutions Architect",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8611767002",
+      "location": "Remote, United Kingdom",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Solutions Architect - France",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8656506002",
+      "location": "Remote, France",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "GitLab",
+      "title": "Solutions Architect - MENA",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8611700002",
+      "location": "Remote, KSA; Remote, UAE",
+      "source": "greenhouse:gitlab",
+      "score": 115
+    },
+    {
+      "company": "Reddit",
+      "title": "Enterprise Architect, Finance Technology",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8039702",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Partner Solutions Architect (AUNZ)",
+      "url": "https://stripe.com/jobs/search?gh_jid=8080773",
+      "location": "Australia",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Partner Solutions Architect - AWS",
+      "url": "https://stripe.com/jobs/search?gh_jid=7607761",
+      "location": "New York",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Partner Solutions Architect - Billing",
+      "url": "https://stripe.com/jobs/search?gh_jid=7927330",
+      "location": "USA ",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Partner Solutions Architect - LatAm",
+      "url": "https://stripe.com/jobs/search?gh_jid=7927324",
+      "location": "Mexico City",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Partner Solutions Architect, (German fluency)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7919325",
+      "location": "Berlin, Munich ",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Partner Solutions Architect, AI Partnerships",
+      "url": "https://stripe.com/jobs/search?gh_jid=8024033",
+      "location": "N/A",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Partner Solutions Architect, Technology Partnerships",
+      "url": "https://stripe.com/jobs/search?gh_jid=7964568",
+      "location": "United States",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Solutions Architect (Greater China)",
+      "url": "https://stripe.com/jobs/search?gh_jid=8108889",
+      "location": "Singapore",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Solutions Architect, (Italian fluency)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7784353",
+      "location": "Milan",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Solutions Architect, Enterprise",
+      "url": "https://stripe.com/jobs/search?gh_jid=7601663",
+      "location": "Sweden, Dublin, Amsterdam",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Solutions Architect, Enterprise (French Speaking)",
+      "url": "https://stripe.com/jobs/search?gh_jid=8092652",
+      "location": "N/A",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Solutions Architect, Enterprise (German fluency)",
+      "url": "https://stripe.com/jobs/search?gh_jid=8066953",
+      "location": "LOCATION",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Solutions Architect, Enterprise (Pre-sales)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7827184",
+      "location": "Chicago, IL or San Francisco, CA OR US Remote",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Solutions Architect, Platforms",
+      "url": "https://stripe.com/jobs/search?gh_jid=7396509",
+      "location": "Chicago, IL or New York, NY",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Solutions Architect, Platforms, UK & Ireland",
+      "url": "https://stripe.com/jobs/search?gh_jid=7601673",
+      "location": "Dublin",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Solutions Architect, SMB (Presales)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7863336",
+      "location": "Chicago, IL",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Solutions Architect, Startup & SMB (German fluency)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7442995",
+      "location": "Dublin",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Specialist Solution Architect, Money Management",
+      "url": "https://stripe.com/jobs/search?gh_jid=7370967",
+      "location": "NYC, SF, Chi, Remote",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Specialist Solutions Architect - Money Management (APAC and Greater China)",
+      "url": "https://stripe.com/jobs/search?gh_jid=8066735",
+      "location": "Singapore",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Specialist Solutions Architect, Billing",
+      "url": "https://stripe.com/jobs/search?gh_jid=7728618",
+      "location": "Remote",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Specialist Solutions Architect, Crypto & Stablecoins",
+      "url": "https://stripe.com/jobs/search?gh_jid=7120766",
+      "location": "US-NY",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Specialist Solutions Architect, Payments",
+      "url": "https://stripe.com/jobs/search?gh_jid=7377591",
+      "location": "NY, SF, Chicago",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Specialist Solutions Architect, Radar (Fraud/Risk)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7365914",
+      "location": "NY or SF",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Stripe",
+      "title": "Specialist Solutions Architect, Tax",
+      "url": "https://stripe.com/jobs/search?gh_jid=8090244",
+      "location": "Chicago, Atlanta, Remote",
+      "source": "greenhouse:stripe",
+      "score": 115
+    },
+    {
+      "company": "Twilio",
+      "title": "Staff Solutions Architect, Contract LifeCycle Management",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7979245",
+      "location": "Remote - US",
+      "source": "greenhouse:twilio",
+      "score": 115
+    },
+    {
+      "company": "Twilio",
+      "title": "Staff Solutions Architect, Opportunity LifeCycle Management",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7979240",
+      "location": "Remote - US",
+      "source": "greenhouse:twilio",
+      "score": 115
+    },
+    {
+      "company": "Figma",
+      "title": "Manager, Software Engineering - AI Product",
+      "url": "https://boards.greenhouse.io/figma/jobs/5838098004?gh_jid=5838098004",
+      "location": "San Francisco, CA • New York, NY • United States",
+      "source": "greenhouse:figma",
+      "score": 110
+    },
+    {
+      "company": "Figma",
+      "title": "Manager, Software Engineering - AI Product (London, United Kingdom)",
+      "url": "https://boards.greenhouse.io/figma/jobs/6099616004?gh_jid=6099616004",
+      "location": "London, England",
+      "source": "greenhouse:figma",
+      "score": 110
+    },
+    {
+      "company": "Figma",
+      "title": "Manager, Software Engineering - Billing",
+      "url": "https://boards.greenhouse.io/figma/jobs/5722244004?gh_jid=5722244004",
+      "location": "San Francisco, CA • New York, NY • United States",
+      "source": "greenhouse:figma",
+      "score": 110
+    },
+    {
+      "company": "Figma",
+      "title": "Manager, Software Engineering - DevEx AI Tools",
+      "url": "https://boards.greenhouse.io/figma/jobs/6008752004?gh_jid=6008752004",
+      "location": "San Francisco, CA • New York, NY • United States",
+      "source": "greenhouse:figma",
+      "score": 110
+    },
+    {
+      "company": "Figma",
+      "title": "Manager, Software Engineering - Figma Weave (Tel Aviv, Israel)",
+      "url": "https://boards.greenhouse.io/figma/jobs/6105734004?gh_jid=6105734004",
+      "location": "Tel Aviv, Israel",
+      "source": "greenhouse:figma",
+      "score": 110
+    },
+    {
+      "company": "Figma",
+      "title": "Manager, Software Engineering - Growth Platform",
+      "url": "https://boards.greenhouse.io/figma/jobs/6010279004?gh_jid=6010279004",
+      "location": "San Francisco, CA • New York, NY • United States",
+      "source": "greenhouse:figma",
+      "score": 110
+    },
+    {
+      "company": "Figma",
+      "title": "Manager, Software Engineering - Interaction Design",
+      "url": "https://boards.greenhouse.io/figma/jobs/5778796004?gh_jid=5778796004",
+      "location": "San Francisco, CA • New York, NY • United States",
+      "source": "greenhouse:figma",
+      "score": 110
+    },
+    {
+      "company": "Figma",
+      "title": "Manager, Software Engineering - Observability",
+      "url": "https://boards.greenhouse.io/figma/jobs/5807963004?gh_jid=5807963004",
+      "location": "San Francisco, CA • New York, NY • United States",
+      "source": "greenhouse:figma",
+      "score": 110
+    },
+    {
+      "company": "Figma",
+      "title": "Manager, Software Engineering - Payload",
+      "url": "https://boards.greenhouse.io/figma/jobs/6092906004?gh_jid=6092906004",
+      "location": "San Francisco, CA • New York, NY • United States",
+      "source": "greenhouse:figma",
+      "score": 110
+    },
+    {
+      "company": "Twilio",
+      "title": "Manager, Software Engineering (L4)",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/6849268",
+      "location": "Remote - India",
+      "source": "greenhouse:twilio",
+      "score": 110
+    },
+    {
+      "company": "Asana",
+      "title": "Technical Lead, API",
+      "url": "https://www.asana.com/jobs/apply/7776446?gh_jid=7776446",
+      "location": "Vancouver, BC",
+      "source": "greenhouse:asana",
+      "score": 105
+    },
+    {
+      "company": "Datadog",
+      "title": "Datadog for Startups - Forward Deployed Engineering Lead",
+      "url": "https://careers.datadoghq.com/detail/8003181/?gh_jid=8003181",
+      "location": "San Francisco, California, USA",
+      "source": "greenhouse:datadog",
+      "score": 105
+    },
+    {
+      "company": "Datadog",
+      "title": "Datadog for Startups Founding Engineering Lead",
+      "url": "https://careers.datadoghq.com/detail/7536402/?gh_jid=7536402",
+      "location": "San Francisco, California, USA",
+      "source": "greenhouse:datadog",
+      "score": 105
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Manager, Product Solutions Architecture",
+      "url": "https://careers.datadoghq.com/detail/7960450/?gh_jid=7960450",
+      "location": "Boston, Massachusetts, USA; Denver, Colorado, USA; New York, New York, USA; San Francisco, California, USA",
+      "source": "greenhouse:datadog",
+      "score": 105
+    },
+    {
+      "company": "Elastic",
+      "title": "Director, Solutions Architecture (Technical Sales)",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7972639&gh_jid=7972639",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "score": 105
+    },
+    {
+      "company": "GitLab",
+      "title": "Director, Enterprise Architecture & Intelligent Automation",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8510488002",
+      "location": "Remote, US",
+      "source": "greenhouse:gitlab",
+      "score": 105
+    },
+    {
+      "company": "GitLab",
+      "title": "Manager, Solutions Architects",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8396674002",
+      "location": "Remote, US",
+      "source": "greenhouse:gitlab",
+      "score": 105
+    },
+    {
+      "company": "GitLab",
+      "title": "Manager, Solutions Architecture - East",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8641849002",
+      "location": "Remote, United States",
+      "source": "greenhouse:gitlab",
+      "score": 105
+    },
+    {
+      "company": "GitLab",
+      "title": "Manager, Solutions Architecture - UK&I",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626762002",
+      "location": "Remote, United Kingdom",
+      "source": "greenhouse:gitlab",
+      "score": 105
+    },
+    {
+      "company": "Stripe",
+      "title": "Global Head of Specialist Solutions Architecture, Billing",
+      "url": "https://stripe.com/jobs/search?gh_jid=7523947",
+      "location": "SF",
+      "source": "greenhouse:stripe",
+      "score": 105
+    },
+    {
+      "company": "Stripe",
+      "title": "Global Head of Specialist Solutions Architecture, Revenue",
+      "url": "https://stripe.com/jobs/search?gh_jid=7963508",
+      "location": "London",
+      "source": "greenhouse:stripe",
+      "score": 105
+    },
+    {
+      "company": "Stripe",
+      "title": "Head of Enterprise Solutions Architecture Platforms",
+      "url": "https://stripe.com/jobs/search?gh_jid=7915144",
+      "location": "San Francisco, CA",
+      "source": "greenhouse:stripe",
+      "score": 105
+    },
+    {
+      "company": "Stripe",
+      "title": "Manager, Solution Architecture Platforms",
+      "url": "https://stripe.com/jobs/search?gh_jid=8104302",
+      "location": "South San Francisco, CA , New York, NY",
+      "source": "greenhouse:stripe",
+      "score": 105
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Staff Software Engineer, Host Pricing & Settings",
+      "url": "https://careers.airbnb.com/positions/8039723?gh_jid=8039723",
+      "location": "Remote - USA",
+      "source": "greenhouse:airbnb",
+      "score": 85
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Staff Software Engineer, Marketing Technology",
+      "url": "https://careers.airbnb.com/positions/8095365?gh_jid=8095365",
+      "location": "Remote, USA",
+      "source": "greenhouse:airbnb",
+      "score": 85
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Staff Software Engineer, Payments",
+      "url": "https://careers.airbnb.com/positions/7688467?gh_jid=7688467",
+      "location": "Remote, USA",
+      "source": "greenhouse:airbnb",
+      "score": 85
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Staff Software Engineer, Payments",
+      "url": "https://careers.airbnb.com/positions/7525479?gh_jid=7525479",
+      "location": "Remote - Bangalore, India",
+      "source": "greenhouse:airbnb",
+      "score": 85
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Staff Software Engineer, Trust",
+      "url": "https://careers.airbnb.com/positions/7818982?gh_jid=7818982",
+      "location": "Remote - US",
+      "source": "greenhouse:airbnb",
+      "score": 85
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer - Blockchain Platform",
+      "url": "https://www.coinbase.com/careers/positions/7366208?gh_jid=7366208",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 85
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Core Automation",
+      "url": "https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 85
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Data Platform",
+      "url": "https://www.coinbase.com/careers/positions/7711287?gh_jid=7711287",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 85
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Payments",
+      "url": "https://www.coinbase.com/careers/positions/8056068?gh_jid=8056068",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 85
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Staff Software Engineer, Payments",
+      "url": "https://www.coinbase.com/careers/positions/8060842?gh_jid=8060842",
+      "location": "Remote - Canada",
+      "source": "greenhouse:coinbase",
+      "score": 85
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Staff Software Engineer",
+      "url": "https://careers.datadoghq.com/detail/5608424/?gh_jid=5608424",
+      "location": "New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 85
+    },
+    {
+      "company": "Pinterest",
+      "title": "Senior Staff Software Engineer, Configuration & Coordination",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7679640",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 85
+    },
+    {
+      "company": "Reddit",
+      "title": "Senior Staff Software Engineer, Client Architecture",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8060775",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 85
+    },
+    {
+      "company": "Robinhood",
+      "title": "Senior Staff Software Engineer, Data Platform",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7729014?t=gh_src=&gh_jid=7729014",
+      "location": "Bellevue, WA",
+      "source": "greenhouse:robinhood",
+      "score": 85
+    },
+    {
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Build (Bazel)",
+      "url": "https://careers.airbnb.com/positions/7739337?gh_jid=7739337",
+      "location": "Remote - USA",
+      "source": "greenhouse:airbnb",
+      "score": 65
+    },
+    {
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Communication & Connectivity",
+      "url": "https://careers.airbnb.com/positions/7421419?gh_jid=7421419",
+      "location": "United States",
+      "source": "greenhouse:airbnb",
+      "score": 65
+    },
+    {
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Community Support Engineering",
+      "url": "https://careers.airbnb.com/positions/7463421?gh_jid=7463421",
+      "location": "Remote - USA",
+      "source": "greenhouse:airbnb",
+      "score": 65
+    },
+    {
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Community Support Engineering",
+      "url": "https://careers.airbnb.com/positions/6448191?gh_jid=6448191",
+      "location": "China",
+      "source": "greenhouse:airbnb",
+      "score": 65
+    },
+    {
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Global Markets (Backend)",
+      "url": "https://careers.airbnb.com/positions/7768427?gh_jid=7768427",
+      "location": "China",
+      "source": "greenhouse:airbnb",
+      "score": 65
+    },
+    {
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Marketing technology",
+      "url": "https://careers.airbnb.com/positions/8095436?gh_jid=8095436",
+      "location": "Remote, USA",
+      "source": "greenhouse:airbnb",
+      "score": 65
+    },
+    {
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Tax Engineering",
+      "url": "https://careers.airbnb.com/positions/8095361?gh_jid=8095361",
+      "location": "USA",
+      "source": "greenhouse:airbnb",
+      "score": 65
+    },
+    {
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Unified Data Store",
+      "url": "https://careers.airbnb.com/positions/7867435?gh_jid=7867435",
+      "location": "Brazil",
+      "source": "greenhouse:airbnb",
+      "score": 65
+    },
+    {
+      "company": "Asana",
+      "title": "Staff Software Engineer, AI",
+      "url": "https://www.asana.com/jobs/apply/7978671?gh_jid=7978671",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 65
+    },
+    {
+      "company": "Asana",
+      "title": "Staff Software Engineer, AI Developer Experience",
+      "url": "https://www.asana.com/jobs/apply/7964388?gh_jid=7964388",
+      "location": "New York City",
+      "source": "greenhouse:asana",
+      "score": 65
+    },
+    {
+      "company": "Brex",
+      "title": "Staff Software Engineer, Banking",
+      "url": "https://www.brex.com/careers/8612473002?gh_jid=8612473002",
+      "location": "San Francisco, California, United States",
+      "source": "greenhouse:brex",
+      "score": 65
+    },
+    {
+      "company": "Brex",
+      "title": "Staff Software Engineer, Banking",
+      "url": "https://www.brex.com/careers/8618069002?gh_jid=8618069002",
+      "location": "New York, New York, United States",
+      "source": "greenhouse:brex",
+      "score": 65
+    },
+    {
+      "company": "Brex",
+      "title": "Staff Software Engineer, Banking",
+      "url": "https://www.brex.com/careers/8618063002?gh_jid=8618063002",
+      "location": "Vancouver, British Columbia, Canada",
+      "source": "greenhouse:brex",
+      "score": 65
+    },
+    {
+      "company": "Brex",
+      "title": "Staff Software Engineer, Banking",
+      "url": "https://www.brex.com/careers/8618076002?gh_jid=8618076002",
+      "location": "Seattle, Washington, United States",
+      "source": "greenhouse:brex",
+      "score": 65
+    },
+    {
+      "company": "Brex",
+      "title": "Staff Software Engineer, Travel & Expense",
+      "url": "https://www.brex.com/careers/8635342002?gh_jid=8635342002",
+      "location": "Vancouver, British Columbia, Canada",
+      "source": "greenhouse:brex",
+      "score": 65
+    },
+    {
+      "company": "Brex",
+      "title": "Staff Software Engineer, Travel & Expense",
+      "url": "https://www.brex.com/careers/8635331002?gh_jid=8635331002",
+      "location": "Seattle, Washington, United States",
+      "source": "greenhouse:brex",
+      "score": 65
+    },
+    {
+      "company": "Brex",
+      "title": "Staff Software Engineer, Travel & Expense",
+      "url": "https://www.brex.com/careers/8623289002?gh_jid=8623289002",
+      "location": "New York, New York, United States",
+      "source": "greenhouse:brex",
+      "score": 65
+    },
+    {
+      "company": "Brex",
+      "title": "Staff Software Engineer, Travel & Expense",
+      "url": "https://www.brex.com/careers/8635339002?gh_jid=8635339002",
+      "location": "San Francisco, California, United States",
+      "source": "greenhouse:brex",
+      "score": 65
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Principal Software Engineer, Data",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8102350?gh_jid=8102350",
+      "location": "Austin, TX, United States",
+      "source": "greenhouse:cloudflare",
+      "score": 65
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Principal Software Engineer, Workers Deploy & Config",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8055320?gh_jid=8055320",
+      "location": "In-Office",
+      "source": "greenhouse:cloudflare",
+      "score": 65
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Principal Software Engineer: Distributed Systems (Config, Test, & Deployment)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8038898?gh_jid=8038898",
+      "location": "Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 65
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Staff/Principal Software Engineer - Security Platform",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7053411?gh_jid=7053411",
+      "location": "Distributed; Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8021650?gh_jid=8021650",
+      "location": "Remote - Israel",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer (Platform - Access & Authorization)",
+      "url": "https://www.coinbase.com/careers/positions/8114877?gh_jid=8114877",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer (Platform - Identity IDV)",
+      "url": "https://www.coinbase.com/careers/positions/7773776?gh_jid=7773776",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer - AI Platform Team",
+      "url": "https://www.coinbase.com/careers/positions/8025505?gh_jid=8025505",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Backend (Consumer - Prediction Markets)",
+      "url": "https://www.coinbase.com/careers/positions/7997840?gh_jid=7997840",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Backend - FinHub (Ledger)",
+      "url": "https://www.coinbase.com/careers/positions/8064916?gh_jid=8064916",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Backend - Payments Platform",
+      "url": "https://www.coinbase.com/careers/positions/7993066?gh_jid=7993066",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Backend - Platform (Payment Rails)",
+      "url": "https://www.coinbase.com/careers/positions/7789395?gh_jid=7789395",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Core AI Infrastructure",
+      "url": "https://www.coinbase.com/careers/positions/7991691?gh_jid=7991691",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Customer Administration",
+      "url": "https://www.coinbase.com/careers/positions/8054153?gh_jid=8054153",
+      "location": "Remote - India",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Developer Infrastructure",
+      "url": "https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, EAA CX",
+      "url": "https://www.coinbase.com/careers/positions/6784618?gh_jid=6784618",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Frontend (Consumer - Advanced Trading)",
+      "url": "https://www.coinbase.com/careers/positions/7629141?gh_jid=7629141",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Solana Staking Protocol",
+      "url": "https://www.coinbase.com/careers/positions/7684298?gh_jid=7684298",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 65
+    },
+    {
+      "company": "Datadog",
+      "title": "Staff Software Engineer",
+      "url": "https://careers.datadoghq.com/detail/3210217/?gh_jid=3210217",
+      "location": "New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 65
+    },
+    {
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Corporate Development",
+      "url": "https://careers.datadoghq.com/detail/8105372/?gh_jid=8105372",
+      "location": "New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 65
+    },
+    {
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Corporate Development",
+      "url": "https://careers.datadoghq.com/detail/8094106/?gh_jid=8094106",
+      "location": "San Francisco, California, USA",
+      "source": "greenhouse:datadog",
+      "score": 65
+    },
+    {
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Logs Management",
+      "url": "https://careers.datadoghq.com/detail/7635298/?gh_jid=7635298",
+      "location": "New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 65
+    },
+    {
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Logs Observability Pipelines",
+      "url": "https://careers.datadoghq.com/detail/7743369/?gh_jid=7743369",
+      "location": "New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 65
+    },
+    {
+      "company": "Datadog",
+      "title": "Staff Software Engineer - ML Observability",
+      "url": "https://careers.datadoghq.com/detail/7107437/?gh_jid=7107437",
+      "location": "Boston, Massachusetts, USA; New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 65
+    },
+    {
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Security Agent",
+      "url": "https://careers.datadoghq.com/detail/8007589/?gh_jid=8007589",
+      "location": "Paris, France",
+      "source": "greenhouse:datadog",
+      "score": 65
+    },
+    {
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Security Agent",
+      "url": "https://careers.datadoghq.com/detail/8007598/?gh_jid=8007598",
+      "location": "France, Remote; Germany, Remote; Ireland, Remote; Italy, Remote; Spain, Remote",
+      "source": "greenhouse:datadog",
+      "score": 65
+    },
+    {
+      "company": "Datadog",
+      "title": "Staff Software Engineer - Security Agent",
+      "url": "https://careers.datadoghq.com/detail/8007606/?gh_jid=8007606",
+      "location": "Portugal, Remote",
+      "source": "greenhouse:datadog",
+      "score": 65
+    },
+    {
+      "company": "Discord",
+      "title": "Staff Software Engineer - Consumer Revenue",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8460867002",
+      "location": "Remote (U.S.)",
+      "source": "greenhouse:discord",
+      "score": 65
+    },
+    {
+      "company": "Discord",
+      "title": "Staff Software Engineer - Safety Experience",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8344197002",
+      "location": "San Francisco Bay Area or Los Angeles Area",
+      "source": "greenhouse:discord",
+      "score": 65
+    },
+    {
+      "company": "Discord",
+      "title": "Staff Software Engineer, Data Platform",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8498984002",
+      "location": "San Francisco, CA",
+      "source": "greenhouse:discord",
+      "score": 65
+    },
+    {
+      "company": "Discord",
+      "title": "Staff Software Engineer, Enterprise Platform",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8675185002",
+      "location": "San Francisco Bay Area ",
+      "source": "greenhouse:discord",
+      "score": 65
+    },
+    {
+      "company": "Discord",
+      "title": "Staff Software Engineer, Safety Processing",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8214127002",
+      "location": "San Francisco Bay Area or Los Angeles Area",
+      "source": "greenhouse:discord",
+      "score": 65
+    },
+    {
+      "company": "Dropbox",
+      "title": "Principal Software Engineer, Core Sharing & Collaboration",
+      "url": "https://jobs.dropbox.com/listing/8006972?gh_jid=8006972",
+      "location": "Remote - US: All locations",
+      "source": "greenhouse:dropbox",
+      "score": 65
+    },
+    {
+      "company": "Dropbox",
+      "title": "Principal Software Engineer, Core Sharing & Collaboration",
+      "url": "https://jobs.dropbox.com/listing/8006977?gh_jid=8006977",
+      "location": "Remote - Canada: Select locations",
+      "source": "greenhouse:dropbox",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Developer - Security - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8082617&gh_jid=8082617",
+      "location": "Canada",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Developer - Storage Engine - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074820&gh_jid=8074820",
+      "location": "Canada",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Relevance in ES|QL - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8098417&gh_jid=8098417",
+      "location": "Canada",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Relevance in ES|QL - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8066479&gh_jid=8066479",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Relevance in ES|QL - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8098422&gh_jid=8098422",
+      "location": "Greece",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Relevance in ES|QL - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8098420&gh_jid=8098420",
+      "location": "Spain",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Infra - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8067101&gh_jid=8067101",
+      "location": "Canada",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Infra - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8020857&gh_jid=8020857",
+      "location": "Spain",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Infra - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8020864&gh_jid=8020864",
+      "location": "Greece",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Infra - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8020854&gh_jid=8020854",
+      "location": "Ireland",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Search Infra - Elasticsearch -",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8067100&gh_jid=8067100",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Security - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8082612&gh_jid=8082612",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Storage Engine - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074819&gh_jid=8074819",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Vector Search - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7903238&gh_jid=7903238",
+      "location": "Canada",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Vector Search - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8020842&gh_jid=8020842",
+      "location": "Ireland",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Vector Search - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8020844&gh_jid=8020844",
+      "location": "Spain",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Vector Search - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7843348&gh_jid=7843348",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "Elastic",
+      "title": "Principal Software Engineer - Vector Search - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8020845&gh_jid=8020845",
+      "location": "Greece",
+      "source": "greenhouse:elastic",
+      "score": 65
+    },
+    {
+      "company": "GitLab",
+      "title": "Staff Software Engineer",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8632496002",
+      "location": "Bangalore, India",
+      "source": "greenhouse:gitlab",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Sr. Staff Software Engineer, Data Product Platform",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7746946",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Sr. Staff Software Engineer, iOS Search and Shopping Journeys",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8001913",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Sr. Staff Software Engineer, Merchants",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7770918",
+      "location": "San Francisco, CA, US; Palo Alto, CA, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Staff Software Engineer, Ads Measurement Products",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7494915",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Staff Software Engineer, Ads Measurement Signal",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7494904",
+      "location": "Seattle, WA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Staff Software Engineer, AI Tools",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7305880",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Staff Software Engineer, Big Data Storage",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7437356",
+      "location": "Palo Alto, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Staff Software Engineer, Big Data, tvScientific",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7642253",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Staff Software Engineer, Capacity Engineering",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7494668",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Staff Software Engineer, Edge",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7990090",
+      "location": "US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Staff Software Engineer, Observability",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7954753",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Staff Software Engineer, Service Communications",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7990086",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Pinterest",
+      "title": "Staff Software Engineer- Growth Performance Marketing",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7874931",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 65
+    },
+    {
+      "company": "Reddit",
+      "title": "Staff Software Engineer, DevPlatform",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8049901",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 65
+    },
+    {
+      "company": "Reddit",
+      "title": "Staff Software Engineer, Identity & Access Management",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8031491",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 65
+    },
+    {
+      "company": "Reddit",
+      "title": "Staff Software Engineer, Media Experiences",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8029641",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 65
+    },
+    {
+      "company": "Reddit",
+      "title": "Staff Software Engineer, Onboarding",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7961154",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 65
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Software Developer, DevX (Developer Infrastructure)",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8080939?t=gh_src=&gh_jid=8080939",
+      "location": "Toronto, Canada",
+      "source": "greenhouse:robinhood",
+      "score": 65
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer, Capacity and Efficiency Engineering",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8097334?t=gh_src=&gh_jid=8097334",
+      "location": "Bellevue, WA",
+      "source": "greenhouse:robinhood",
+      "score": 65
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer, DevX (Developer Infrastructure)",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8080937?t=gh_src=&gh_jid=8080937",
+      "location": "New York, NY",
+      "source": "greenhouse:robinhood",
+      "score": 65
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer, Identity & Access Management",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7819461?t=gh_src=&gh_jid=7819461",
+      "location": "Bellevue, WA; Menlo Park, CA",
+      "source": "greenhouse:robinhood",
+      "score": 65
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer, Observability",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7489707?t=gh_src=&gh_jid=7489707",
+      "location": "Menlo Park, CA",
+      "source": "greenhouse:robinhood",
+      "score": 65
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer, Storage Platform",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8044227?t=gh_src=&gh_jid=8044227",
+      "location": "Bellevue, WA",
+      "source": "greenhouse:robinhood",
+      "score": 65
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer, Trade PMR",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7684760?t=gh_src=&gh_jid=7684760",
+      "location": "Menlo Park, CA; New York, NY",
+      "source": "greenhouse:robinhood",
+      "score": 65
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer, Web3",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&gh_jid=7489952",
+      "location": "Toronto, Canada",
+      "source": "greenhouse:robinhood",
+      "score": 65
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Software Engineer, Web3",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&gh_jid=7489950",
+      "location": "Menlo Park, CA; New York, NY",
+      "source": "greenhouse:robinhood",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer - CI Services",
+      "url": "https://stripe.com/jobs/search?gh_jid=8089815",
+      "location": "Dublin",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, API Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=8055701",
+      "location": "San Francisco, Seattle",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Business Data",
+      "url": "https://stripe.com/jobs/search?gh_jid=8112037",
+      "location": "Seattle",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Data Engineering Solutions",
+      "url": "https://stripe.com/jobs/search?gh_jid=7548037",
+      "location": "Bengaluru",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Data Quality and Governance",
+      "url": "https://stripe.com/jobs/search?gh_jid=8112042",
+      "location": "Seattle",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Datalake Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=8035723",
+      "location": "Dublin ",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Issuing",
+      "url": "https://stripe.com/jobs/search?gh_jid=7369269",
+      "location": "NYC, SEA, San Francisco",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Machine Learning Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=7712852",
+      "location": "Toronto",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Machine Learning Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=7939868",
+      "location": "San Francisco, Seattle",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Product Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=8112043",
+      "location": "Toronto",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Release Engineering",
+      "url": "https://stripe.com/jobs/search?gh_jid=8038771",
+      "location": "Seattle",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Service Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=8090141",
+      "location": "AMER",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Stream Compute",
+      "url": "https://stripe.com/jobs/search?gh_jid=7767063",
+      "location": "San Francisco, Seattle, New York, Toronto ",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer, Stripe Dashboard",
+      "url": "https://stripe.com/jobs/search?gh_jid=7746721",
+      "location": "Seattle",
+      "source": "greenhouse:stripe",
+      "score": 65
+    },
+    {
+      "company": "Twilio",
+      "title": "Principal Software Engineer",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8081530",
+      "location": "Remote - US",
+      "source": "greenhouse:twilio",
+      "score": 65
+    },
+    {
+      "company": "Twilio",
+      "title": "Principal Software Engineer",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7644471",
+      "location": "Remote - India",
+      "source": "greenhouse:twilio",
+      "score": 65
+    },
+    {
+      "company": "Twilio",
+      "title": "Principal Software Engineer - Identity Graph",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8067270",
+      "location": "Remote - US",
+      "source": "greenhouse:twilio",
+      "score": 65
+    },
+    {
+      "company": "Twilio",
+      "title": "Staff Software Engineer",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8071710",
+      "location": "Remote - Ireland",
+      "source": "greenhouse:twilio",
+      "score": 65
+    },
+    {
+      "company": "Twilio",
+      "title": "Staff Software Engineer",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8065043",
+      "location": "Remote - US",
+      "source": "greenhouse:twilio",
+      "score": 65
+    },
+    {
+      "company": "Twilio",
+      "title": "Staff Software Engineer",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7944328",
+      "location": "Remote - US",
+      "source": "greenhouse:twilio",
+      "score": 65
+    },
+    {
+      "company": "Twilio",
+      "title": "Staff Software Engineer (L4)",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7716279",
+      "location": "Remote - Canada",
+      "source": "greenhouse:twilio",
+      "score": 65
+    },
+    {
+      "company": "Twilio",
+      "title": "Staff Software Engineer (L4)",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7996770",
+      "location": "Remote - India",
+      "source": "greenhouse:twilio",
+      "score": 65
+    },
+    {
+      "company": "Twilio",
+      "title": "Staff Software Engineer (L4) Data Platform",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7782805",
+      "location": "Remote - US",
+      "source": "greenhouse:twilio",
+      "score": 65
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Principal Engineer - Cloudforce One",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8023395?gh_jid=8023395",
+      "location": "Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 60
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Principal Engineer - GTM Data Platform",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8054669?gh_jid=8054669",
+      "location": "Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 60
+    },
+    {
+      "company": "Pinterest",
+      "title": "Principal Engineer, AI Platform",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7888329",
+      "location": "San Francisco, CA, US; Remote, US",
+      "source": "greenhouse:pinterest",
+      "score": 60
+    },
+    {
+      "company": "Pinterest",
+      "title": "Principal Engineer, Online Systems",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7782229",
+      "location": "San Francisco, CA, US; Palo Alto, CA, US",
+      "source": "greenhouse:pinterest",
+      "score": 60
+    },
+    {
+      "company": "Pinterest",
+      "title": "Principal Engineer, Shopping & Delivery Infra",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8011719",
+      "location": "San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA,US",
+      "source": "greenhouse:pinterest",
+      "score": 60
+    },
+    {
+      "company": "Reddit",
+      "title": "Principal Engineer, iOS Performance",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7886615",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 60
+    },
+    {
+      "company": "Twilio",
+      "title": "Principal Engineer",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7944264",
+      "location": "Remote - US",
+      "source": "greenhouse:twilio",
+      "score": 60
+    },
+    {
+      "company": "Twilio",
+      "title": "Principal Engineer (L5)",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7996776",
+      "location": "Remote - India",
+      "source": "greenhouse:twilio",
+      "score": 60
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Backend Software Engineer",
+      "url": "https://www.asana.com/jobs/apply/7964361?gh_jid=7964361",
+      "location": "Reykjavík",
+      "source": "greenhouse:asana",
+      "score": 30
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Infrastructure Engineer (Software-Focused)",
+      "url": "https://www.asana.com/jobs/apply/7160487?gh_jid=7160487",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 30
+    },
+    {
+      "company": "Discord",
+      "title": "Senior Full-Stack Software Engineer, Ads",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8659978002",
+      "location": "San Francisco Bay Area",
+      "source": "greenhouse:discord",
+      "score": 30
+    },
+    {
+      "company": "Discord",
+      "title": "Senior Full-Stack Software Engineer, Game Records",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8597656002",
+      "location": "San Francisco Bay Area",
+      "source": "greenhouse:discord",
+      "score": 30
+    },
+    {
+      "company": "Discord",
+      "title": "Senior Full-Stack Software Engineer, Growth",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8642085002",
+      "location": "San Francisco Bay Area",
+      "source": "greenhouse:discord",
+      "score": 30
+    },
+    {
+      "company": "Discord",
+      "title": "Senior Full-Stack Software Engineer, Social Commerce",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8604768002",
+      "location": "San Francisco Bay Area",
+      "source": "greenhouse:discord",
+      "score": 30
+    },
+    {
+      "company": "Dropbox",
+      "title": "Senior Fullstack Product Software Engineer, Web Experience",
+      "url": "https://jobs.dropbox.com/listing/8074704?gh_jid=8074704",
+      "location": "Remote - US: Select locations",
+      "source": "greenhouse:dropbox",
+      "score": 30
+    },
+    {
+      "company": "Dropbox",
+      "title": "Senior Fullstack Product Software Engineer, Web Experience",
+      "url": "https://jobs.dropbox.com/listing/8074707?gh_jid=8074707",
+      "location": "Remote - Canada: Select locations",
+      "source": "greenhouse:dropbox",
+      "score": 30
+    },
+    {
+      "company": "Dropbox",
+      "title": "Senior Fullstack Product Software Engineer, Web Experience",
+      "url": "https://jobs.dropbox.com/listing/8074709?gh_jid=8074709",
+      "location": "Remote - Mexico",
+      "source": "greenhouse:dropbox",
+      "score": 30
+    },
+    {
+      "company": "Dropbox",
+      "title": "Senior Infrastructure Software Engineer",
+      "url": "https://jobs.dropbox.com/listing/6333181?gh_jid=6333181",
+      "location": "Remote - Poland",
+      "source": "greenhouse:dropbox",
+      "score": 30
+    },
+    {
+      "company": "GitLab",
+      "title": "Senior Manager, Product Management: Agentic Software Delivery",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8597826002",
+      "location": "Remote, Canada; Remote, US",
+      "source": "greenhouse:gitlab",
+      "score": 30
+    },
+    {
+      "company": "GitLab",
+      "title": "Senior Software Security Engineer",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8637549002",
+      "location": "Bangalore, India; Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
+      "source": "greenhouse:gitlab",
+      "score": 30
+    },
+    {
+      "company": "Palantir",
+      "title": "Senior Backend Software Engineer - Application Development",
+      "url": "https://jobs.lever.co/palantir/7177acab-5c64-4005-9b28-93f33b3e172a",
+      "location": "New York, NY",
+      "source": "lever:palantir",
+      "score": 30
+    },
+    {
+      "company": "Palantir",
+      "title": "Senior Backend Software Engineer - Application Development",
+      "url": "https://jobs.lever.co/palantir/a92b55d0-1d36-4884-8e65-f456450b3a74",
+      "location": "London, United Kingdom",
+      "source": "lever:palantir",
+      "score": 30
+    },
+    {
+      "company": "Palantir",
+      "title": "Senior Backend Software Engineer - Infrastructure",
+      "url": "https://jobs.lever.co/palantir/2cd25c0b-088d-4a5c-9b96-1165a33fe652",
+      "location": "London, United Kingdom",
+      "source": "lever:palantir",
+      "score": 30
+    },
+    {
+      "company": "Palantir",
+      "title": "Senior Backend Software Engineer - Infrastructure",
+      "url": "https://jobs.lever.co/palantir/b5ad6660-8145-4be5-97e2-3799f2912f5b",
+      "location": "New York, NY",
+      "source": "lever:palantir",
+      "score": 30
+    },
+    {
+      "company": "Palantir",
+      "title": "Senior Front End Software Engineer - Application Development",
+      "url": "https://jobs.lever.co/palantir/4e7d0732-f477-4c7a-aac9-abd62f8c9987",
+      "location": "London, United Kingdom",
+      "source": "lever:palantir",
+      "score": 30
+    },
+    {
+      "company": "Palantir",
+      "title": "Senior Front End Software Engineer - Application Development",
+      "url": "https://jobs.lever.co/palantir/d2a87a1d-63f4-4dcd-b0d0-f6be91fed4d3",
+      "location": "New York, NY",
+      "source": "lever:palantir",
+      "score": 30
+    },
+    {
+      "company": "Reddit",
+      "title": "Senior Frontend Software Engineer, Home Experience",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7751064",
+      "location": "Remote - United States",
+      "source": "greenhouse:reddit",
+      "score": 30
+    },
+    {
+      "company": "Twilio",
+      "title": "Senior / Staff Applied Research Software Engineer - Emerging Tech",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7993959",
+      "location": "Remote - US",
+      "source": "greenhouse:twilio",
+      "score": 30
+    },
+    {
+      "company": "Twilio",
+      "title": "Senior/Staff Applied Research Software Engineer",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8007449",
+      "location": "Remote - India",
+      "source": "greenhouse:twilio",
+      "score": 30
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Frontend Engineer, Quality Platform",
+      "url": "https://careers.airbnb.com/positions/8031737?gh_jid=8031737",
+      "location": "Brazil",
+      "source": "greenhouse:airbnb",
+      "score": 25
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Infrastructure",
+      "url": "https://careers.airbnb.com/positions/7453202?gh_jid=7453202",
+      "location": "Brazil - Remote",
+      "source": "greenhouse:airbnb",
+      "score": 25
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Reliability Engineering Team",
+      "url": "https://careers.airbnb.com/positions/8026696?gh_jid=8026696",
+      "location": "Brazil",
+      "source": "greenhouse:airbnb",
+      "score": 25
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Service Tools",
+      "url": "https://careers.airbnb.com/positions/8024057?gh_jid=8024057",
+      "location": "Brazil",
+      "source": "greenhouse:airbnb",
+      "score": 25
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Staff Machine Learning Engineer, Growth Platform Engineering",
+      "url": "https://careers.airbnb.com/positions/7747259?gh_jid=7747259",
+      "location": "Remote - USA",
+      "source": "greenhouse:airbnb",
+      "score": 25
+    },
+    {
+      "company": "Airbnb",
+      "title": "Senior Staff Machine Learning Engineer, Trust",
+      "url": "https://careers.airbnb.com/positions/7592146?gh_jid=7592146",
+      "location": "Remote - USA",
+      "source": "greenhouse:airbnb",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer",
+      "url": "https://www.asana.com/jobs/apply/7961508?gh_jid=7961508",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer",
+      "url": "https://www.asana.com/jobs/apply/7962245?gh_jid=7962245",
+      "location": "New York City",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, Account Management",
+      "url": "https://www.asana.com/jobs/apply/7962239?gh_jid=7962239",
+      "location": "Vancouver, BC",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, AI Chat",
+      "url": "https://www.asana.com/jobs/apply/7962348?gh_jid=7962348",
+      "location": "Vancouver, BC",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, AI Developer Experience",
+      "url": "https://www.asana.com/jobs/apply/7964335?gh_jid=7964335",
+      "location": "New York City",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, AI Retrieval",
+      "url": "https://www.asana.com/jobs/apply/7978649?gh_jid=7978649",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, AI Retrieval",
+      "url": "https://www.asana.com/jobs/apply/8003380?gh_jid=8003380",
+      "location": "New York City",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, Consumption Based Billing & Licensing",
+      "url": "https://www.asana.com/jobs/apply/7968145?gh_jid=7968145",
+      "location": "Vancouver, BC",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, Infrastructure Security",
+      "url": "https://www.asana.com/jobs/apply/8084470?gh_jid=8084470",
+      "location": "San Francisco",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, Payment Platform",
+      "url": "https://www.asana.com/jobs/apply/7968149?gh_jid=7968149",
+      "location": "Vancouver, BC",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, Platform Reliability",
+      "url": "https://www.asana.com/jobs/apply/7568914?gh_jid=7568914",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, Security Development",
+      "url": "https://www.asana.com/jobs/apply/8088588?gh_jid=8088588",
+      "location": "San Francisco",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, Site Reliability",
+      "url": "https://www.asana.com/jobs/apply/6887013?gh_jid=6887013",
+      "location": "Warsaw",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Asana",
+      "title": "Senior Software Engineer, Web App Performance",
+      "url": "https://www.asana.com/jobs/apply/7968154?gh_jid=7968154",
+      "location": "Vancouver, BC",
+      "source": "greenhouse:asana",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Backend",
+      "url": "https://www.brex.com/careers/8603330002?gh_jid=8603330002",
+      "location": "Vancouver, British Columbia, Canada",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Backend (Product Engineering)",
+      "url": "https://www.brex.com/careers/8465003002?gh_jid=8465003002",
+      "location": "New York, New York, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Backend (Product Engineering)",
+      "url": "https://www.brex.com/careers/8461333002?gh_jid=8461333002",
+      "location": "Seattle, Washington, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Backend (Product Engineering)",
+      "url": "https://www.brex.com/careers/8461469002?gh_jid=8461469002",
+      "location": "San Francisco, California, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Data Enablement Platform",
+      "url": "https://www.brex.com/careers/8605070002?gh_jid=8605070002",
+      "location": "San Francisco, California, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Data Enablement Platform",
+      "url": "https://www.brex.com/careers/8605062002?gh_jid=8605062002",
+      "location": "New York, New York, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Data Enablement Platform",
+      "url": "https://www.brex.com/careers/8605074002?gh_jid=8605074002",
+      "location": "Seattle, Washington, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Full Stack",
+      "url": "https://www.brex.com/careers/8477314002?gh_jid=8477314002",
+      "location": "São Paulo, São Paulo, Brazil",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Full Stack",
+      "url": "https://www.brex.com/careers/8472634002?gh_jid=8472634002",
+      "location": "New York, New York, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Full Stack",
+      "url": "https://www.brex.com/careers/8472633002?gh_jid=8472633002",
+      "location": "Seattle, Washington, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Full Stack",
+      "url": "https://www.brex.com/careers/8472635002?gh_jid=8472635002",
+      "location": "San Francisco, California, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Full Stack",
+      "url": "https://www.brex.com/careers/8472632002?gh_jid=8472632002",
+      "location": "Vancouver, British Columbia, Canada",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Product Data Platform",
+      "url": "https://www.brex.com/careers/8430196002?gh_jid=8430196002",
+      "location": "Vancouver, British Columbia, Canada",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Product Data Platform",
+      "url": "https://www.brex.com/careers/8430197002?gh_jid=8430197002",
+      "location": "Seattle, Washington, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Product Data Platform",
+      "url": "https://www.brex.com/careers/8430182002?gh_jid=8430182002",
+      "location": "San Francisco, California, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Release Infra",
+      "url": "https://www.brex.com/careers/8617113002?gh_jid=8617113002",
+      "location": "San Francisco, California, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Brex",
+      "title": "Senior Software Engineer, Release Infra",
+      "url": "https://www.brex.com/careers/8617115002?gh_jid=8617115002",
+      "location": "New York, New York, United States",
+      "source": "greenhouse:brex",
+      "score": 25
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, Cloudflare Queues",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8080780?gh_jid=8080780",
+      "location": "In-Office",
+      "source": "greenhouse:cloudflare",
+      "score": 25
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, Distributed Databases",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7896462?gh_jid=7896462",
+      "location": "In-Office",
+      "source": "greenhouse:cloudflare",
+      "score": 25
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, Durable Objects (DO)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243",
+      "location": "In-Office",
+      "source": "greenhouse:cloudflare",
+      "score": 25
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, People Ops and AI Tools",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8035679?gh_jid=8035679",
+      "location": "Austin, TX, United States",
+      "source": "greenhouse:cloudflare",
+      "score": 25
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, R2 Metadata",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7276690?gh_jid=7276690",
+      "location": "Hybrid",
+      "source": "greenhouse:cloudflare",
+      "score": 25
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, Storage Infrastructure",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7629805?gh_jid=7629805",
+      "location": "In-Office",
+      "source": "greenhouse:cloudflare",
+      "score": 25
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer, Workers Runtime",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/6578726?gh_jid=6578726",
+      "location": "In-Office",
+      "source": "greenhouse:cloudflare",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer",
+      "url": "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer",
+      "url": "https://www.coinbase.com/careers/positions/7961318?gh_jid=7961318",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer (EAA)",
+      "url": "https://www.coinbase.com/careers/positions/7483221?gh_jid=7483221",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - AI Platform Team",
+      "url": "https://www.coinbase.com/careers/positions/7997420?gh_jid=7997420",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - Blockchain Network",
+      "url": "https://www.coinbase.com/careers/positions/7967649?gh_jid=7967649",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - Frontend - Coinbase Card team",
+      "url": "https://www.coinbase.com/careers/positions/8088201?gh_jid=8088201",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer - Trading",
+      "url": "https://www.coinbase.com/careers/positions/7866674?gh_jid=7866674",
+      "location": "Remote - Singapore",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Backend (Consumer - Growth Foundations)",
+      "url": "https://www.coinbase.com/careers/positions/8092651?gh_jid=8092651",
+      "location": "Remote - Canada",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Backend (Consumer - Prediction Markets)",
+      "url": "https://www.coinbase.com/careers/positions/7997836?gh_jid=7997836",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Backend (Consumer - Risk)",
+      "url": "https://www.coinbase.com/careers/positions/7930686?gh_jid=7930686",
+      "location": "Remote - Canada",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Backend - Platform (Core AI Automation)",
+      "url": "https://www.coinbase.com/careers/positions/8051871?gh_jid=8051871",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Backend - Platform (Tokens & Wrapped Assets)",
+      "url": "https://www.coinbase.com/careers/positions/8095252?gh_jid=8095252",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, CDP - Money Movement",
+      "url": "https://www.coinbase.com/careers/positions/8013129?gh_jid=8013129",
+      "location": "Remote - Canada",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Compute Platform",
+      "url": "https://www.coinbase.com/careers/positions/7701651?gh_jid=7701651",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Compute Platform",
+      "url": "https://www.coinbase.com/careers/positions/7701645?gh_jid=7701645",
+      "location": "Remote - Canada",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Consumer",
+      "url": "https://www.coinbase.com/careers/positions/8067033?gh_jid=8067033",
+      "location": "Remote - Singapore",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Core AI Infrastructure",
+      "url": "https://www.coinbase.com/careers/positions/7847431?gh_jid=7847431",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Core Infra Systems",
+      "url": "https://www.coinbase.com/careers/positions/8026678?gh_jid=8026678",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Core Reliability",
+      "url": "https://www.coinbase.com/careers/positions/8097944?gh_jid=8097944",
+      "location": "Remote - Canada",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Data Engineering Platform",
+      "url": "https://www.coinbase.com/careers/positions/8082199?gh_jid=8082199",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Data Layer",
+      "url": "https://www.coinbase.com/careers/positions/8064873?gh_jid=8064873",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Developer Infrastructure",
+      "url": "https://www.coinbase.com/careers/positions/7964402?gh_jid=7964402",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Frontend (Coinbase Advisor - Agentic Trading)",
+      "url": "https://www.coinbase.com/careers/positions/8070574?gh_jid=8070574",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Frontend (Consumer - Payments)",
+      "url": "https://www.coinbase.com/careers/positions/8029035?gh_jid=8029035",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Stablecoins",
+      "url": "https://www.coinbase.com/careers/positions/8104873?gh_jid=8104873",
+      "location": "Remote - USA",
+      "source": "greenhouse:coinbase",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer",
+      "url": "https://careers.datadoghq.com/detail/3851935/?gh_jid=3851935",
+      "location": "Boston, Massachusetts, USA; New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer (AI)",
+      "url": "https://careers.datadoghq.com/detail/7731292/?gh_jid=7731292",
+      "location": "Paris, France",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer (AI)",
+      "url": "https://careers.datadoghq.com/detail/7566827/?gh_jid=7566827",
+      "location": "Madrid, Spain",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Action Platform",
+      "url": "https://careers.datadoghq.com/detail/8102624/?gh_jid=8102624",
+      "location": "Paris, France",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - AI (EMEA)",
+      "url": "https://careers.datadoghq.com/detail/8015588/?gh_jid=8015588",
+      "location": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Nice, France; Pari",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Backend",
+      "url": "https://careers.datadoghq.com/detail/4599148/?gh_jid=4599148",
+      "location": "Bordeaux, France; Paris, France",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Bazel Tools",
+      "url": "https://careers.datadoghq.com/detail/8095166/?gh_jid=8095166",
+      "location": "Atlanta, Georgia, USA; Boston, Massachusetts, USA; New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Distributed Systems",
+      "url": "https://careers.datadoghq.com/detail/3851927/?gh_jid=3851927",
+      "location": "Boston, Massachusetts, USA; New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Incident Insights & Readiness",
+      "url": "https://careers.datadoghq.com/detail/8094111/?gh_jid=8094111",
+      "location": "Paris, France",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Linux",
+      "url": "https://careers.datadoghq.com/detail/8038652/?gh_jid=8038652",
+      "location": "Tel Aviv, Israel",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - REDAPL Graph Engine",
+      "url": "https://careers.datadoghq.com/detail/7959966/?gh_jid=7959966",
+      "location": "France, Remote; Germany, Remote; Italy, Remote; Spain, Remote; Switzerland, Remote; United Kingdom, Remote",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - REDAPL Graph Engine",
+      "url": "https://careers.datadoghq.com/detail/7959967/?gh_jid=7959967",
+      "location": "Lisbon, Portugal",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - REDAPL Graph Engine",
+      "url": "https://careers.datadoghq.com/detail/7959962/?gh_jid=7959962",
+      "location": "Dublin, Ireland; Madrid, Spain; Paris, France",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Security Libraries",
+      "url": "https://careers.datadoghq.com/detail/8081477/?gh_jid=8081477",
+      "location": "Bordeaux, France; Lyon, France; Madrid, Spain; Nantes, France; Paris, France; Sophia Antipolis, France",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Security Libraries",
+      "url": "https://careers.datadoghq.com/detail/8088590/?gh_jid=8088590",
+      "location": "Lisbon, Portugal",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Streaming Platform",
+      "url": "https://careers.datadoghq.com/detail/7993551/?gh_jid=7993551",
+      "location": "New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Datadog",
+      "title": "Senior Software Engineer - Streaming Platform Client",
+      "url": "https://careers.datadoghq.com/detail/8035492/?gh_jid=8035492",
+      "location": "New York, New York, USA",
+      "source": "greenhouse:datadog",
+      "score": 25
+    },
+    {
+      "company": "Discord",
+      "title": "Senior Software Engineer, Application Security",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8656854002",
+      "location": "San Francisco Bay Area",
+      "source": "greenhouse:discord",
+      "score": 25
+    },
+    {
+      "company": "Discord",
+      "title": "Senior Software Engineer, Consumer Revenue",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8460791002",
+      "location": "San Francisco Bay Area",
+      "source": "greenhouse:discord",
+      "score": 25
+    },
+    {
+      "company": "Discord",
+      "title": "Senior Software Engineer, Enterprise Platform",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8675277002",
+      "location": "San Francisco Bay Area ",
+      "source": "greenhouse:discord",
+      "score": 25
+    },
+    {
+      "company": "Discord",
+      "title": "Senior Software Engineer, Growth",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8642087002",
+      "location": "San Francisco Bay Area",
+      "source": "greenhouse:discord",
+      "score": 25
+    },
+    {
+      "company": "Discord",
+      "title": "Senior Software Engineer, Machine Learning (Ads)",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8644780002",
+      "location": "San Francisco Bay Area",
+      "source": "greenhouse:discord",
+      "score": 25
+    },
+    {
+      "company": "Discord",
+      "title": "Senior Software Engineer, Safety Backend",
+      "url": "https://job-boards.greenhouse.io/discord/jobs/8545675002",
+      "location": "San Francisco Bay Area or Los Angeles Area",
+      "source": "greenhouse:discord",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Java Developer - Core/Infra - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074285&gh_jid=8074285",
+      "location": "Canada",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Java Developer - Distributed Systems, Serverless - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7734579&gh_jid=7734579",
+      "location": "Canada",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Java Engineer - Core/Infra - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8053886&gh_jid=8053886",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7734567&gh_jid=7734567",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8001166&gh_jid=8001166",
+      "location": "Greece",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8001186&gh_jid=8001186",
+      "location": "Ireland",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8001189&gh_jid=8001189",
+      "location": "Norway",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8001190&gh_jid=8001190",
+      "location": "Portugal",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8001191&gh_jid=8001191",
+      "location": "Romania",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8001192&gh_jid=8001192",
+      "location": "Spain",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Developer - Security - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8082602&gh_jid=8082602",
+      "location": "Canada",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Developer - Storage Engine - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074844&gh_jid=8074844",
+      "location": "Canada",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Search Relevance in ES|QL - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8091613&gh_jid=8091613",
+      "location": "Ireland",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Search Relevance in ES|QL - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8091748&gh_jid=8091748",
+      "location": "Switzerland",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Search Relevance in ES|QL - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8066481&gh_jid=8066481",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Search Relevance in ES|QL - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8091367&gh_jid=8091367",
+      "location": "Canada",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Search Relevance in ES|QL - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8091674&gh_jid=8091674",
+      "location": "Greece",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Search Relevance in ES|QL - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8091526&gh_jid=8091526",
+      "location": "Spain",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Security - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8082598&gh_jid=8082598",
+      "location": "United States",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - SSC",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8111966&gh_jid=8111966",
+      "location": "Portugal",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - SSC",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8111965&gh_jid=8111965",
+      "location": "Ireland",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - SSC",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8111793&gh_jid=8111793",
+      "location": "Greece",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - SSC",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8111792&gh_jid=8111792",
+      "location": "Spain",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074886&gh_jid=8074886",
+      "location": "Greece",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074894&gh_jid=8074894",
+      "location": "Romania",
+      "source": "greenhouse:elastic",
+      "score": 25
+    },
+    {
+      "company": "Elastic",
+      "title": "Senior Software Engineer - Storage Engine - Elasticsearch",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8074895&gh_jid=8074895",
+      "location": "Norway",
+      "source": "greenhouse:elastic",
+      "score": 25
+    }
+  ]
+}
